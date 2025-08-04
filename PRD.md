@@ -28,8 +28,9 @@
    - 設定步驟：
      1. 建立 Stripe 帳號並啟用 Payment Links
      2. 在 Stripe Dashboard 建立產品與價格，產生 Payment Link
-     3. 將每項商品的 `stripe_link` 欄位填入對應 URL，前台按鈕直接連結
-   - 依賴：僅需 Stripe 帳號，無額外前端套件
+   3. 將每項商品的 `stripe_link` 欄位填入對應 URL，前台按鈕直接連結
+  - 依賴：僅需 Stripe 帳號，無額外前端套件
+  - 未來可整合 PayPal 或 Snipcart 提供多元金流
  3.1.4 下單確認
  - 完成付款後透過 SendGrid API 發送 Email 通知買家與管理者
  - 通知格式需包含：訂單編號、購買明細（商品名稱、規格、數量、單價、小計）、總金額、付款方式、購買者姓名、Email、聯絡電話、收件地址
@@ -39,10 +40,12 @@
 商品資料以靜態檔案（_data/products.yml 或 products.json）管理
 欄位統一採 text，包含 id、title、price、img、category、specs、金流參數
 管理者需透過 git pull → 編輯資料 → git push 完成上架／修改
-訂單管理由第三方後台（PayPal 商家後台或 Snipcart Dashboard）檢視
+訂單管理由 Stripe Dashboard 檢視，
+未來若導入 PayPal 或 Snipcart，則可於各自後台檢視訂單
  3.3 運送與費用
 宅配到府、7-11 取貨兩種運送方式
-運費設定於第三方金流後台（PayPal / Snipcart 運費規則）
+運費可於 Stripe Payment Links 中設定，
+未來若採用 PayPal 或 Snipcart，則在其後台設定運費規則
  四、非功能需求
  • 響應式 RWD，支援手機／平板／桌機
  • SEO 基本優化（友善 URL、Title、Meta Description）
@@ -58,15 +61,13 @@ price: 350
 img: /assets/img/candle01.jpg
 category: candle
 specs: [大, 中, 小]
-paypal_item_number: 1001
 stripe_link: https://buy.stripe.com/…
  六、技術選型
 6.1 前端框架
 Jekyll（GitHub Pages 原生支援） 或 純 HTML + JavaScript
- 6.2 第三方電商元件
-PayPal 標準按鈕
-Stripe Payment Links
-Snipcart
+6.2 第三方電商元件
+Stripe Payment Links（MVP）
+*未來擴充*: PayPal 標準按鈕、Snipcart
  6.3 部署與 CI/CD
 GitHub Pages 自動部署
 Git 分支流程：main 為生產，feature 分支做開發
@@ -74,9 +75,9 @@ Git 分支流程：main 為生產，feature 分支做開發
 選用免費 Jekyll Theme（如 Minimal Mistakes、Cayman 等）
 自訂 Logo、配色、字體
  七、整合項目
- • 金流：PayPal 商家帳號／Stripe 帳號／Snipcart 帳號
- • 運送：PayPal／Snipcart 後台運費規則
- • Email 通知：PayPal 或 Snipcart 內建；如需自訂，可接 SendGrid、Mailgun API
+ • 金流：Stripe 帳號（MVP），未來可考慮 PayPal 或 Snipcart
+ • 運送：Stripe Payment Links 內建運費設定；未來可改由 PayPal／Snipcart 後台規則
+ • Email 通知：Stripe 提供基本通知；如需自訂，可接 SendGrid、Mailgun API
  • 分析：目前無
 八、里程碑
  Repo 設置＋GitHub Pages 開通（Day1）
@@ -96,7 +97,8 @@ Git 分支流程：main 為生產，feature 分支做開發
 十、開發前需補充資料 / 給開發方的注意事項
  GitHub Repo 權限（admin or write）
  選定的 Jekyll Theme 名稱及版本
- 已註冊的 PayPal、Stripe 或 Snipcart 帳號與 API Key / Publish Key
+ 已註冊的 Stripe 帳號與 Publish Key（MVP）
+ 未來若擴充 PayPal 或 Snipcart，需提供相應帳號與 API Key
  運費計費規則（價格／免運門檻）
  Email 通知範本（訂單確認／付款通知）
  Logo、色票、字型檔、商品圖片與文案素材來源
