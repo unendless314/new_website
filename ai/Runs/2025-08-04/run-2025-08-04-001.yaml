@@ -1,0 +1,38 @@
+id: run-2025-08-04-001
+date: 2025-08-04
+repo_sha: d608ef50f9deb08ed3db2183a539848d7e79e54f
+agent: agent:openai
+model: gpt-4.1
+tool_versions:
+  node: v20.19.4
+  python: 3.12.10
+prompt_digest: 236d0045571a401aab033bf56c0c9567d4a2299a55cd709e3dc4462c23bcda39
+seed: null
+cost:
+  tokens_in: 0
+  tokens_out: 0
+  runtime_sec: 0
+task: Choose MVP checkout solution and update PRD
+inputs: {}
+steps:
+  - Evaluated PayPal Standard Cart, Stripe Payment Links, and Snipcart
+  - Updated PRD to adopt Stripe Payment Links with rationale and setup steps
+  - Documented decision in ADR-0001
+outputs: {}
+result: pass
+error_type: null
+refs:
+  adrs:
+    - /ai/ADR/0001-stripe-payment-links.md
+  playbooks: []
+  policies: []
+evidence:
+  tests:
+    - npm run lint
+    - npm run typecheck
+    - npm test -- --ci
+  screenshots: []
+  logs: []
+links:
+  pr: ""
+  issues: []
