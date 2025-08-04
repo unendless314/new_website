@@ -1,0 +1,38 @@
+id: run-2025-08-04-003
+date: 2025-08-04
+repo_sha: f41c6fba58e4f9576bd00dc3b23a349bd2f7ad82
+agent: agent:openai
+model: gpt-4.1
+tool_versions:
+  node: v20.19.4
+  python: 3.12.10
+prompt_digest: dd1de9601260344db53589754b43091bfb062cead7571f32014d3537c37aef27
+seed: null
+cost:
+  tokens_in: 0
+  tokens_out: 0
+  runtime_sec: 0
+task: Decide email notification approach and update PRD
+inputs: {}
+steps:
+  - Compared Stripe built-in notifications with serverless SendGrid approach
+  - Chose Stripe Webhook + Serverless Function + SendGrid for custom emails
+  - Updated PRD to unify email notification description
+outputs: {}
+result: pass
+error_type: null
+refs:
+  adrs:
+    - /ai/ADR/0001-stripe-payment-links.md
+  playbooks: []
+  policies: []
+evidence:
+  tests:
+    - npm run lint
+    - npm run typecheck
+    - npm test -- --ci
+  screenshots: []
+  logs: []
+links:
+  pr: ""
+  issues: []

@@ -32,7 +32,7 @@
   - 依賴：僅需 Stripe 帳號，無額外前端套件
   - 未來可整合 PayPal 或 Snipcart 提供多元金流
  3.1.4 下單確認
- - 完成付款後透過 SendGrid API 發送 Email 通知買家與管理者
+ - 完成付款後由 Stripe Webhook 觸發 Serverless Function，透過 SendGrid API 寄送訂單確認給買家與管理者
  - 通知格式需包含：訂單編號、購買明細（商品名稱、規格、數量、單價、小計）、總金額、付款方式、購買者姓名、Email、聯絡電話、收件地址
  - 若需自訂樣式，使用 HTML 模板 `emails/order_confirmation.html`，位於專案根目錄 `emails/` 資料夾
  - Line 或簡訊通知由管理者手動處理
@@ -77,14 +77,14 @@ Git 分支流程：main 為生產，feature 分支做開發
  七、整合項目
  • 金流：Stripe 帳號（MVP），未來可考慮 PayPal 或 Snipcart
  • 運送：Stripe Payment Links 內建運費設定；未來可改由 PayPal／Snipcart 後台規則
- • Email 通知：Stripe 提供基本通知；如需自訂，可接 SendGrid、Mailgun API
+ • Email 通知：Stripe Webhook 觸發 Serverless Function（如 Cloudflare Workers、Netlify Functions）安全呼叫 SendGrid API，寄送訂單資訊給買家與管理者
  • 分析：目前無
 八、里程碑
  Repo 設置＋GitHub Pages 開通（Day1）
  選定版型＋佈局測試（Day2–Day3）
  建立資料模型＋商品列表／搜尋／篩選功能（Day4）
  商品詳情＋金流按鈕整合（Day5）
- 測試下單流程＋Email 通知（Day6）
+ 測試下單流程＋SendGrid Email 通知（Day6）
  最終調整＋上線發佈（Day7）
  九、交付項目
  • 完整 GitHub Repo（含 .gitignore、README、_data、_layouts、assets）
@@ -98,9 +98,10 @@ Git 分支流程：main 為生產，feature 分支做開發
  GitHub Repo 權限（admin or write）
  選定的 Jekyll Theme 名稱及版本
  已註冊的 Stripe 帳號與 Publish Key（MVP）
+ SendGrid API Key 與 Serverless 執行環境（如 Cloudflare Workers）設定
  未來若擴充 PayPal 或 Snipcart，需提供相應帳號與 API Key
  運費計費規則（價格／免運門檻）
- Email 通知範本（訂單確認／付款通知）
+ SendGrid Email 通知範本（訂單確認／付款通知）
  Logo、色票、字型檔、商品圖片與文案素材來源
  資料夾結構與檔案命名慣例
  本地開發流程（jekyll serve 或靜態伺服器指令）
