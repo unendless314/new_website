@@ -40,7 +40,7 @@
  - Line 或簡訊通知由管理者手動處理
 3.2 後台（內容管理）
 商品資料以靜態檔案（_data/products.yml 或 products.json）管理
-欄位統一採 text，包含 id、title、price、img、category、specs、金流參數
+欄位與型別如下：`id`、`title`、`img`、`category`、`stripe_link` 為 string；`price` 為 number；`specs` 為 array of string
 管理者需透過 git pull → 編輯資料 → git push 完成上架／修改
 訂單管理由 Stripe Dashboard 檢視，
 未來若導入 PayPal 或 Snipcart，則可於各自後台檢視訂單
@@ -57,14 +57,14 @@ Stripe Payment Links 目前不支援台灣超商取貨（例如 7-11）。
  • 易維護：純靜態檔案、最少外部依賴
  • 可擴充：未來可改用 Headless CMS 或 Serverless
 五、資料模型
-products.yml 範例
-id: candle01
-title: 香氛蠟燭（玫瑰）
-price: 350
-img: /assets/img/candle01.jpg
-category: candle
-specs: [大, 中, 小]
-stripe_link: https://buy.stripe.com/…
+`products.yml` 欄位定義與範例：
+- `id` (string): `candle01`
+- `title` (string): `香氛蠟燭（玫瑰）`
+- `price` (number): `350`
+- `img` (string): `/assets/img/candle01.jpg`
+- `category` (string): `candle`
+- `specs` (array[string]): `["大", "中", "小"]`
+- `stripe_link` (string): `https://buy.stripe.com/...`
  六、技術選型
 6.1 前端框架
 Jekyll（GitHub Pages 原生支援） 或 純 HTML + JavaScript
