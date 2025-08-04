@@ -21,7 +21,7 @@
  - 支援分類篩選、文字搜尋
  3.1.2 商品詳情頁
  - 顯示商品圖片、標題、價錢、規格下拉選單（大／中／小等）
- - 「加入購物車」或「立即購買」按鈕（依金流解方案）
+ - 僅提供「立即購買」按鈕
  3.1.3 購物車與結帳
  - MVP 採用 Stripe Payment Links：無購物車，商品按「立即購買」導向 Stripe 結帳頁
    - 理由：免後端、設定快速，支援信用卡與多種付款方式
@@ -29,6 +29,7 @@
      1. 建立 Stripe 帳號並啟用 Payment Links
      2. 在 Stripe Dashboard 建立產品與價格，產生 Payment Link
    3. 將每項商品的 `stripe_link` 欄位填入對應 URL，前台按鈕直接連結
+  - 購物車功能列為後續階段需求
   - 依賴：僅需 Stripe 帳號，無額外前端套件
   - 未來可整合 PayPal 或 Snipcart 提供多元金流
  3.1.4 下單確認
@@ -43,8 +44,9 @@
 訂單管理由 Stripe Dashboard 檢視，
 未來若導入 PayPal 或 Snipcart，則可於各自後台檢視訂單
  3.3 運送與費用
-宅配到府、7-11 取貨兩種運送方式
-運費可於 Stripe Payment Links 中設定，
+MVP 僅支援宅配到府；運費可於 Stripe Payment Links 中設定。
+Stripe Payment Links 目前不支援台灣超商取貨（例如 7-11）。
+若需要超商取貨功能，需另行整合第三方物流（如綠界、藍新）或改用其他結帳方案。
 未來若採用 PayPal 或 Snipcart，則在其後台設定運費規則
  四、非功能需求
  • 響應式 RWD，支援手機／平板／桌機
