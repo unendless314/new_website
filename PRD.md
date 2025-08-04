@@ -31,7 +31,9 @@
      3. 將每項商品的 `stripe_link` 欄位填入對應 URL，前台按鈕直接連結
    - 依賴：僅需 Stripe 帳號，無額外前端套件
  3.1.4 下單確認
- - 完成付款後自動發送 Email 通知買家與管理者
+ - 完成付款後透過 SendGrid API 發送 Email 通知買家與管理者
+ - 通知格式需包含：訂單編號、購買明細（商品名稱、規格、數量、單價、小計）、總金額、付款方式、購買者姓名、Email、聯絡電話、收件地址
+ - 若需自訂樣式，使用 HTML 模板 `emails/order_confirmation.html`，位於專案根目錄 `emails/` 資料夾
  - Line 或簡訊通知由管理者手動處理
 3.2 後台（內容管理）
 商品資料以靜態檔案（_data/products.yml 或 products.json）管理
