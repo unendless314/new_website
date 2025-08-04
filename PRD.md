@@ -107,4 +107,4 @@ Git 分支流程：main 為生產，feature 分支做開發
  分支命名與 PR 流程、Code Review 準則
  測試／驗收標準（跨瀏覽器、行動裝置）
  上線後維運流程（如何更新商品、如何做備份）
- 若未來需更換金流或加會員功能，請預留 code hook
+ 若未來需更換金流或加會員功能，請預留 code hook：於 checkout 模組封裝可替換的 `initPayment()` 函式，並在會員登入／註冊流程預留 `initMembership()` 介面，以便日後掛載 Stripe、PayPal 或自建會員服務。
