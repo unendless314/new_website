@@ -1,0 +1,37 @@
+id: run-2025-08-04-005
+date: 2025-08-04
+repo_sha: 08ada5744421bc2c3c5a373af185ae2e2159aff0
+agent: agent:openai
+model: gpt-4.1
+tool_versions:
+  node: v20.19.4
+  python: 3.12.10
+prompt_digest: 0bd7669651f2eee8dbfc331de30e6e15ca63160aba67575a38ef47b6cee0fd59
+seed: null
+cost:
+  tokens_in: 0
+  tokens_out: 0
+  runtime_sec: 0
+task: Add searchable fields and filter conditions to PRD and update tests
+inputs: {}
+steps:
+  - Documented searchable fields (name, category) and filter options (category, price range)
+  - Expanded functional tests to cover search and filter behavior
+outputs: {}
+result: pass
+error_type: null
+refs:
+  adrs:
+    - /ai/ADR/0001-stripe-payment-links.md
+  playbooks: []
+  policies: []
+evidence:
+  tests:
+    - npm run lint
+    - npm run typecheck
+    - npm test -- --ci
+  screenshots: []
+  logs: []
+links:
+  pr: ""
+  issues: []
