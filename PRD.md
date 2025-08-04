@@ -7,6 +7,7 @@
  • 建立一個純靜態的個人電商網站，主售珠寶、香氛蠟燭、香水等小商品
  • 讓散客可瀏覽商品、完成下單並透過第三方金流付款
  • 完全部署於 GitHub Pages，零後端維運、低成本、易維護
+ • Stripe Webhook 觸發的郵件通知採用 Cloudflare Workers 上的 Serverless Function，該環境由 Cloudflare 代管，仍符合零後端目標
 1.2 核心指標
  • 月成交金額：新台幣 0–10,000
  • 首次上線時間：MVP 7 天內
@@ -33,7 +34,7 @@
   - 依賴：僅需 Stripe 帳號，無額外前端套件
   - 未來可整合 PayPal 或 Snipcart 提供多元金流
  3.1.4 下單確認
- - 完成付款後由 Stripe Webhook 觸發 Serverless Function，透過 SendGrid API 寄送訂單確認給買家與管理者
+ - 完成付款後由 Stripe Webhook 觸發部署於 Cloudflare Workers 的 Serverless Function，透過 SendGrid API 寄送訂單確認給買家與管理者；程式碼與前端同一 repo 管理，使用 `wrangler` 部署，無需自行維運伺服器
  - 通知格式需包含：訂單編號、購買明細（商品名稱、規格、數量、單價、小計）、總金額、付款方式、購買者姓名、Email、聯絡電話、收件地址
  - 若需自訂樣式，使用 HTML 模板 `emails/order_confirmation.html`，位於專案根目錄 `emails/` 資料夾
  - Line 或簡訊通知由管理者手動處理
@@ -70,16 +71,18 @@ Jekyll（GitHub Pages 原生支援） 或 純 HTML + JavaScript
 6.2 第三方電商元件
 Stripe Payment Links（MVP）
 *未來擴充*: PayPal 標準按鈕、Snipcart
- 6.3 部署與 CI/CD
+6.3 部署與 CI/CD
 GitHub Pages 自動部署
 Git 分支流程：main 為生產，feature 分支做開發
  6.4 版型與設計
 選用免費 Jekyll Theme（如 Minimal Mistakes、Cayman 等）
 自訂 Logo、配色、字體
+6.5 Serverless Function
+- Cloudflare Workers；程式碼與前端一併版控，透過 `wrangler` 指令佈署與版本管理，仍屬無伺服器服務
  七、整合項目
  • 金流：Stripe 帳號（MVP），未來可考慮 PayPal 或 Snipcart
  • 運送：Stripe Payment Links 內建運費設定；未來可改由 PayPal／Snipcart 後台規則
- • Email 通知：Stripe Webhook 觸發 Serverless Function（如 Cloudflare Workers、Netlify Functions）安全呼叫 SendGrid API，寄送訂單資訊給買家與管理者
+ • Email 通知：Stripe Webhook 觸發部署於 Cloudflare Workers 的 Serverless Function 安全呼叫 SendGrid API 寄送訂單資訊；由 Cloudflare 自動擴展與管理，維持零後端架構
  • 分析：目前無
 八、里程碑
  Repo 設置＋GitHub Pages 開通（Day1）
@@ -100,7 +103,7 @@ Git 分支流程：main 為生產，feature 分支做開發
  GitHub Repo 權限（admin or write）
  選定的 Jekyll Theme 名稱及版本
  已註冊的 Stripe 帳號與 Publish Key（MVP）
- SendGrid API Key 與 Serverless 執行環境（如 Cloudflare Workers）設定
+ SendGrid API Key 與 Cloudflare Workers 帳號／`wrangler` 設定（用於部署 Serverless Function）
  未來若擴充 PayPal 或 Snipcart，需提供相應帳號與 API Key
  運費計費規則（價格／免運門檻）
  SendGrid Email 通知範本（訂單確認／付款通知）

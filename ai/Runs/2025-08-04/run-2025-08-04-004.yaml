@@ -1,0 +1,38 @@
+id: run-2025-08-04-004
+date: 2025-08-04
+repo_sha: d0b3d8781d039587581e01742c768370e107c40d
+agent: agent:openai
+model: gpt-4.1
+tool_versions:
+  node: v20.19.4
+  python: 3.12.10
+prompt_digest: 1b9d053e3e2d57b03c4faa30c2f8c60fe375adcbfc9bf98be9b98cf65358083c
+seed: null
+cost:
+  tokens_in: 0
+  tokens_out: 0
+  runtime_sec: 0
+task: Update PRD to clarify Serverless Function location/management and zero backend status
+inputs: {}
+steps:
+  - Specified Cloudflare Workers as serverless runtime and management details
+  - Clarified that provider-managed Workers keep zero backend goal
+  - Added section for Workers under technical selection
+outputs: {}
+result: pass
+error_type: null
+refs:
+  adrs:
+    - /ai/ADR/0001-stripe-payment-links.md
+  playbooks: []
+  policies: []
+evidence:
+  tests:
+    - npm run lint
+    - npm run typecheck
+    - npm test -- --ci
+  screenshots: []
+  logs: []
+links:
+  pr: ""
+  issues: []
