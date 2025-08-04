@@ -1,0 +1,37 @@
+id: run-2025-08-04-002
+date: 2025-08-04
+repo_sha: 932c30dad736d23f3720486130c3ee77290df4c7
+agent: agent:openai
+model: gpt-4.1
+tool_versions:
+  node: v20.19.4
+  python: 3.12.10
+prompt_digest: cc77fff160f44bf6e1c847810364b5a5104c6fe0d539d46d77500717004d9858
+seed: null
+cost:
+  tokens_in: 0
+  tokens_out: 0
+  runtime_sec: 0
+task: Clarify MVP payment solution and update data model
+inputs: {}
+steps:
+  - Updated PRD to state MVP uses only Stripe Payment Links and moved PayPal/Snipcart to future considerations
+  - Removed PayPal-specific field from data model example
+outputs: {}
+result: pass
+error_type: null
+refs:
+  adrs:
+    - /ai/ADR/0001-stripe-payment-links.md
+  playbooks: []
+  policies: []
+evidence:
+  tests:
+    - npm run lint
+    - npm run typecheck
+    - npm test -- --ci
+  screenshots: []
+  logs: []
+links:
+  pr: ""
+  issues: []
