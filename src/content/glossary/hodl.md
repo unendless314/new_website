@@ -2,7 +2,7 @@
 title: "HODL (拿住)"
 date: 2025-12-31
 description: "幣圈最經典的術語，代表無論市場漲跌，都堅定持有的信仰。"
-author: jane-doe
+author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "HODL"
 ---

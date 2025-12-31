@@ -2,7 +2,7 @@
 title: "Gas Fee (瓦斯費/手續費)"
 date: 2025-12-31
 description: "在區塊鏈上進行交易或執行合約時，需要支付給礦工或驗證者的費用。"
-author: jane-doe
+author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Gas Fee"
 ---

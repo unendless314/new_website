@@ -2,7 +2,7 @@
 title: "FUD (懼、惑、疑)"
 date: 2025-12-31
 description: "Fear, Uncertainty, Doubt，通常指散佈恐慌消息以影響市場的行為。"
-author: jane-doe
+author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "FUD"
 ---

@@ -2,7 +2,7 @@
 title: "FOMO (錯失恐懼症)"
 date: 2025-12-31
 description: "Fear of Missing Out，害怕錯過行情而盲目追高的心理狀態。"
-author: jane-doe
+author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "FOMO"
 ---

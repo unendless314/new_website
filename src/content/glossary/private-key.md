@@ -2,7 +2,7 @@
 title: "Private Key & Seed Phrase (私鑰與助記詞)"
 date: 2025-12-31
 description: "掌握加密資產控制權的唯一鑰匙，絕對不能洩漏給任何人。"
-author: jane-doe
+author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Security"
 ---
