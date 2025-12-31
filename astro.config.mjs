@@ -8,17 +8,15 @@ import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
-import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://janedoe.com",
+  site: "https://chainsoulsect.github.io",
   base: "/",
   trailingSlash: "ignore",
   prefetch: {
     prefetchAll: true
   },
-  adapter: cloudflare(),
   integrations: [react(), sitemap(), tailwind({
     config: {
       applyBaseStyles: false
