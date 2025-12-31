@@ -1,8 +1,8 @@
 ---
-title: Hey, I'm Jane Doe!
-description: this is meta description
-image: "@assets/profile/jane-doe.jpg"
+title: "關於鏈魂宗"
+description: "鏈魂宗 - 專注於加密貨幣與區塊鏈技術的教育平台"
+image: "../../assets/profile.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+鏈魂宗是一個致力於推廣加密貨幣知識、區塊鏈技術應用與 Web3 文化的教育社群。我們希望透過深入淺出的文章與教學，引領大眾安全、理性地探索這個新興的數位資產世界。

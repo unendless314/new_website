@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "@components/base/BaseLayout.astro";
 import PageHeader from "@components/common/PageHeader.astro";
-import type { PoetryEntry } from "@/types";
+import type { GlossaryEntry } from "@/types";
 
 interface Props {
-  entryIndex: PoetryEntry;
-  entries: PoetryEntry[];
+  entryIndex: GlossaryEntry;
+  entries: GlossaryEntry[];
 }
 
 const { entryIndex, entries } = Astro.props;
@@ -21,7 +21,7 @@ const { entryIndex, entries } = Astro.props;
             {
               entries.map((entry) => (
                 <li class="my-2">
-                  <a href={`/poetry/${entry.id}`}>
+                  <a href={`/glossary/${entry.id}`}>
                     <h4>{entry.data.title}</h4>
                   </a>
                 </li>

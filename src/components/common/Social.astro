@@ -13,6 +13,8 @@ import {
   FaGlobe,
   FaYoutube,
 } from "react-icons/fa";
+import { FaLine, FaThreads, FaXTwitter } from "react-icons/fa6";
+import { SiSubstack } from "react-icons/si";
 
 interface Props {
   links?: SocialLinks;
@@ -28,6 +30,76 @@ const iconClass =
 {
   links && (
     <ul class="py-2 flex items-center">
+      {links.line && (
+        <li class={liClass}>
+          <a
+            class={iconClass}
+            aria-label="Line"
+            href={links.line}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <span class="sr-only">Line</span>
+            <FaLine className="w-6 h-6" />
+          </a>
+        </li>
+      )}
+      {links.twitter && (
+        <li class={liClass}>
+          <a
+            class={iconClass}
+            aria-label="Twitter"
+            href={links.twitter}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <span class="sr-only">Twitter</span>
+            <FaXTwitter className="w-6 h-6" />
+          </a>
+        </li>
+      )}
+      {links.threads && (
+        <li class={liClass}>
+          <a
+            class={iconClass}
+            aria-label="Threads"
+            href={links.threads}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <span class="sr-only">Threads</span>
+            <FaThreads className="w-6 h-6" />
+          </a>
+        </li>
+      )}
+      {links.github && (
+        <li class={liClass}>
+          <a
+            class={iconClass}
+            aria-label="GitHub"
+            href={links.github}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <span class="sr-only">GitHub</span>
+            <FaGithub className="w-6 h-6" />
+          </a>
+        </li>
+      )}
+      {links.substack && (
+        <li class={liClass}>
+          <a
+            class={iconClass}
+            aria-label="Substack"
+            href={links.substack}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <span class="sr-only">Substack</span>
+            <SiSubstack className="w-5 h-5" />
+          </a>
+        </li>
+      )}
       {links.discord && (
         <li class={liClass}>
           <a
@@ -67,20 +139,6 @@ const iconClass =
           >
             <span class="sr-only">Facebook</span>
             <FaFacebook className="w-6 h-6" />
-          </a>
-        </li>
-      )}
-      {links.github && (
-        <li class={liClass}>
-          <a
-            class={iconClass}
-            aria-label="GitHub"
-            href={links.github}
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <span class="sr-only">GitHub</span>
-            <FaGithub className="w-6 h-6" />
           </a>
         </li>
       )}

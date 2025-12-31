@@ -1,9 +1,9 @@
 ---
-image: "@assets/astrogon-star.svg"
-imageAlt: Astrogon logo
-title: Astrogon
-content: A rapidly-customizable template for a blog, documentation, and more.
+title: "鏈魂宗"
+image: "../../assets/logo.png"
+imageAlt: "鏈魂宗 Logo"
+content: "專注於加密貨幣、Web3 技術與區塊鏈知識的深度科普與教育平台。"
 button:
-  label: See the Code
-  link: https://github.com/astrogon/astrogon
+  label: "開始探索"
+  link: "/blog"
 ---

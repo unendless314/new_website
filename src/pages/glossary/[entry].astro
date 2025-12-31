@@ -1,11 +1,11 @@
 ---
-import type { PoetryEntry } from "@/types";
+import type { GlossaryEntry } from "@/types";
 import { sortByDate } from "@lib/sortFunctions";
-import EntryLayout from "@components/poetry/EntryLayout.astro";
+import EntryLayout from "@components/glossary/EntryLayout.astro";
 import { getEntries } from "@lib/contentParser";
 
 export async function getStaticPaths() {
-  const entries = (await getEntries("poetry", sortByDate)) as PoetryEntry[];
+  const entries = (await getEntries("glossary", sortByDate)) as GlossaryEntry[];
   const pageIDs: string[] = entries.map((entry) => entry.id);
   const pageCount = pageIDs.length;
 

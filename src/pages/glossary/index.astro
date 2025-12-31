@@ -1,0 +1,12 @@
+---
+import CollectionLayout from "@components/glossary/CollectionLayout.astro";
+import { getEntries } from "@lib/contentParser";
+import { sortByDate } from "@lib/sortFunctions";
+import type { GlossaryEntry } from "@/types";
+import { getIndex } from "@lib/contentParser";
+
+const entryIndex = (await getIndex("glossary")) as GlossaryEntry;
+const entries = (await getEntries("glossary", sortByDate)) as GlossaryEntry[];
+---
+
+<CollectionLayout entryIndex={entryIndex} entries={entries} />

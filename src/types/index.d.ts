@@ -9,9 +9,9 @@ export type BlogEntry = CollectionEntry<"blog">;
 export type DocsEntry = CollectionEntry<"docs">;
 export type HomeEntry = CollectionEntry<"home">;
 export type IndexCardsEntry = CollectionEntry<"indexCards">;
-export type PoetryEntry = CollectionEntry<"poetry">;
+export type GlossaryEntry = CollectionEntry<"glossary">;
 export type PortfolioEntry = CollectionEntry<"portfolio">;
-export type RecipesEntry = CollectionEntry<"recipes">;
+export type ProjectsEntry = CollectionEntry<"projects">;
 export type TermsEntry = CollectionEntry<"terms">;
 
 export type SearchableEntry =
@@ -19,9 +19,9 @@ export type SearchableEntry =
   | AuthorsEntry
   | BlogEntry
   | DocsEntry
-  | PoetryEntry
+  | GlossaryEntry
   | PortfolioEntry
-  | RecipesEntry
+  | ProjectsEntry
   | TermsEntry;
 
 export type SocialLinks = {
@@ -35,6 +35,10 @@ export type SocialLinks = {
   tiktok?: string;
   website?: string;
   youtube?: string;
+  line?: string;
+  twitter?: string;
+  threads?: string;
+  substack?: string;
 }
 
 export type EntryReference = {

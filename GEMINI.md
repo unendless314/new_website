@@ -3,6 +3,8 @@
 ## Overview
 This project is a customized website built on the **Astrogon** template, a multi-purpose Astro theme. The user intends to customize it for "鏈魂宗" (Chain Soul Sect/Clan). It uses **Astro v5** as the core framework, integrated with **React** for interactive components and **Tailwind CSS** for styling. The project is configured for deployment on **Cloudflare**.
 
+> **📝 Development Log:** Check `docs/DEV_NOTES.md` for the latest progress, to-do list, and architectural decisions. **Always read this file first to understand the current project status.**
+
 ## Tech Stack
 *   **Framework:** Astro v5
 *   **UI Libraries:** React, Tailwind CSS
