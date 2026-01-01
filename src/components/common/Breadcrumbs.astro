@@ -14,12 +14,19 @@ let parts = [
 
 paths.forEach((label: string, i: number) => {
   const href = `/${paths.slice(0, i + 1).join("/")}`;
-  label !== "page" &&
+  if (label !== "page") {
+    let decoded = label;
+    try {
+      decoded = decodeURIComponent(label);
+    } catch (e) {
+      decoded = label;
+    }
     parts.push({
-      label: lowerHumanize(label.replace(/[-_]/g, " ")) || "",
+      label: lowerHumanize(decoded.replace(/[-_]/g, " ")) || "",
       href,
       "aria-label": Astro.url.pathname === href ? "page" : undefined,
     });
+  }
 });
 ---
 
