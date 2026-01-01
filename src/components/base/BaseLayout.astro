@@ -23,7 +23,10 @@ const siteTitle = "Astrogon";
 const siteDescription = "Astrogon is a simple and elegant Astro theme.";
 const siteImage = "@assets/og-image.png";
 const siteAuthor = "Jane Doe";
-const baseUrl = "https://janedoe.com";
+
+// Prefer site config; fall back to current origin in dev; trim trailing slash
+const baseUrl =
+  (Astro.site?.href || Astro.url.origin || "").replace(/\/$/, "");
 ---
 
 <!DOCTYPE html>

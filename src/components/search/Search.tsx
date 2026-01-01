@@ -1,6 +1,6 @@
 import type { SearchableEntry } from "@/types"
 import Fuse from "fuse.js";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { plainify } from "@lib/textConverter";
 
 const descriptionLength = 200;
@@ -13,6 +13,27 @@ interface SearchResult {
   item: SearchableEntry;
   refIndex: number;
 }
+
+// Generate overlapping n-grams (default bigrams) to improve partial matching (esp. CJK)
+const makeNgrams = (text: string, n = 2): string[] => {
+  const clean = (text || "").replace(/\s+/g, "");
+  if (clean.length === 0) return [];
+  if (clean.length <= n) return [clean];
+  const grams: string[] = [];
+  for (let i = 0; i <= clean.length - n; i++) {
+    grams.push(clean.slice(i, i + n));
+  }
+  return grams;
+};
+
+const enrichForSearch = (entry: SearchableEntry) => {
+  const ngrams = [
+    ...makeNgrams(entry.data.title || ""),
+    ...makeNgrams(entry.data.description || ""),
+    ...makeNgrams(entry.body || ""),
+  ];
+  return { ...entry, ngrams };
+};
 
 const getPath = (entry: SearchableEntry) => {
   return `${entry.collection}/${entry.id.replace("-index", "")}`;
@@ -27,12 +48,23 @@ const SearchPage = ({ searchList }: Props) => {
     setInputVal(e.currentTarget.value);
   };
 
-const fuse = new Fuse(searchList, {
-  keys: ["data.title", "data.description", "id", "collection", "body"],
-  includeMatches: true,
-  minMatchCharLength: 2,
-  threshold: 0.5,
-});
+  const indexedList = useMemo(
+    () => searchList.map(enrichForSearch),
+    [searchList],
+  );
+
+  const fuse = useMemo(
+    () =>
+      new Fuse(indexedList, {
+        keys: ["ngrams", "data.title", "data.description", "id", "collection", "body"],
+        includeMatches: true,
+        minMatchCharLength: 1,
+        threshold: 0.4,
+        ignoreLocation: true,
+        findAllMatches: true,
+      }),
+    [indexedList],
+  );
 
   useEffect(() => {
     const searchUrl = new URLSearchParams(window.location.search);
@@ -46,7 +78,7 @@ const fuse = new Fuse(searchList, {
   }, []);
 
   useEffect(() => {
-    let inputResult = inputVal.length > 1 ? fuse.search(inputVal) : [];
+    let inputResult = inputVal.length > 0 ? fuse.search(inputVal) : [];
     setSearchResults(inputResult);
 
     if (inputVal.length > 0) {

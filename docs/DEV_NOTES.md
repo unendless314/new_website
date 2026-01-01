@@ -84,3 +84,23 @@
 ### 3. 工具使用警示
 *   **檔案截斷風險**：在處理大型 Astro 元件時，使用 `replace` 或 `write_file` 需極度小心縮排與閉合括號，建議修改後立即執行 `npm run dev` 檢查錯誤控制台。
 *   **伺服器快取**：修改 `content.config.ts` 後，務必重啟 Astro 開發伺服器以刷新 Collection 緩存。
+
+### 4. 框架品質觀察 (2026-01-01)
+*   **優點**：內容結構清晰（collection + contentParser + taxonomy），共用元件完整（Card/Collection/Entry/Taxon/Sidebar/Share），Tailwind + Astro 易於主題化，Fuse 搜尋免後端。
+*   **耦合問題**：共用元件原本硬編 `/blog` 路徑、Share baseURL 等，新增 collection 時需大量替換。已局部泛用化，但 Breadcrumb、PageHeader 文案仍需檢查是否可接受。
+*   **型別/欄位假設**：多處直接讀 `date/categories/tags`，對無此欄位的 collection 可能 runtime 出錯，需加可選判斷或分型別 props。
+*   **搜尋限制**：現用 Fuse client-side，中文無斷詞，依最短字數 + 模糊度；內容增多時效能下降。若要擴充，考慮 Pagefind 或簡易 n-gram 分詞。
+*   **硬碼設定**：Share `baseURL` 仍是 `https://janedoe.com`，應改環境設定或 site config。
+*   **工程化缺口**：缺少 lint/test/astro check/CI；重構易回歸。建議至少加入 build + format + astro check 到 CI。
+
+### 2026-01-02 穩定性調整
+*   共用元件泛用化：Card/Sidebar/Taxa/Taxon/Entry/Collection/Share 支援傳入 `collection`/`folder`，新增 collection 時避免硬編 `/blog` 連結。
+*   Share / BaseLayout 改用 `Astro.site`（或當前 origin）解析 `baseUrl`，避免硬碼 `janedoe.com`。仍需後續將 `public/CNAME` / `robots.txt` 等域名設定更新為正式網址。
+*   搜尋：Fuse 加入 bigram n-gram（含中文）並放寬門檻（minMatchCharLength 1、輸入長度 >0），部分關鍵字可匹配；若內容量增長仍建議改 Pagefind 或加入更完整分詞。
+*   網域設定：`public/CNAME`、`public/robots.txt` 已改為 `chainsoulsect.github.io`；Terms 內文字同步更新。若未來使用自訂網域，需再調整上述檔案與 astro.config `site`。
+*   CI：新增 `.github/workflows/ci.yml`，push/PR 跑 `npm ci` → `npm run build` → `npm run postbuild`；部署流程仍由 `deploy.yml` 處理。
+
+未處理但需留意：
+*   搜尋長遠方案：Pagefind 或更佳的中文分詞策略尚未導入。
+*   站點文案/品牌：BaseLayout `siteTitle/Description/Author` 仍為模板值；Footer 年份未自動化；Breadcrumb/PageHeader 中英混雜未 i18n。
+*   型別安全：共用元件仍假設部分欄位存在（date/categories/tags），若未來有無此欄位的 collection 需補防呆或分型別 props。
