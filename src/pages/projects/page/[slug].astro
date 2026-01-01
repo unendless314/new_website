@@ -20,6 +20,7 @@ const tags: string[] = [];
 const allCategories: string[] = [];
 
 export async function getStaticPaths() {
+  const entriesPerPage = 8;
   const entries = (await getEntries("projects", sortByDate)) as ProjectsEntry[];
   // divisor below must equal entriesPerPage
   const pageCount = Math.ceil(entries.length / entriesPerPage);

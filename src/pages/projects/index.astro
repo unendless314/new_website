@@ -1,5 +1,6 @@
 ---
-import CollectionLayout from "@components/news/CollectionLayout.astro";
+import CollectionLayout from "@components/projects/CollectionLayout.astro";
+import { getTaxaMultiset, getTaxa } from "@lib/taxonomyParser";
 import { getIndex, getEntries } from "@lib/contentParser";
 import { sortByDate } from "@lib/sortFunctions";
 import type { ProjectsEntry } from "@/types";
@@ -15,9 +16,11 @@ const pageCount = Math.ceil(entries.length / entriesPerPage);
 const indexOfLastEntry = currentPageIndex * entriesPerPage;
 const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
 const currentEntries = entries.slice(indexOfFirstEntry, indexOfLastEntry);
-const categories: string[] = [];
-const tags: string[] = [];
-const allCategories: string[] = [];
+
+// Fetch categories and tags specifically for the 'projects' collection
+const allCategories = await getTaxaMultiset("projects", "categories");
+const categories = await getTaxa("projects", "categories");
+const tags = await getTaxa("projects", "tags");
 ---
 
 <CollectionLayout
