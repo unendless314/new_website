@@ -27,12 +27,12 @@ const SearchPage = ({ searchList }: Props) => {
     setInputVal(e.currentTarget.value);
   };
 
-  const fuse = new Fuse(searchList, {
-    keys: ["data.title", "data.description", "id", "collection", "body"],
-    includeMatches: true,
-    minMatchCharLength: 3,
-    threshold: 0.5,
-  });
+const fuse = new Fuse(searchList, {
+  keys: ["data.title", "data.description", "id", "collection", "body"],
+  includeMatches: true,
+  minMatchCharLength: 2,
+  threshold: 0.5,
+});
 
   useEffect(() => {
     const searchUrl = new URLSearchParams(window.location.search);
@@ -46,7 +46,7 @@ const SearchPage = ({ searchList }: Props) => {
   }, []);
 
   useEffect(() => {
-    let inputResult = inputVal.length > 2 ? fuse.search(inputVal) : [];
+    let inputResult = inputVal.length > 1 ? fuse.search(inputVal) : [];
     setSearchResults(inputResult);
 
     if (inputVal.length > 0) {

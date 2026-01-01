@@ -8,9 +8,10 @@ interface Props {
   taxonomy: string;
   taxa: string[];
   allTaxa: string[];
+  collection?: string;
 }
 
-const { taxonomy, taxa, allTaxa }: Props = Astro.props;
+const { taxonomy, taxa, allTaxa, collection = "blog" }: Props = Astro.props;
 ---
 
 <BaseLayout title={upperHumanize(taxonomy)}>
@@ -25,7 +26,7 @@ const { taxonomy, taxa, allTaxa }: Props = Astro.props;
               <li class="m-3 inline-block">
                 <Button
                   label=`${upperHumanize(taxon)} (${count})`
-                  link={`/blog/${taxonomy}/${taxon}`}
+                  link={`/${collection}/${taxonomy}/${taxon}`}
                   hoverInvert
                 />
               </li>

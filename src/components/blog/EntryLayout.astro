@@ -3,16 +3,17 @@ import BaseLayout from "@components/base/BaseLayout.astro";
 import BlogCard from "@components/blog/Card.astro";
 import Share from "@components/common/Share.astro";
 import { plainify } from "@lib/textConverter";
-import type { BlogEntry } from "@/types";
+import type { GenericEntry } from "@/types";
 import TableOfContents from "@components/common/TableOfContents.astro";
 import { render } from "astro:content";
 import EntryHeader from "@components/common/EntryHeader.astro";
 interface Props {
-  entry: BlogEntry;
-  relatedEntries: BlogEntry[];
+  entry: GenericEntry;
+  relatedEntries: GenericEntry[];
+  collection?: string;
 }
 
-const { entry, relatedEntries }: Props = Astro.props;
+const { entry, relatedEntries, collection = "blog" }: Props = Astro.props;
 const { title, description, autodescription, image, hideToc } = entry.data;
 const { Content, headings } = await render(entry);
 
@@ -40,6 +41,7 @@ const entryDescription =
             showReadingTime
             showCategories
             showTags
+            collection={collection}
           />
         </section>
         <section class="content mb-4 glass px-4 rounded-lg">
@@ -60,7 +62,7 @@ const entryDescription =
       <Share
         title={title}
         description={entryDescription}
-        folder={"blog"}
+        folder={collection}
         id={entry.id}
       />
     </div>

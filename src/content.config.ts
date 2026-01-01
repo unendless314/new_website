@@ -62,6 +62,21 @@ const blog = defineCollection({
     }),
 });
 
+const news = defineCollection({
+  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/news" }),
+  schema: ({ image }) =>
+    searchable.extend({
+      date: z.date().optional(),
+      image: image().optional(),
+      imageAlt: z.string().default(""),
+      author: reference("authors").optional(),
+      categories: z.array(z.string()).optional(),
+      tags: z.array(z.string()).optional(),
+      complexity: z.number().default(1),
+      hideToc: z.boolean().default(false),
+    }),
+});
+
 const docs = defineCollection({
   loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/docs" }),
   schema: ({ image }) =>
@@ -171,6 +186,7 @@ export const collections = {
   home,
   indexCards,
   glossary,
+  news,
   portfolio,
   projects,
   terms,

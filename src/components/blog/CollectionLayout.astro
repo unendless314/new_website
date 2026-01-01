@@ -4,16 +4,17 @@ import BlogCard from "@components/blog/Card.astro";
 import Pagination from "@components/common/Pagination.astro";
 import PageHeader from "@components/common/PageHeader.astro";
 import BlogSidebar from "@components/blog/Sidebar.astro";
-import type { BlogEntry } from "@/types";
+import type { GenericEntry } from "@/types";
 
 interface Props {
-  entryIndex: BlogEntry;
-  entries: BlogEntry[];
+  entryIndex: GenericEntry;
+  entries: GenericEntry[];
   tags: string[];
   categories: string[];
   allCategories: string[];
   pageIndex: number;
   pageCount: number;
+  collection?: string;
 }
 
 const {
@@ -24,6 +25,7 @@ const {
   allCategories,
   pageIndex,
   pageCount,
+  collection = "blog",
 } = Astro.props;
 ---
 
@@ -37,12 +39,12 @@ const {
           {
             entries.map((entry) => (
               <div class="mb-4">
-                <BlogCard entry={entry} />
+                <BlogCard entry={entry} folder={collection} />
               </div>
             ))
           }
           <Pagination
-            collection="blog"
+            collection={collection}
             pageIndex={pageIndex}
             pageCount={pageCount}
           />
@@ -55,6 +57,7 @@ const {
             tags={tags}
             categories={categories}
             allCategories={allCategories}
+            collection={collection}
           />
         </div>
       </div>

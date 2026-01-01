@@ -60,3 +60,27 @@
     *   `Recipes` -> `項目介紹` (利用其圖文並茂的卡片特性)
     *   `Glossary` (formerly Poetry) -> `幣圈術語` (利用其輕量短文特性)
     *   `Docs` -> `新手教學` (利用其多層級目錄特性)
+
+---
+
+## 🚩 開發回顧與建議 (Retrospective - 2026-01-01)
+
+### 1. 關於「項目介紹 (Projects)」轉型為「加密項目 (Protocols)」
+*   **成功經驗**：
+    *   Schema 設計建議：包含 `token`, `consensus`, `category`, `website`, `whitepaper`, `explorer` 以及動態 `stats` 陣列。
+    *   Layout 設計建議：採用側邊欄 (Sidebar) 展示元數據，主欄位展示 Markdown 正文，能有效提昇專業感。
+*   **技術障礙**：直接在 `projects` 資料夾修改會與舊有的食譜檔案衝突。
+*   **建議**：建立全新的 Collection (如 `protocols`)，並在 `src/pages/` 建立對應目錄。
+
+### 2. 關於「文章 (Blog)」改名為「幣圈新聞 (News)」
+*   **重大障礙**：
+    *   **依賴過深**：`blog` 關鍵字遍佈於 `src/pages/`, `src/components/`, `src/types/`, 以及 `src/lib/` (如 `similarItems.ts`)。單純的資料夾更名會導致麵包屑 (Breadcrumbs)、分頁、分類頁全數失效。
+    *   **元件依賴**：模板元件（如 `Sidebar.astro`）內部邏輯複雜，手動改寫時容易遺漏閉合標籤或誤刪隱性依賴（如 `Chip` 元件可能並非獨立檔案而是 inline 定義或來自其他庫）。
+*   **建議策略**：
+    1.  **保持 URL 不變**：若非必要，URL 可保留 `/blog`，僅修改標題文字與 Schema 定義。
+    2.  **分段式重構**：若一定要改路徑，應先在 `content.config.ts` 新增 Collection，逐一搬遷頁面並測試，而非一次性全域取代。
+    3.  **原子化提交**：每完成一個小區塊（如 Protocols 建立成功）即進行 `git commit`，避免多個重構任務交織導致無法部分還原。
+
+### 3. 工具使用警示
+*   **檔案截斷風險**：在處理大型 Astro 元件時，使用 `replace` 或 `write_file` 需極度小心縮排與閉合括號，建議修改後立即執行 `npm run dev` 檢查錯誤控制台。
+*   **伺服器快取**：修改 `content.config.ts` 後，務必重啟 Astro 開發伺服器以刷新 Collection 緩存。

@@ -1,0 +1,29 @@
+---
+import TaxonLayout from "@components/blog/TaxonLayout.astro";
+import type { NewsEntry } from "@/types";
+import { getEntries } from "@lib/contentParser";
+import { getTaxa } from "@lib/taxonomyParser";
+import taxonomyFilter from "@lib/taxonomyFilter";
+
+export async function getStaticPaths() {
+  const collection = "news";
+  const taxonomy = "tags";
+  const taxa = await getTaxa(collection, taxonomy);
+  const paths = taxa.map((taxon) => ({
+    params: {
+      tag: taxon,
+    },
+    props: { tag: taxon },
+  }));
+  return paths;
+}
+
+const { tag } = Astro.props;
+const collection = "news";
+const taxonomy = "tags";
+
+const entries = await getEntries(collection) as NewsEntry[];
+const filteredEntries: NewsEntry[] = taxonomyFilter(entries, taxonomy, tag);
+---
+
+<TaxonLayout collection={collection} taxonomy={taxonomy} taxon={tag} entries={filteredEntries} />

@@ -8,9 +8,10 @@ interface Props {
   tags: string[];
   categories: string[];
   allCategories: string[];
+  collection?: string;
 }
 
-const { tags, categories, allCategories }: Props = Astro.props;
+const { tags, categories, allCategories, collection = "blog" }: Props = Astro.props;
 ---
 
 <ScrollArea className="h-full" client:only="react">
@@ -18,7 +19,7 @@ const { tags, categories, allCategories }: Props = Astro.props;
   <div class="glass rounded-lg p-4 m-2 mb-4 intersect:animate-fadeLeft opacity-0">
     <div>
       <h4 class="mb-2">
-        <a href="/blog/categories">
+        <a href={`/${collection}/categories`}>
           <FaRegFolder className={"mr-1 -mt-1.5 inline-block"} />
            Categories
         </a>
@@ -32,7 +33,7 @@ const { tags, categories, allCategories }: Props = Astro.props;
               <li>
                 <a
                   class=""
-                  href={`/blog/categories/${category}`}
+                  href={`/${collection}/categories/${category}`}
                 >
                   {upperHumanize(category)}{" "}
                   <div class="inline-block pl-1">({count})</div>
@@ -48,7 +49,7 @@ const { tags, categories, allCategories }: Props = Astro.props;
   <div class="glass rounded-lg p-4 m-2 intersect:animate-fadeLeft opacity-0">
     <div>
       <h4 class="mb-2">
-        <a href="/blog/tags">
+        <a href={`/${collection}/tags`}>
           <FaHashtag className={"mr-1 -mt-1.5 inline-block"} />
            Tags
         </a>
@@ -61,7 +62,7 @@ const { tags, categories, allCategories }: Props = Astro.props;
               <li class="inline-block m-1">
                 <Button
                   label={tag}
-                  link={`/blog/tags/${lowerHumanize(tag)}`}
+                  link={`/${collection}/tags/${lowerHumanize(tag)}`}
                   type="secondary"
                 />
               </li>

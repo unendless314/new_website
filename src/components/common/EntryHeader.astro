@@ -43,6 +43,7 @@ interface Props {
   showReadingTime?: boolean;
   showCategories?: boolean;
   showTags?: boolean;
+  collection?: string;
 }
 
 const {
@@ -56,6 +57,7 @@ const {
   showReadingTime = false,
   showCategories = false,
   showTags = false,
+  collection = "blog",
 }: Props = Astro.props;
 
 const {
@@ -132,7 +134,7 @@ tags?.sort((a: string, b: string) => a.localeCompare(b));
           {categories && showCategories && (
             <li class="mr-1 inline-block">
               {categories.map((category: string, index: number) => (
-                <a href={`/blog/categories/${slugify(category)}`}>
+                <a href={`/${collection}/categories/${slugify(category)}`}>
                   <FaRegFolder className={"ml-2 -mt-1 inline-block"} />
                   {upperHumanize(category)}
                 </a>
@@ -142,7 +144,7 @@ tags?.sort((a: string, b: string) => a.localeCompare(b));
           {tags && showTags && (
             <li class="mr-1 inline-block">
               {tags.map((tag: string, index: number) => (
-                <a href={`/blog/tags/${slugify(tag)}`}>
+                <a href={`/${collection}/tags/${slugify(tag)}`}>
                   <FaHashtag className={"ml-2 -mt-1 inline-block"} />
                   {lowerHumanize(tag)}
                 </a>
