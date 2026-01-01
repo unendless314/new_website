@@ -1,6 +1,6 @@
 ---
 import type { ProjectsEntry } from "@/types";
-import EntryLayout from "@components/projects/EntryLayout.astro";
+import EntryLayout from "@components/news/EntryLayout.astro";
 import { getEntries } from "@lib/contentParser";
 import { sortByTitle } from "@lib/sortFunctions";
 
@@ -10,12 +10,13 @@ export async function getStaticPaths() {
     params: {
       entry: entry.id,
     },
-    props: { entry },
+    props: { entry, entries },
   }));
   return paths;
 }
 
-const { entry } = Astro.props;
+const { entry, entries } = Astro.props;
+const relatedEntries = entries.filter((item: ProjectsEntry) => item.id !== entry.id).slice(0, 2);
 ---
 
-<EntryLayout entry={entry} />
+<EntryLayout entry={entry} relatedEntries={relatedEntries} collection="projects" />

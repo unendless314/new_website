@@ -1,5 +1,5 @@
 ---
-import CollectionLayout from "@components/projects/CollectionLayout.astro";
+import CollectionLayout from "@components/news/CollectionLayout.astro";
 import { getIndex, getEntries } from "@lib/contentParser";
 import { sortByDate } from "@lib/sortFunctions";
 import type { ProjectsEntry } from "@/types";
@@ -9,17 +9,24 @@ const entries = (await getEntries("projects", sortByDate)) as ProjectsEntry[];
 
 const { slug } = Astro.params;
 
-const entriesPerPage = 6;
+const entriesPerPage = 8;
 const currentPageIndex = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
 const pageCount = Math.ceil(entries.length / entriesPerPage);
 const indexOfLastEntry = currentPageIndex * entriesPerPage;
 const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
 const currentEntries = entries.slice(indexOfFirstEntry, indexOfLastEntry);
+const categories: string[] = [];
+const tags: string[] = [];
+const allCategories: string[] = [];
 ---
 
 <CollectionLayout
   entryIndex={entryIndex}
   entries={currentEntries}
+  categories={categories}
+  tags={tags}
+  allCategories={allCategories}
   pageIndex={currentPageIndex}
   pageCount={pageCount}
+  collection="projects"
 />
