@@ -1,0 +1,71 @@
+---
+import BaseLayout from "@components/base/BaseLayout.astro";
+import Share from "@components/common/Share.astro";
+import { plainify } from "@lib/textConverter";
+import type { GenericEntry } from "@/types";
+import TableOfContents from "@components/common/TableOfContents.astro";
+import { render } from "astro:content";
+import EntryHeader from "@components/common/EntryHeader.astro";
+
+interface Props {
+  entry: GenericEntry;
+  relatedEntries: GenericEntry[];
+  collection?: string;
+}
+
+const { entry, relatedEntries, collection = "news" }: Props = Astro.props;
+const { title, description, autodescription, image, hideToc } = entry.data;
+const { Content, headings } = await render(entry);
+
+const descriptionLength = 200;
+const globalHideToc = false;
+const tocDepth = 3;
+
+const actuallyHideToc =
+  hideToc || globalHideToc || headings.filter((heading) => heading.depth <= tocDepth).length === 0;
+
+const entryDescription =
+  description ||
+  (autodescription ? plainify(entry.body!.slice(0, descriptionLength)) : null);
+---
+
+<BaseLayout title={title} description={entryDescription} image={image?.src}>
+  <section class="flex container p-4">
+    <div class={`w-full ${actuallyHideToc ? "" : "md:col-9"}`}>
+      <article>
+        <section>
+          <EntryHeader
+            entry={entry}
+            showImage
+            showAuthor
+            showDate
+            showReadingTime
+            showCategories
+            showTags
+            collection={collection}
+          />
+        </section>
+        <section class="content mb-4 glass px-4 rounded-lg">
+          <Content />
+        </section>
+      </article>
+    </div>
+    <div
+      class={`hidden max-h-static_sidemenu sticky top-[5rem] pl-4 ${actuallyHideToc ? "" : "md:flex md:col-3"}`}
+    >
+      <TableOfContents headings={headings} />
+    </div>
+  </section>
+
+  <section class="container items-start justify-between mt-4">
+    <hr />
+    <div class="flex items-center justify-center lg:justify-end mt-4">
+      <Share
+        title={title}
+        description={entryDescription}
+        folder={collection}
+        id={entry.id}
+      />
+    </div>
+  </section>
+</BaseLayout>
