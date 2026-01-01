@@ -34,7 +34,7 @@ const coverAlt = entry.data.imageAlt || `${title} cover`;
 const descriptionLength = 200;
 
 const entryDate = date ? formatDate(date) : null;
-const entryReadingTime = readingTime(entry.body!, complexity);
+const entryReadingTime = entry.body ? readingTime(entry.body, complexity) : null;
 const entryDescription =
   description ||
   (autodescription ? plainify(entry.body!.slice(0, descriptionLength)) : null);
@@ -81,7 +81,7 @@ const entryDescription =
           {entryDate}
         </span>
       )}
-      {complexity > 0 && (
+      {entryReadingTime && complexity > 0 && (
         <span class="inline-flex items-center gap-1">
           <FaRegClock />
           {entryReadingTime}
