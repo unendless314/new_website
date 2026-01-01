@@ -15,7 +15,7 @@ const allCategories = await getTaxaMultiset("news", "categories");
 const categories = await getTaxa("news", "categories");
 const tags = await getTaxa("news", "tags");
 
-const entriesPerPage = 4;
+const entriesPerPage = 8;
 const indexOfLastEntry = currentPageIndex * entriesPerPage;
 const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
 const currentEntries = entries.slice(indexOfFirstEntry, indexOfLastEntry);
@@ -24,7 +24,7 @@ const pageCount: number = Math.ceil(entries.length / entriesPerPage);
 
 export async function getStaticPaths() {
   const entries = (await getEntries("news", sortByDate)) as NewsEntry[];
-  const pageCount = Math.ceil(entries.length / 4);
+  const pageCount = Math.ceil(entries.length / entriesPerPage);
   const paths = [];
 
   for (let i = 1; i < pageCount; i++) {

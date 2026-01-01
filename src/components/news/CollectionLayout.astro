@@ -36,13 +36,13 @@ const {
       <div class="row px-0 mx-0 w-full">
         <!-- news posts -->
         <div class="col-12 lg:col-8 lg:p-0">
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
           {
             entries.map((entry) => (
-              <div class="mb-4">
-                <NewsCard entry={entry} folder={collection} />
-              </div>
+              <NewsCard entry={entry} folder={collection} />
             ))
           }
+          </div>
           <Pagination
             collection={collection}
             pageIndex={pageIndex}

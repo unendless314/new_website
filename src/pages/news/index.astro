@@ -15,7 +15,7 @@ const allCategories = await getTaxaMultiset("news", "categories");
 const categories = await getTaxa("news", "categories");
 const tags = await getTaxa("news", "tags");
 
-const entriesPerPage = 4;
+const entriesPerPage = 8;
 const indexOfLastEntry = currentPageIndex * entriesPerPage;
 const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
 const currentEntries = entries.slice(indexOfFirstEntry, indexOfLastEntry);
