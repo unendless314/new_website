@@ -5,6 +5,8 @@ description: "掌握加密資產控制權的唯一鑰匙，絕對不能洩漏給
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Security"
+categories: ["P"]
+tags: ["新手"]
 ---
 
 ## 什麼是私鑰 (Private Key)？

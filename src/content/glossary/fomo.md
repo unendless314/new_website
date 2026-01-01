@@ -5,6 +5,8 @@ description: "Fear of Missing Out，害怕錯過行情而盲目追高的心理�
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "FOMO"
+categories: ["F"]
+tags: ["新手"]
 ---
 
 ## 什麼是 FOMO？

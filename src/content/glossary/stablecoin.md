@@ -5,6 +5,8 @@ description: "與法幣掛鉤的代幣類型與其風險。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Stablecoin"
+categories: ["S"]
+tags: ["新手"]
 ---
 
 ## 常見種類

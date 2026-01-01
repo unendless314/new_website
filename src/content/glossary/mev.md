@@ -5,6 +5,8 @@ description: "驗證者或礦工按特定順序重組區塊所能提取的額外
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "MEV"
+categories: ["M"]
+tags: ["困難"]
 ---
 
 ## 基本概念

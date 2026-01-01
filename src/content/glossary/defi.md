@@ -5,6 +5,8 @@ description: "去中心化金融（Decentralized Finance）的核心概念與風
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "DeFi"
+categories: ["D"]
+tags: ["新手"]
 ---
 
 ## 什麼是 DeFi？

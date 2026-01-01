@@ -1,0 +1,33 @@
+---
+import BaseLayout from "@components/base/BaseLayout.astro";
+import { upperHumanize } from "@lib/textConverter";
+import PageHeader from "@components/common/PageHeader.astro";
+import GlossaryCard from "@components/glossary/Card.astro";
+import type { GenericEntry } from "@/types";
+
+interface Props {
+  taxonomy: string;
+  taxon: string;
+  entries: GenericEntry[];
+  collection?: string;
+}
+
+const { taxonomy, taxon, entries, collection = "glossary" }: Props = Astro.props;
+---
+
+<BaseLayout title={`${upperHumanize(taxon)} (${upperHumanize(taxonomy)})`}>
+  <PageHeader title={`${upperHumanize(taxon)} (${upperHumanize(taxonomy)})`} />
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        {
+          entries.map((entry: GenericEntry) => (
+            <div class="col-12 lg:col-6">
+              <GlossaryCard entry={entry} folder={collection} />
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>

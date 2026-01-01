@@ -5,6 +5,8 @@ description: "寫在區塊鏈上的自動執行合約與常用語言。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Smart Contract"
+categories: ["S"]
+tags: ["新手"]
 ---
 
 ## 定義

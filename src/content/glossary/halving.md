@@ -5,6 +5,8 @@ description: "區塊獎勵減半事件與預期影響。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Halving"
+categories: ["H"]
+tags: ["新手"]
 ---
 
 ## 什麼是 Halving

@@ -5,6 +5,8 @@ description: "在 AMM 提供流動性時遇到價格變動造成的潛在虧損�
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Impermanent Loss"
+categories: ["I"]
+tags: ["普通"]
 ---
 
 ## 現象

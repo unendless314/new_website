@@ -5,6 +5,8 @@ description: "衡量 DeFi 協議鎖倉資產的總價值。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "TVL"
+categories: ["T"]
+tags: ["普通"]
 ---
 
 ## 定義

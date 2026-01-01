@@ -1,24 +1,29 @@
 ---
 import BaseLayout from "@components/base/BaseLayout.astro";
-import Pagination from "@components/common/Pagination.astro";
 import Share from "@components/common/Share.astro";
 import { plainify } from "@lib/textConverter";
-import type { GlossaryEntry } from "@/types";
-
+import type { GenericEntry } from "@/types";
+import TableOfContents from "@components/common/TableOfContents.astro";
 import { render } from "astro:content";
 import EntryHeader from "@components/common/EntryHeader.astro";
+import GlossaryCard from "@components/glossary/Card.astro";
+
 interface Props {
-  entry: GlossaryEntry;
-  pageIDs: string[];
-  pageIndex: number;
-  pageCount: number;
+  entry: GenericEntry;
+  relatedEntries: GenericEntry[];
+  collection?: string;
 }
 
-const { entry, pageIDs, pageIndex, pageCount }: Props = Astro.props;
-const { title, description, autodescription, image } = entry.data;
-const { Content } = await render(entry);
+const { entry, relatedEntries, collection = "glossary" }: Props = Astro.props;
+const { title, description, autodescription, image, hideToc } = entry.data;
+const { Content, headings } = await render(entry);
 
 const descriptionLength = 200;
+const globalHideToc = false;
+const tocDepth = 3;
+
+const actuallyHideToc =
+  hideToc || globalHideToc || headings.filter((heading) => heading.depth <= tocDepth).length === 0;
 
 const entryDescription =
   description ||
@@ -26,33 +31,57 @@ const entryDescription =
 ---
 
 <BaseLayout title={title} description={entryDescription} image={image?.src}>
-  <section class="flex container justify-center my-8">
-    <div class="col md:col-8">
-      <article class="">
+  <section class="flex container p-4">
+    <div class={`w-full ${actuallyHideToc ? "" : "md:col-9"}`}>
+      <article>
         <section>
-          <EntryHeader entry={entry} showImage showAuthor showDate />
+          <EntryHeader
+            entry={entry}
+            showImage
+            showAuthor
+            showDate
+            showReadingTime
+            showCategories
+            showTags
+            collection={collection}
+          />
         </section>
         <section class="content mb-4 glass px-4 rounded-lg">
           <Content />
         </section>
       </article>
     </div>
+    <div
+      class={`hidden max-h-static_sidemenu sticky top-[5rem] pl-4 ${actuallyHideToc ? "" : "md:flex md:col-3"}`}
+    >
+      <TableOfContents headings={headings} />
+    </div>
   </section>
-  <section class=`container mt-4 mb-8 col md:col-8`>
+
+  <section class="container items-start justify-between mt-4">
     <hr />
     <div class="flex items-center justify-center lg:justify-end mt-4">
       <Share
         title={title}
         description={entryDescription}
-        folder={"glossary"}
+        folder={collection}
         id={entry.id}
       />
     </div>
   </section>
-  <Pagination
-    collection="glossary"
-    pageIDs={pageIDs}
-    pageIndex={pageIndex}
-    pageCount={pageCount}
-  />
+
+  {
+    relatedEntries.length > 0 && (
+      <section class="container my-8">
+        <h2 class="h4 mb-4">Related Terms</h2>
+        <div class="grid gap-4 md:grid-cols-2">
+          {
+            relatedEntries.slice(0, 2).map((related) => (
+              <GlossaryCard entry={related} folder={collection} />
+            ))
+          }
+        </div>
+      </section>
+    )
+  }
 </BaseLayout>

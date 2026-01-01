@@ -5,6 +5,8 @@ description: "錢包類型的差異與使用情境。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Wallet"
+categories: ["C"]
+tags: ["新手"]
 ---
 
 ## Hot Wallet

@@ -5,6 +5,8 @@ description: "Fear, Uncertainty, Doubt，通常指散佈恐慌消息以影響市
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "FUD"
+categories: ["F"]
+tags: ["新手"]
 ---
 
 ## 什麼是 FUD？

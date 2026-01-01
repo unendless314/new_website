@@ -5,6 +5,8 @@ description: "透過區塊鏈開放資料觀察市場動態與健康。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "On-chain data"
+categories: ["O"]
+tags: ["普通"]
 ---
 
 ## 常見指標

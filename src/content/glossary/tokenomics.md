@@ -5,6 +5,8 @@ description: "代幣發行規則、市場激勵與解鎖節奏的整體規劃。
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Tokenomics"
+categories: ["T"]
+tags: ["普通"]
 ---
 
 ## 核心要素

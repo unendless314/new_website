@@ -3,25 +3,21 @@ import type { GlossaryEntry } from "@/types";
 import { sortByDate } from "@lib/sortFunctions";
 import EntryLayout from "@components/glossary/EntryLayout.astro";
 import { getEntries } from "@lib/contentParser";
+import similerItems from "@lib/similarItems";
 
 export async function getStaticPaths() {
   const entries = (await getEntries("glossary", sortByDate)) as GlossaryEntry[];
-  const pageIDs: string[] = entries.map((entry) => entry.id);
-  const pageCount = pageIDs.length;
-
-  const paths = entries.map((entry) => {
-    const pageIndex = pageIDs.indexOf(entry.id);
-    return {
-      params: {
-        entry: entry.id,
-      },
-      props: { entry, pageIDs, pageIndex, pageCount },
-    };
-  });
+  const paths = entries.map((entry) => ({
+    params: {
+      entry: entry.id,
+    },
+    props: { entry, entries },
+  }));
   return paths;
 }
 
-const { entry, pageIDs, pageIndex, pageCount } = Astro.props;
+const { entry, entries } = Astro.props;
+const relatedEntries = similerItems(entry, entries, entry.id);
 ---
 
-<EntryLayout entry={entry} pageIDs={pageIDs} pageIndex={pageIndex} pageCount={pageCount} />
+<EntryLayout entry={entry} relatedEntries={relatedEntries} collection="glossary" />

@@ -5,6 +5,8 @@ description: "在區塊鏈上進行交易或執行合約時，需要支付給礦
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Gas Fee"
+categories: ["G"]
+tags: ["新手"]
 ---
 
 ## 什麼是 Gas Fee？

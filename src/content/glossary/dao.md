@@ -5,6 +5,8 @@ description: "去中心化自治組織的治理方式與代幣角色。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "DAO"
+categories: ["D"]
+tags: ["普通"]
 ---
 
 ## DAO 的運作

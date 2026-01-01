@@ -5,6 +5,8 @@ description: "觀察市場大額資金動向與風險溢價的 shorthand。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Whale"
+categories: ["W"]
+tags: ["新手"]
 ---
 
 ## 什麼是 Whale？

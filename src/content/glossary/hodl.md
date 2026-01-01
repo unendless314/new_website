@@ -5,6 +5,8 @@ description: "幣圈最經典的術語，代表無論市場漲跌，都堅定持
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "HODL"
+categories: ["H"]
+tags: ["新手"]
 ---
 
 ## 什麼是 HODL？

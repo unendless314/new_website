@@ -5,6 +5,8 @@ description: "質押與流動性挖礦的差異與風險。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Staking Yield Farming"
+categories: ["S"]
+tags: ["普通"]
 ---
 
 ## Staking（質押）

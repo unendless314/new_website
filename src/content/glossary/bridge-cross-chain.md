@@ -5,6 +5,8 @@ description: "資產跨鏈時的運作流程與安全性提醒。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Bridge"
+categories: ["B"]
+tags: ["普通"]
 ---
 
 ## 橋接機制

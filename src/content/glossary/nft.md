@@ -5,6 +5,8 @@ description: "非同質化代幣所代表的唯一性、權屬與應用場景。
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "NFT"
+categories: ["N"]
+tags: ["新手"]
 ---
 
 ## NFT 的特色

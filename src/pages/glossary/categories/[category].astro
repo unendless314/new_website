@@ -1,0 +1,28 @@
+---
+import TaxonLayout from "@components/glossary/TaxonLayout.astro";
+import { getTaxonomy } from "@lib/taxonomyParser";
+import { getEntries } from "@lib/contentParser";
+import { sortByDate } from "@lib/sortFunctions";
+import { slugify } from "@lib/textConverter";
+
+export async function getStaticPaths() {
+  const collection = "glossary";
+  const taxonomy = "categories";
+  const categories = await getTaxonomy(collection, taxonomy);
+  
+  return categories.map((category) => {
+    return {
+      params: { category: slugify(category) },
+    };
+  });
+}
+
+const { category } = Astro.params;
+const entries = await getEntries("glossary", sortByDate);
+const posts = entries.filter((item: any) => {
+  const categories = item.data.categories?.map((c: string) => slugify(c)) || [];
+  return categories.includes(category);
+});
+---
+
+<TaxonLayout taxonomy="categories" taxon={category} entries={posts} collection="glossary" />

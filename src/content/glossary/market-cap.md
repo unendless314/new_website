@@ -5,6 +5,8 @@ description: "市值與流通供應的計算方式及指標意義。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Market Cap"
+categories: ["M"]
+tags: ["新手"]
 ---
 
 ## 市值計算

@@ -5,6 +5,8 @@ description: "無抵押即借但須在單一交易內歸還的流動性工具。
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Flash Loan"
+categories: ["F"]
+tags: ["困難"]
 ---
 
 ## 定義

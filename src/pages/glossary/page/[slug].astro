@@ -6,22 +6,34 @@ import { sortByDate } from "@lib/sortFunctions";
 import type { GlossaryEntry } from "@/types";
 
 const { slug } = Astro.params;
-const currentPageIndex = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
-
 const entryIndex = (await getIndex("glossary")) as GlossaryEntry;
 const entries = (await getEntries("glossary", sortByDate)) as GlossaryEntry[];
-
-// Fetch categories and tags specifically for the 'glossary' collection
 const allCategories = await getTaxaMultiset("glossary", "categories");
 const categories = await getTaxa("glossary", "categories");
 const tags = await getTaxa("glossary", "tags");
 
 const entriesPerPage = 8;
+const currentPageIndex = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
+const pageCount = Math.ceil(entries.length / entriesPerPage);
 const indexOfLastEntry = currentPageIndex * entriesPerPage;
 const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
 const currentEntries = entries.slice(indexOfFirstEntry, indexOfLastEntry);
 
-const pageCount: number = Math.ceil(entries.length / entriesPerPage);
+export async function getStaticPaths() {
+  const entriesPerPage = 8;
+  const entries = (await getEntries("glossary", sortByDate)) as GlossaryEntry[];
+  const pageCount = Math.ceil(entries.length / entriesPerPage);
+  const paths = [];
+
+  for (let i = 1; i < pageCount; i++) {
+    paths.push({
+      params: {
+        slug: (i + 1).toString(),
+      },
+    });
+  }
+  return paths;
+}
 ---
 
 <CollectionLayout

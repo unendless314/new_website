@@ -1,33 +1,64 @@
 ---
 import BaseLayout from "@components/base/BaseLayout.astro";
+import GlossaryCard from "@components/glossary/Card.astro";
+import Pagination from "@components/common/Pagination.astro";
 import PageHeader from "@components/common/PageHeader.astro";
-import type { GlossaryEntry } from "@/types";
+import BlogSidebar from "@components/blog/Sidebar.astro";
+import type { GenericEntry } from "@/types";
 
 interface Props {
-  entryIndex: GlossaryEntry;
-  entries: GlossaryEntry[];
+  entryIndex: GenericEntry;
+  entries: GenericEntry[];
+  tags: string[];
+  categories: string[];
+  allCategories: string[];
+  pageIndex: number;
+  pageCount: number;
+  collection?: string;
 }
 
-const { entryIndex, entries } = Astro.props;
+const {
+  entryIndex,
+  entries,
+  tags,
+  categories,
+  allCategories,
+  pageIndex,
+  pageCount,
+  collection = "glossary",
+} = Astro.props;
 ---
 
 <BaseLayout title={entryIndex.data.title} description={entryIndex.data.description}>
   <PageHeader title={entryIndex.data.title} />
   <section class="section">
-    <div class="flex container row justify-center">
-      <div class="col lg:col-8">
-        <div class="glass rounded-lg p-4 intersect:animate-fadeUp opacity-0">
-          <ul>
-            {
-              entries.map((entry) => (
-                <li class="my-2">
-                  <a href={`/glossary/${entry.id}`}>
-                    <h4>{entry.data.title}</h4>
-                  </a>
-                </li>
-              ))
-            }
-          </ul>
+    <div class="flex container">
+      <div class="row px-0 mx-0 w-full">
+        <!-- glossary posts -->
+        <div class="col-12 lg:col-8 lg:p-0">
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+          {
+            entries.map((entry) => (
+              <GlossaryCard entry={entry} folder={collection} />
+            ))
+          }
+          </div>
+          <Pagination
+            collection={collection}
+            pageIndex={pageIndex}
+            pageCount={pageCount}
+          />
+        </div>
+        <!-- sidebar -->
+        <div
+          class="hidden lg:col-4 lg:flex max-h-static_sidemenu sticky p-0 pl-4 top-[4rem]"
+        >
+          <BlogSidebar
+            tags={tags}
+            categories={categories}
+            allCategories={allCategories}
+            collection={collection}
+          />
         </div>
       </div>
     </div>

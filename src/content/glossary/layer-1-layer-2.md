@@ -5,6 +5,8 @@ description: "主鏈與擴容方案的分工及其對性能的影響。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Layer 1 Layer 2"
+categories: ["L"]
+tags: ["普通"]
 ---
 
 ## Layer 1：基礎主鏈

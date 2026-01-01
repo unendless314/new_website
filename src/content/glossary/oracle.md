@@ -5,6 +5,8 @@ description: "將鏈外資料安全送入智能合約的橋接層。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
 imageAlt: "Oracle"
+categories: ["O"]
+tags: ["普通"]
 ---
 
 ## 動機
