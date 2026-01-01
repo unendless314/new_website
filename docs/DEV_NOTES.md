@@ -100,6 +100,14 @@
 *   網域設定：`public/CNAME`、`public/robots.txt` 已改為 `chainsoulsect.github.io`；Terms 內文字同步更新。若未來使用自訂網域，需再調整上述檔案與 astro.config `site`。
 *   CI：新增 `.github/workflows/ci.yml`，push/PR 跑 `npm ci` → `npm run build` → `npm run postbuild`；部署流程仍由 `deploy.yml` 處理。
 
+### 2026-01-05 ToC（目錄）編輯指引
+*   ToC 只抓標題（h1~h3），清單不會進入目錄。若文中標題太少，側邊目錄會消失。
+*   新聞稿最佳實務：至少放 4–6 個標題，建議結構：
+    *   `## 事件摘要`
+    *   `## 關注重點` 下可用 `###` 分拆重點（例：託管方案／流動性提供／費率競爭）
+    *   `## 影響觀察`
+*   不建議自動將清單轉錨點：容易造成目錄過長、層級混亂且行動版佔位；若未來要自動化，需限制條數與層級，並經額外測試。
+
 未處理但需留意：
 *   搜尋長遠方案：Pagefind 或更佳的中文分詞策略尚未導入。
 *   站點文案/品牌：BaseLayout `siteTitle/Description/Author` 仍為模板值；Footer 年份未自動化；Breadcrumb/PageHeader 中英混雜未 i18n。
