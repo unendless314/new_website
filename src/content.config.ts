@@ -169,6 +169,24 @@ const projects = defineCollection({
     }),
 });
 
+const tutorials = defineCollection({
+  loader: glob({
+    pattern: "**\/[^_]*.{md,mdx}",
+    base: "./src/content/tutorials",
+  }),
+  schema: ({ image }) =>
+    searchable.extend({
+      date: z.date().optional(),
+      image: image().optional(),
+      imageAlt: z.string().default(""),
+      author: reference("authors").optional(),
+      categories: z.array(z.string()).optional(),
+      tags: z.array(z.string()).optional(),
+      complexity: z.number().default(1),
+      hideToc: z.boolean().default(false),
+    }),
+});
+
 const terms = defineCollection({
   loader: glob({ pattern: "-index.{md,mdx}", base: "./src/content/terms" }),
   schema: searchable,
@@ -186,5 +204,6 @@ export const collections = {
   news,
   portfolio,
   projects,
+  tutorials,
   terms,
 };

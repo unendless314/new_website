@@ -13,6 +13,7 @@ export type IndexCardsEntry = CollectionEntry<"indexCards">;
 export type GlossaryEntry = CollectionEntry<"glossary">;
 export type PortfolioEntry = CollectionEntry<"portfolio">;
 export type ProjectsEntry = CollectionEntry<"projects">;
+export type TutorialsEntry = CollectionEntry<"tutorials">;
 export type TermsEntry = CollectionEntry<"terms">;
 
 export type SearchableEntry =
@@ -24,6 +25,7 @@ export type SearchableEntry =
   | GlossaryEntry
   | PortfolioEntry
   | ProjectsEntry
+  | TutorialsEntry
   | TermsEntry;
 
 export type SocialLinks = {

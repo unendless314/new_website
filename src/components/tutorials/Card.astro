@@ -1,0 +1,116 @@
+---
+import type { GenericEntry } from "@/types";
+import { upperHumanize, plainify, slugify } from "@lib/textConverter";
+import {
+  FaRegFolder,
+  FaRegClock,
+  FaHashtag,
+  FaRegCalendarAlt,
+} from "react-icons/fa";
+import readingTime from "@lib/readingTime";
+import { formatDate } from "@lib/formatDate";
+import type { ImageMetadata } from "astro";
+
+interface Props {
+  entry: GenericEntry;
+  folder?: string;
+}
+
+const { entry, folder = "tutorials" }: Props = Astro.props;
+const {
+  title,
+  description,
+  autodescription,
+  date,
+  categories,
+  tags,
+  complexity,
+} = entry.data;
+
+const cover = entry.data.image as string | ImageMetadata | undefined;
+const coverSrc = cover && typeof cover === "string" ? cover : cover?.src;
+const coverAlt = entry.data.imageAlt || `${title} cover`;
+
+const descriptionLength = 200;
+
+const entryDate = date ? formatDate(date) : null;
+const entryReadingTime = entry.body ? readingTime(entry.body, complexity) : null;
+const entryDescription =
+  description ||
+  (autodescription ? plainify(entry.body!.slice(0, descriptionLength)) : null);
+---
+
+<article class="group h-full overflow-hidden rounded-xl border border-slate-200/40 bg-white/70 shadow-sm backdrop-blur-sm dark:border-slate-700/60 dark:bg-slate-800/70">
+  {
+    coverSrc && (
+      <a href={`/${folder}/${entry.id}`} class="block overflow-hidden">
+        <img
+          src={coverSrc}
+          alt={coverAlt}
+          class="h-44 w-full object-cover transition duration-500 group-hover:scale-[1.02]"
+          loading="lazy"
+        />
+      </a>
+    )
+  }
+  <div class="flex h-full flex-col gap-2 p-4">
+    <div class="flex flex-wrap items-center gap-2 text-sm text-slate-500 dark:text-slate-300">
+      {
+        categories && categories.map((category: string) => (
+          <a
+            href={`/${folder}/categories/${slugify(category)}`}
+            class="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-1 text-xs font-medium text-slate-700 transition hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600"
+          >
+            <FaRegFolder className="text-[10px]" />
+            {upperHumanize(category)}
+          </a>
+        ))
+      }
+    </div>
+
+    <h4 class="text-lg font-semibold leading-snug">
+      <a href={`/${folder}/${entry.id}`} class="hover:text-primary">
+        {title}
+      </a>
+    </h4>
+
+    <div class="flex flex-wrap items-center gap-3 text-sm text-slate-500 dark:text-slate-300">
+      {entryDate && (
+        <span class="inline-flex items-center gap-1">
+          <FaRegCalendarAlt />
+          {entryDate}
+        </span>
+      )}
+      {entryReadingTime && complexity > 0 && (
+        <span class="inline-flex items-center gap-1">
+          <FaRegClock />
+          {entryReadingTime}
+        </span>
+      )}
+    </div>
+
+    {entryDescription && (
+      <p class="line-clamp-3 text-sm text-slate-600 dark:text-slate-200">
+        {entryDescription}
+      </p>
+    )}
+
+    {
+      tags && tags.length > 0 && (
+        <div class="mt-auto flex flex-wrap gap-2 text-xs text-slate-500 dark:text-slate-300">
+          {
+            tags.map((tag: string) => (
+              <a
+                href={`/${folder}/tags/${slugify(tag)}`}
+                class="inline-flex items-center gap-1 rounded-full border border-slate-200 px-2 py-1 transition hover:border-primary hover:text-primary dark:border-slate-700 dark:hover:border-primary"
+              >
+                <FaHashtag className="text-[10px]" />
+                {tag}
+              </a>
+            ))
+          }
+        </div>
+      )
+    }
+  </div>
+</article>

@@ -2,7 +2,7 @@
 import BaseLayout from "@components/base/BaseLayout.astro";
 import { upperHumanize } from "@lib/textConverter";
 import PageHeader from "@components/common/PageHeader.astro";
-import GlossaryCard from "@components/glossary/Card.astro";
+import TutorialCard from "@components/tutorials/Card.astro";
 import type { GenericEntry } from "@/types";
 
 interface Props {
@@ -12,7 +12,7 @@ interface Props {
   collection?: string;
 }
 
-const { taxonomy, taxon, entries, collection = "glossary" }: Props = Astro.props;
+const { taxonomy, taxon, entries, collection = "tutorials" }: Props = Astro.props;
 ---
 
 <BaseLayout title={`${upperHumanize(taxon)} (${upperHumanize(taxonomy)})`}>
@@ -22,7 +22,7 @@ const { taxonomy, taxon, entries, collection = "glossary" }: Props = Astro.props
       <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
         {
           entries.map((entry: GenericEntry) => (
-            <GlossaryCard entry={entry} folder={collection} />
+            <TutorialCard entry={entry} folder={collection} />
           ))
         }
       </div>

@@ -6,7 +6,7 @@ import type { GenericEntry } from "@/types";
 import TableOfContents from "@components/common/TableOfContents.astro";
 import { render } from "astro:content";
 import EntryHeader from "@components/common/EntryHeader.astro";
-import ProjectCard from "@components/projects/Card.astro";
+import TutorialCard from "@components/tutorials/Card.astro";
 
 interface Props {
   entry: GenericEntry;
@@ -14,7 +14,7 @@ interface Props {
   collection?: string;
 }
 
-const { entry, relatedEntries, collection = "projects" }: Props = Astro.props;
+const { entry, relatedEntries, collection = "tutorials" }: Props = Astro.props;
 const { title, description, autodescription, image, hideToc } = entry.data;
 const { Content, headings } = await render(entry);
 
@@ -73,11 +73,11 @@ const entryDescription =
   {
     relatedEntries.length > 0 && (
       <section class="container my-8">
-        <h2 class="h4 mb-4">Related Projects</h2>
+        <h2 class="h4 mb-4">Related Tutorials</h2>
         <div class="grid gap-4 md:grid-cols-2">
           {
             relatedEntries.slice(0, 2).map((related) => (
-              <ProjectCard entry={related} folder={collection} />
+              <TutorialCard entry={related} folder={collection} />
             ))
           }
         </div>

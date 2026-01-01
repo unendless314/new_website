@@ -19,12 +19,10 @@ const { taxonomy, taxon, entries, collection = "news" }: Props = Astro.props;
   <PageHeader title={`${upperHumanize(taxon)} (${upperHumanize(taxonomy)})`} />
   <section class="section">
     <div class="container">
-      <div class="row">
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
         {
           entries.map((entry: GenericEntry) => (
-            <div class="col-12 lg:col-6">
-              <NewsCard entry={entry} folder={collection} />
-            </div>
+            <NewsCard entry={entry} folder={collection} />
           ))
         }
       </div>

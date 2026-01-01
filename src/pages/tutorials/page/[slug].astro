@@ -1,18 +1,16 @@
 ---
-import CollectionLayout from "@components/projects/CollectionLayout.astro";
+import CollectionLayout from "@components/tutorials/CollectionLayout.astro";
 import { getTaxaMultiset, getTaxa } from "@lib/taxonomyParser";
 import { getEntries, getIndex } from "@lib/contentParser";
 import { sortByDate } from "@lib/sortFunctions";
-import type { ProjectsEntry } from "@/types";
+import type { TutorialsEntry } from "@/types";
 
 const { slug } = Astro.params;
-const entryIndex = (await getIndex("projects")) as ProjectsEntry;
-const entries = (await getEntries("projects", sortByDate)) as ProjectsEntry[];
-
-// Fetch categories and tags specifically for the 'projects' collection
-const allCategories = await getTaxaMultiset("projects", "categories");
-const categories = await getTaxa("projects", "categories");
-const tags = await getTaxa("projects", "tags");
+const entryIndex = (await getIndex("tutorials")) as TutorialsEntry;
+const entries = (await getEntries("tutorials", sortByDate)) as TutorialsEntry[];
+const allCategories = await getTaxaMultiset("tutorials", "categories");
+const categories = await getTaxa("tutorials", "categories");
+const tags = await getTaxa("tutorials", "tags");
 
 const entriesPerPage = 8;
 const currentPageIndex = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
@@ -23,7 +21,7 @@ const currentEntries = entries.slice(indexOfFirstEntry, indexOfLastEntry);
 
 export async function getStaticPaths() {
   const entriesPerPage = 8;
-  const entries = (await getEntries("projects", sortByDate)) as ProjectsEntry[];
+  const entries = (await getEntries("tutorials", sortByDate)) as TutorialsEntry[];
   const pageCount = Math.ceil(entries.length / entriesPerPage);
   const paths = [];
 
@@ -46,5 +44,5 @@ export async function getStaticPaths() {
   allCategories={allCategories}
   pageIndex={currentPageIndex}
   pageCount={pageCount}
-  collection="projects"
+  collection="tutorials"
 />

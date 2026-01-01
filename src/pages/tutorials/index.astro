@@ -1,0 +1,35 @@
+---
+import CollectionLayout from "@components/tutorials/CollectionLayout.astro";
+import { getTaxaMultiset, getTaxa } from "@lib/taxonomyParser";
+import { getIndex, getEntries } from "@lib/contentParser";
+import { sortByDate } from "@lib/sortFunctions";
+import type { TutorialsEntry } from "@/types";
+
+const entryIndex = (await getIndex("tutorials")) as TutorialsEntry;
+const entries = (await getEntries("tutorials", sortByDate)) as TutorialsEntry[];
+
+const { slug } = Astro.params;
+
+const entriesPerPage = 8;
+const currentPageIndex = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
+const pageCount = Math.ceil(entries.length / entriesPerPage);
+const indexOfLastEntry = currentPageIndex * entriesPerPage;
+const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
+const currentEntries = entries.slice(indexOfFirstEntry, indexOfLastEntry);
+
+// Fetch categories and tags specifically for the 'tutorials' collection
+const allCategories = await getTaxaMultiset("tutorials", "categories");
+const categories = await getTaxa("tutorials", "categories");
+const tags = await getTaxa("tutorials", "tags");
+---
+
+<CollectionLayout
+  entryIndex={entryIndex}
+  entries={currentEntries}
+  categories={categories}
+  tags={tags}
+  allCategories={allCategories}
+  pageIndex={currentPageIndex}
+  pageCount={pageCount}
+  collection="tutorials"
+/>
