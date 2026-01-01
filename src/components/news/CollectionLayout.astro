@@ -1,0 +1,66 @@
+---
+import BaseLayout from "@components/base/BaseLayout.astro";
+import NewsCard from "@components/news/Card.astro";
+import Pagination from "@components/common/Pagination.astro";
+import PageHeader from "@components/common/PageHeader.astro";
+import BlogSidebar from "@components/blog/Sidebar.astro";
+import type { GenericEntry } from "@/types";
+
+interface Props {
+  entryIndex: GenericEntry;
+  entries: GenericEntry[];
+  tags: string[];
+  categories: string[];
+  allCategories: string[];
+  pageIndex: number;
+  pageCount: number;
+  collection?: string;
+}
+
+const {
+  entryIndex,
+  entries,
+  tags,
+  categories,
+  allCategories,
+  pageIndex,
+  pageCount,
+  collection = "news",
+} = Astro.props;
+---
+
+<BaseLayout title={entryIndex.data.title} description={entryIndex.data.description}>
+  <PageHeader title={entryIndex.data.title} />
+  <section class="section">
+    <div class="flex container">
+      <div class="row px-0 mx-0 w-full">
+        <!-- news posts -->
+        <div class="col-12 lg:col-8 lg:p-0">
+          {
+            entries.map((entry) => (
+              <div class="mb-4">
+                <NewsCard entry={entry} folder={collection} />
+              </div>
+            ))
+          }
+          <Pagination
+            collection={collection}
+            pageIndex={pageIndex}
+            pageCount={pageCount}
+          />
+        </div>
+        <!-- sidebar -->
+        <div
+          class="hidden lg:col-4 lg:flex max-h-static_sidemenu sticky p-0 pl-4 top-[4rem]"
+        >
+          <BlogSidebar
+            tags={tags}
+            categories={categories}
+            allCategories={allCategories}
+            collection={collection}
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
