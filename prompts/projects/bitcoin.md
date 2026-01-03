@@ -7,7 +7,12 @@ date: 2026-01-01
 
 【研究方法與數據指引】
 
-權威來源： 優先引用 CoinDesk、The Block、Glassnode、Chainalysis、各國央行及台灣金管會（FSC）報告。
+權威來源： 優先引用 CoinDesk、The Block、Glassnode、Chainalysis、Cambridge CBECI。
+
+監管與法規指引：
+- 全球風向：引用美國 SEC（關於現貨 ETF 審批邏輯與儲備資產屬性）與 CFTC 的最新公開文件。
+- 立法邏輯：參考歐盟 MiCA 法規對資產服務商（CASP）與環保能效揭露的要求。
+- 台灣在地實務：重點解讀「台灣 VASP 公會自律規範」關於客戶資產保管（70/80 冷錢包法則）的具體要求，以及「台灣央行金融穩定報告」對比特幣作為支付工具或儲備資產的評述。
 
 數據嚴謹性： 爭議數據需交叉驗證（如能耗對照 Cambridge CBECI）。所有市場數據須註明時間點（如「截至 2025 年 12 月」）。
 
