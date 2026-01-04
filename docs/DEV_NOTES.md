@@ -108,6 +108,19 @@
     *   `## 影響觀察`
 *   不建議自動將清單轉錨點：容易造成目錄過長、層級混亂且行動版佔位；若未來要自動化，需限制條數與層級，並經額外測試。
 
+### 2026-01-04 術語庫全面升級
+*   **完成工作**：改寫與新增超過 50 篇術語文章（`src/content/glossary/`），建立「教育者語氣」與統一結構（引言、大白話、原理、案例、風險、總結）。
+*   **涵蓋領域**：基礎技術 (PoW/PoS/Node/Fork)、交易 (Futures/Funding Rate/Leverage/DCA)、風險 (Rug Pull/Honey Pot/Bank Run)、文化 (HODL/HFSP/WAGMI) 等。
+*   **待討論/補充清單**：
+    - TGE, KYC, Due Diligence
+    - 不可能三角 (Trilemma), 互操作性 (Interoperability), 拜占庭將軍問題 (Byzantine Generals Problem)
+    - Treasury, Vault, Liquidity Pool, Venture Capital
+    - FDV, Sequencer, Validator, Indexer
+    - Audit, Epoch, Permissionless/Permissioned, Custody
+    - Token Emission, Vesting, Multi-signature (Multi-sig)
+    - Synthetic Asset, Slippage, Front-run, Aggregator, Arbitrage
+    - Hashrate, Consensus, Collateral, Delegate
+
 未處理但需留意：
 *   搜尋長遠方案：Pagefind 或更佳的中文分詞策略尚未導入。
 *   站點文案/品牌：BaseLayout `siteTitle/Description/Author` 仍為模板值；Footer 年份未自動化；Breadcrumb/PageHeader 中英混雜未 i18n。

@@ -1,19 +1,39 @@
 ---
-title: "Layer 1 / Layer 2（第一層 / 第二層）"
+title: "Layer 1 & Layer 2（第一層與第二層）"
 date: 2025-12-31
-description: "主鏈與擴容方案的分工及其對性能的影響。"
+description: "區塊鏈的擴容解決方案，主網與高速擴展層的協作。"
 author: wu-yan
 image: "../../assets/astrogon-star.svg"
-imageAlt: "Layer 1 Layer 2"
+imageAlt: "Layer 1 & 2 結構圖"
 categories: ["L"]
-tags: ["普通"]
+tags: ["技術基礎", "擴容", "新手"]
 ---
 
-## Layer 1：基礎主鏈
-Layer 1 代表區塊鏈的根基，例如 Bitcoin、Ethereum、Solana。它負責網路共識、資產帳本與安全保障，但交易量增加時容易碰到瓶頸（TPS）。
+## 什麼是 L1 與 L2？
 
-### Layer 2：擴容層
-Layer 2 架構（Rollup、Plasma、State Channel）在 Layer 1 之上處理大部分交易，最後再回寫一個壓縮的狀態。這樣可保留主鏈安全，又提升速度。
+區塊鏈的「擴容問題」一直是個難題：又要安全、又要去中心化、又要快，很難同時達成。因此工程師提出了分層架構。
 
-### 何時使用
-需要大量轉帳或 dApp 互動時（例如 NFT 市集、DeFi 交易），優先選擇支持 Layer 2 的網路，並確認資金從 Layer 2 回到 Layer 1 的橋接路徑。
+## 大白話解釋
+
+*   **Layer 1 (L1) 是「地基與主幹道」:** 例如以太坊、比特幣、Solana。它負責最終的結算與最高的安全性，但車多時會塞車、過路費貴。
+*   **Layer 2 (L2) 是「高速公路上的高架橋」或「快速道路」:** 例如 Arbitrum、Optimism。它把上千筆交易在上面快速處理完，再「打包」成一筆結果回傳給地基 (L1) 紀錄。
+
+## Layer 1 的角色
+
+L1 是底層協議。它的優點是極度安全和去中心化，但缺點是擴展性有限。它是所有數據的「最終真理來源」。
+
+## Layer 2 的優勢
+
+1.  **超低手續費:** 因為多筆交易平分了 L1 的 Gas Fee。
+2.  **極速體驗:** 交易幾乎秒確認，不像主網需要等待。
+3.  **繼承安全性:** L2 最終還是要把帳本交回 L1 備份，所以如果 L1 安全，L2 理論上也很安全。
+
+## 常見案例
+
+*   **L1:** Bitcoin, Ethereum, Solana, Avalanche.
+*   **L2 (以太坊系):** Arbitrum, Optimism, Base, ZK-Sync.
+*   **L2 (比特幣系):** Lightning Network (閃電網路).
+
+## 總結
+
+對於一般用戶來說，Layer 2 是真正可以日常使用的環境（買小東西、玩遊戲、小額交易）。而 Layer 1 則是儲存鉅額資產的「數位金庫」。
