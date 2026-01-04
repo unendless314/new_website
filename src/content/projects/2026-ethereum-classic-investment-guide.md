@@ -1,0 +1,285 @@
+---
+title: "不朽的悖論與沈默的螺旋：2026 以太坊經典 (ETC) 深度投資與生態研究報告"
+description: "探討 ETC 如何在 ETH 轉 PoS 後成為 PoW 智能合約的最後堡壘，解析 Spiral 升級、Olympia 資金庫革命與台灣礦工的生存指南。"
+date: 2026-01-04
+author: wu-yan
+categories: ["深度研究", "以太坊經典"]
+tags: ["Ethereum Classic", "ETC", "PoW", "Code is Law", "Mining", "Investment", "Research"]
+complexity: 2
+---
+
+## 第一章：執行摘要：在代碼律法與市場現實的夾縫中
+
+以太坊經典 (Ethereum Classic, ETC) 在加密貨幣的歷史長河中，佔據著一個極為特殊且充滿張力的位置。它既是區塊鏈世界中最古老、最純粹的意識形態圖騰，也是當前市場中面臨最嚴峻生存挑戰的公鏈之一。作為 2016 年以太坊 (Ethereum, ETH) 硬分叉後的「原始鏈」，ETC 承載著極端純粹主義者的精神核心——「代碼即律法 (Code is Law)」。這種精神主張區塊鏈的帳本一旦生成，就不應因任何人類意志、政治壓力或資金損失而回滾或修改。這種近乎宗教般的不可篡改性神話，賦予了 ETC 獨特的「數位文物」地位。
+
+然而，步入 2026 年，ETC 正處於一個尷尬的歷史十字路口。一方面，它是全球最大的工作量證明 (PoW) 智能合約平台，在以太坊轉向權益證明 (PoS) 後，成為了顯卡與 ASIC 算力的主要避風港，也是去中心化原教旨主義者的最後堡壘。另一方面，其鏈上生態發展相較於 ETH 及其 Layer 2 解決方案顯得荒涼且停滯，DeFi 鎖倉量 (TVL) 低迷，原生應用匱乏。市場給予它的稱號——「末日戰車 (Doomsday Chariot)」，既是對其在牛市末期往往爆發性補漲的描述，也隱含了對其基本面支撐不足的擔憂 1。
+
+本報告旨在為台灣投資者與加密貨幣從業者提供一份詳盡的 ETC 指南。我們將深入剖析 ETC 在 2024 年至 2026 年間的關鍵技術轉折，包括 Spiral 升級帶來的 EVM 兼容性、Olympia 提案對協議級資金庫的革命性引入，以及其在台灣高電價環境下的挖礦經濟學。分析顯示，儘管 ETC 在應用層面落後，但其作為「數位商品」的監管定位以及其在 PoW 算力遷移中的承載角色，使其在投資組合中仍具備獨特的避險與投機價值。
+
+---
+
+## 第二章：歷史淵源與意識形態核心：兩條平行宇宙的起點
+
+要理解以太坊經典在 2026 年的定位，必須回溯至其誕生的那一刻。ETC 並非一個新創造的項目，而是以太坊這條區塊鏈的「原身」。這段歷史不僅是技術的分野，更是區塊鏈治理哲學的根本決裂。
+
+### **2.1 The DAO 事件：不可篡改性的試金石**
+
+2016 年，以太坊生態迎來了第一個去中心化自治組織——The DAO。這是一個基於智能合約的風險投資基金，籌集了當時價值約 1.5 億美元的 ETH，佔到了 ETH 總供應量的 14%。然而，由於智能合約代碼中存在遞歸調用漏洞 (Recursive Call Vulnerability)，駭客成功盜取了約 360 萬枚 ETH。
+
+面對如此巨額的資金損失，以太坊社群陷入了激烈的辯論。以 Vitalik Buterin 為首的以太坊基金會及多數核心開發者，主張透過一次硬分叉 (Hard Fork) 來修改區塊鏈歷史，將被盜的資金「退回」給投資者。這一決定的邏輯是實用主義的：為了生態的存續，必須糾正錯誤。
+
+然而，一小部分堅持區塊鏈核心價值觀的礦工、開發者與投資者拒絕了這次分叉。他們認為，區塊鏈的核心價值在於其**抗審查性 (Censorship Resistance)** 與 **不可篡改性 (Immutability)**。如果因為金額巨大就可以人為修改帳本，那麼區塊鏈就失去了相對於傳統金融體系的優勢。「代碼即律法」意味著，即使代碼有漏洞，一旦部署並運行，其結果（哪怕是惡意的）也必須被接受，人類不應干預機器的執行邏輯 3。
+
+### **2.2 原教旨主義的代價與榮耀**
+
+堅持留在原鏈上的社群，將這條鏈命名為「以太坊經典 (Ethereum Classic)」。這一分叉定義了 ETC 的核心靈魂。
+
+- **榮耀**：ETC 被視為真正繼承了中本聰精神的智能合約平台。在監管日益嚴苛的 2025-2026 年，這種純粹性成為了其法律防禦的護城河。因為沒有核心團隊能夠「控制」或「回滾」網絡，ETC 更容易被定義為商品而非證券。
+- **代價**：這種分裂導致 ETC 失去了 Vitalik Buterin 等天才開發者的領導，也失去了以太坊基金會龐大的資金支持。生態發展陷入了長期的資金匱乏，治理結構鬆散，這也是導致其後續生態發展緩慢的根本原因。
+
+---
+
+## 第三章：技術演進：從防禦到兼容的漫長征途
+
+ETC 的技術發展史是一部充滿血淚的抗爭史。從頻繁遭受 51% 攻擊的至暗時刻，到通過技術升級重新獲得安全與兼容性，ETC 在 2024 年至 2026 年間完成了一次重要的蛻變。
+
+### **3.1 51% 攻擊與 MESS 機制的興衰**
+
+2020 年 8 月，ETC 網絡在一個月內遭受了三次大規模的 51% 攻擊。攻擊者租用了 NiceHash 上的算力，對 ETC 區塊鏈進行了深度重組 (Reorg)，實現了雙花攻擊，損失數百萬美元。這一系列事件暴露了 ETC 在當時算力低下的致命弱點，一度讓交易所考慮下架 ETC 4。
+
+為了拯救網絡，開發者引入了 **MESS (Modified Exponential Subjective Scoring)** 機制，即 ECIP-1100 提案。
+
+- **MESS 的原理**：這是一種防禦性機制，它人為地增加了攻擊者重組區塊鏈的成本。簡單來說，MESS 讓節點對於「新出現的長鏈」保持懷疑態度。如果攻擊者試圖發布一條秘密挖掘的長鏈來覆蓋現有鏈，MESS 會要求這條新鏈具有極高的難度權重（呈指數級增長），否則節點將拒絕接受。這實際上打破了 PoW 「最長鏈即正義」的客觀原則，引入了「主觀性」來換取安全 6。
+
+然而，MESS 始終是一個權宜之計。它違背了 ETC 純粹 PoW 的信仰。隨著以太坊在 2022 年完成合併 (The Merge) 轉向 PoS，原本在 ETH 上的巨量算力無處可去，大量湧入 ETC。這使得 ETC 的全網算力在 2024-2025 年間飆升至 300 TH/s 以上，構建了物理層面上極難攻破的算力城牆 3。
+
+**MESS 的終結 (Spiral 升級)：**
+鑑於算力的回歸與網絡安全性的提升，ETC 社群在 2024 年 1 月 31 日激活的 Spiral 硬分叉 (區塊高度 19,250,000) 中，正式移除了 MESS 機制。這標誌著 ETC 重新回歸了最純粹的中本聰共識，消除了任何中心化或主觀干預的機制，宣告了網絡進入了依靠真實算力捍衛安全的成熟期 9。
+
+### **3.2 Spiral 升級：EVM 的全面對齊**
+
+Spiral 升級不僅僅是移除了 MESS，更重要的是它實現了與以太坊主網「上海升級」的技術對齊。
+
+- **EVM 兼容性**：引入了 PUSH0 (EIP-3855) 等關鍵指令，並限制了 initcode 大小 (EIP-3860)。這些技術細節對於一般投資者可能晦澀，但其商業意義巨大：這意味著開發者在以太坊上編寫的智能合約，可以**零修改**地部署在 ETC 上。這消除了開發者遷移至 ETC 的技術摩擦成本，為理論上的生態繁榮奠定了基礎 12。
+- **與 ETH 的差異**：值得注意的是，Spiral 升級雖然兼容了 EVM，但明確拒絕了 ETH 中與 PoS 相關的升級（如 EIP-4895 信標鏈提款），保持了 ETC 作為 PoW 鏈的獨立性 11。
+
+---
+
+## 第四章：治理困境與 Olympia 的革命 (2025-2026)
+
+如果在 2024 年之前，ETC 的主題是「生存」，那麼 2025 年至 2026 年的主題就是「造血」。長期以來，ETC 的開發依賴於 ETC Cooperative 等組織的捐贈，這種模式在面對擁有巨額國庫的競爭對手（如 Arbitrum, Optimism, Solana）時顯得難以為繼。
+
+**Olympia 升級** 是 ETC 歷史上最具野心也最具爭議的提案，預計於 2026 年底在主網全面激活，這將徹底改變 ETC 的經濟模型與治理結構 14。
+
+### **4.1 Olympia 核心提案解析 (ECIP-1111 至 ECIP-1114)**
+
+Olympia 是一組相互關聯的提案，旨在為 ETC 引入一個協議級的資金庫 (Treasury) 和去中心化治理 (DAO)。
+
+1. **ECIP-1111 (協議級資金重定向)**：
+   這是整個升級的核心。它引入了類似以太坊 EIP-1559 的手續費機制，但有一個關鍵區別：**不銷毀 (Burn)**。
+   - 在 ETH 中，EIP-1559 將 Base Fee 銷毀以實現通縮。
+   - 在 ETC 的 Olympia 提案中，Base Fee 將被**重定向**到一個協議內的資金庫智能合約。
+   - **意義**：這意味著 ETC 拒絕了通過銷毀代幣來人為製造稀缺性（這被視為一種取悅持有者的金融工程），而是選擇將這部分價值轉化為生態發展的燃料。這是一次從「通縮取悅」到「實用主義」的轉向 15。
+
+2. **ECIP-1112 (資金庫合約)**：
+   這是一個被寫死在共識層的智能合約，用於接收 ECIP-1111 重定向的資金。它的設計極度保守：在治理模塊激活前，資金只能進不能出，確保了資金的絕對安全，防止在治理機制成熟前被濫用 15。
+
+3. **ECIP-1113 (DAO 治理框架)**：
+   這是 ETC 治理模式的範式轉移。提案建議建立一個基於鏈上投票的 DAO，讓 ETC 持有者直接決定資金庫的使用。
+   - **爭議點**：ETC 一直以「無治理」自居，認為治理即政治，政治即中心化。引入 DAO 是否會引入賄選、大戶壟斷等政治問題，是社群爭論的焦點。但支持者認為，沒有資金的去中心化只是貧窮的去中心化，DAO 是必要的惡 17。
+
+4. **ECIP-1114 (資金提案流程 ECFP)**：
+   為了避免資金庫成為大戶的提款機，ECIP-1114 規範了嚴格的提案、審核與撥款流程，試圖將「代碼即律法」的精神延伸至資金管理中 18。
+
+**深度洞察**：Olympia 升級反映了 ETC 社群的焦慮。在 Layer 2 和高性能公鏈的夾擊下，單純依靠「情懷」和「原理」已無法吸引開發者。ETC 正在嘗試走一條 Zcash 或 Dash 曾走過的路——**協議級抽稅 (Protocol-level Taxation)**，用全網的交易手續費來供養開發者。這是一場豪賭：賭的是資金注入帶來的生態增長，能超過因偏離「原教旨主義」而流失的信仰者。
+
+---
+
+## 第五章：貨幣政策：數位黃金的數學實踐
+
+ETC 的核心價值主張之一是「可編程的數位黃金」。其貨幣政策 ECIP-1017 確立了極度剛性的發行規則，這與以太坊「最小必要發行量 (Minimum Viable Issuance)」的靈活政策形成鮮明對比。
+
+### **5.1 5M20 模型：比比特幣更平滑的減產**
+
+ETC 採用了被稱為「5M20」的減產機制。
+
+- **規則**：每隔 500 萬個區塊（約 2.3 - 2.5 年），區塊獎勵減少 20%。
+- **當前狀態 (2026 年初)**：ETC 剛剛經歷了 2024 年 6 月的「Fifthening」，當前區塊獎勵為 2.048 ETC。
+- **未來展望**：下一次減產預計將在 2026 年底至 2027 年初發生，屆時區塊獎勵將降至 1.6384 ETC 19。
+
+### **5.2 與 BTC 和 ETH 的對比**
+
+| 特徵        | 比特幣 (BTC)         | 以太坊 (ETH)      | 以太坊經典 (ETC)               |
+| :-------- | :---------------- | :------------- | :------------------------ |
+| **發行上限**  | 2100 萬            | 無硬頂 (動態平衡)     | 約 2.1 億 (漸近極限)            |
+| **減產機制**  | 每 4 年減半 (Halving) | 無固定減產，依賴銷毀     | 每 2.5 年減 20% (Fifthening) |
+| **通膨預期**  | 遞減                | 可能通縮 (若 Gas 高) | 嚴格遞減，預計 2032 年低於 BTC      |
+| **政策穩定性** | 極高                | 可由社群共識修改       | 極高 (Code is Law)          |
+
+**投資啟示**：ETC 的 5M20 模型賦予了其極強的**抗通膨屬性**。對於擔心 ETH 貨幣政策可能因人為治理而改變（如為了調節質押收益率而增發）的投資者，ETC 提供了一種確定性。這種確定性在宏觀經濟動盪或法幣貶值時期，可能轉化為溢價。
+
+---
+
+## 第六章：礦工經濟學：台灣視角的營運實戰
+
+對於台灣的加密貨幣參與者來說，除了買幣，挖礦曾是主要的參與方式。然而，2025-2026 年的能源政策與硬體迭代，徹底改變了台灣礦工的生存邏輯。
+
+### **6.1 台灣電力環境的劇變**
+
+台灣經濟部電價費率審議會於 2025 年 9 月決議，自同年 10 月起調漲電價。
+
+- **住宅用電**：平均調漲 3.12%。對於許多在家中運行少量礦機的「家庭礦工」，這是一個打擊。特別是累進費率制下，超過 1000 度的用電大戶，每度電額外增加 0.4 元新台幣。
+- **工業用電**：雖然此次決議暫時凍結了工業電價（約 4.27 元/度），但在過去幾年中，台灣工業電價已連續多次上調，失去了曾經作為「低電價地區」的優勢。
+- **季節性因素**：台灣的夏季電價（6月-9月）顯著高於非夏季，這使得高功耗礦機在夏季的運維成本激增，甚至面臨強制關機的風險 21。
+
+### **6.2 硬體收益分析：ASIC 的統治**
+
+隨著 ETH 轉 PoS，GPU 挖礦在 ETC 上已全面潰敗。2026 年的 ETC 挖礦完全是 ASIC 的戰場。
+
+**主要礦機收益與成本估算 (以 2026 年 1 月數據為基準)：**
+
+| 礦機型號                | 算力 (Hashrate) | 功耗 (Power) | 能效比 (J/MH) | 台灣每日電費估算 (非夏月) | 台灣每日電費估算 (夏月) | 獲利能力分析                              |
+| :------------------ | :------------ | :--------- | :--------- | :------------- | :------------ | :---------------------------------- |
+| **Antminer E9 Pro** | 3,680 MH/s    | 2,200 W    | 0.6        | \~220 TWD      | \~280 TWD     | **高風險**。僅在幣價高於 $30 時有微利，夏季極易虧損。     |
+| **Jasminer X16-Q**  | 1,950 MH/s    | 620 W      | 0.32       | \~65 TWD       | \~80 TWD      | **中等**。憑藉極致的靜音與低功耗，適合家庭環境，抗電價波動能力強。 |
+| **NVIDIA RTX 4090** | \~130 MH/s    | \~250 W    | 1.9        | \~25 TWD       | \~30 TWD      | **嚴重虧損**。電費遠高於產出，僅具備取暖價值。           |
+
+*(註：電費以台灣住宅累進高段費率約 5.0-6.0 TWD/kWh 估算，實際數據視用戶具體費率而定)*
+
+**給台灣礦工的建議**：
+
+1. **放棄 GPU**：除非您是在進行投機性的山寨幣雙挖 (Dual Mining)，否則不要用顯卡挖 ETC。
+2. **擁抱高能效 ASIC**：在台灣的高電價下，**能效比 (Efficiency)** 遠比算力總量重要。Jasminer X16-Q 這類低功耗靜音機型，雖然單機產出較低，但其生存週期遠長於高功耗的 E9 Pro。
+3. **避開夏季尖峰**：考慮在 6-9 月期間停機維護，或僅在夜間離峰時段運行（需配合時間電價）。
+
+---
+
+## 第七章：生態現狀：荒蕪的智能合約大陸
+
+如果說 ETC 的礦圈是熱火朝天的軍備競賽，那麼其鏈上生態則像是一座靜謐的鬼城。這是投資者必須正視的「基本面黑洞」。
+
+### **7.1 數據裡的荒涼**
+
+根據 DefiLlama 和 DappRadar 的數據，2025-2026 年 ETC 的生態數據令人擔憂：
+
+- **總鎖倉量 (TVL)**：ETC 全網 TVL 僅徘徊在數十萬至數百萬美元之間。相比之下，以太坊 TVL 高達數百億美元，甚至連新興的 Layer 2 如 Base, Optimism 也有數十億美元的規模。這種數量級的差異，說明資金並不信任或不願意留在 ETC 鏈上 2。
+- **活躍 DApps**：在 DappRadar 的榜單上，ETC 鏈上幾乎沒有任何應用進入主流視野。少數存在的 DEX（如 HebeSwap, ETCWash）流動性枯竭，交易滑點巨大。
+- **穩定幣缺失**：這是最致命的。Tether (USDT) 和 Circle (USDC) 等主流穩定幣發行商，至今未在 ETC 上正式發行原生代幣。鏈上的穩定幣多為跨鏈橋映射資產 (Wrapped Assets)，存在巨大的跨鏈橋安全風險。
+
+### **7.2 為何開發者不來？**
+
+儘管 Spiral 升級解決了兼容性，開發者依然缺席，原因在於：
+
+1. **Layer 2 的吸血**：Arbitrum 和 Optimism 提供了與以太坊主網相同的安全性（由 ETH 保障），但速度更快、費用更低。對於開發者和用戶來說，L2 是「更好的以太坊」，而 ETC 只是「舊的以太坊」。
+2. **用戶習慣的固化**：絕大多數 DeFi 用戶已經習慣了 MetaMask 切換各條 L2，ETC 需要單獨設置 RPC 且等待較長的 PoW 確認時間，用戶體驗落後。
+3. **缺乏激勵**：在 Olympia 資金庫運作前，ETC 沒有 Grant（贈款）計劃。開發者去 Base 可以拿 Base 基金會的錢，去 ETC 只能「為愛發電」。
+
+**洞察**：ETC 目前的生態狀態，證明了在區塊鏈世界中，**技術兼容性只是入場券，而非決勝點**。沒有資本的注入和用戶的激勵，代碼再純粹也無法生長出繁榮的應用。
+
+---
+
+## 第八章：市場分析：末日戰車與機構的避風港
+
+儘管生態基本面薄弱，ETC 在二級市場上卻展現出頑強的生命力，其價格行為具有獨特的模式。
+
+### **8.1 「末日戰車」效應解密**
+
+在加密貨幣交易圈，ETC 有一個響亮且略帶戲謔的綽號——「末日戰車」。
+
+- **現象**：在一個典型的牛市週期中，資金往往先拉抬 BTC，接著輪動至 ETH，然後是主流公鏈 (Solana, AVAX)，最後當市場情緒極度亢奮、資金無處可去時，會湧向 ETC、BCH 等老牌分叉幣。ETC 的暴漲往往標誌著一輪行情的**尾聲**，隨後市場大盤會迎來劇烈回調或崩盤 1。
+- **心理學機制**：這反映了市場的「恐高」與「補漲」心理。當 ETH 價格過高時，新入場的散戶（尤其是台灣的小資族）會尋找「便宜的以太坊」。ETC 擁有 Ethereum 的品牌字樣，且單價低廉，成為了完美的投機替代品。
+
+### **8.2 灰度信託 (ETCG) 的套利機會**
+
+對於機構投資者而言，灰度以太坊經典信託 (ETCG) 是重要的曝險工具。
+
+- **折溢價波動**：ETCG 的二級市場價格往往與其持有的 ETC 淨值 (NAV) 存在偏差。在 2024-2025 年間，ETCG 曾出現過深度的**折價**（Discount，即股價低於每股含幣價值）。
+- **策略**：這為長期投資者提供了套利空間。在折價率超過 30% 甚至 50% 時買入 ETCG，相當於以五折、七折的價格買入 ETC。雖然無法直接贖回，但一旦市場情緒好轉或信託轉型為 ETF，折價收斂將帶來超越幣價漲幅的收益 30。
+
+### **8.3 相關性分析：波動的放大器**
+
+數據顯示，ETC 與 BTC 的價格相關性極高，但其波動率 (Beta 值) 遠大於 1。這意味著：
+
+- **牛市中**：BTC 漲 1%，ETC 可能漲 3%-5%。
+- **熊市中**：BTC 跌 1%，ETC 可能跌 5%-8%。
+
+對於風險偏好高的台灣投資者，ETC 是一個高彈性的波段工具，但不適合作為穩健的長期儲值資產 32。
+
+---
+
+## 第九章：監管與未來：唯一的 PoW 智能合約商品
+
+在 2026 年的監管環境下，ETC 最大的價值可能來自於美國 SEC 的監管分類。
+
+### **9.1 商品 vs 證券：ETC 的護身符**
+
+自從以太坊轉向 PoS 後，SEC 主席 Gary Gensler 多次暗示 PoS 代幣可能符合「豪威測試 (Howey Test)」中的證券定義（投資者期待他人的努力、質押產生收益）。
+
+- **ETC 的定位**：作為純粹的 PoW 鏈，沒有預挖 (Pre-mine)，沒有 ICO（其代幣分發繼承自 ETH 創世區塊），且沒有中心化的運營實體，ETC 被美國商品期貨交易委員會 (CFTC) 歸類為**商品 (Commodity)** 的概率極高。
+- **戰略價值**：一旦 ETH 被認定為證券而受到打壓，或者機構資金尋求「絕對合規」的智能合約平台配置，ETC 將成為市場上唯一的選擇。這是 ETC 在 2026 年最大的潛在利好 33。
+
+### **9.2 2026-2030 路線圖展望**
+
+隨著 Spiral 的落地和 Olympia 的推進，ETC 的未來幾年將聚焦於：
+
+1. **Olympia 資金庫的激活**：這將決定 ETC 能否建立起自我造血的開發者生態。
+2. **與比特幣的融合**：探索作為比特幣的 Layer 2 或側鏈的可能性，利用其 EVM 能力為比特幣生態服務。
+3. **算力安全**：繼續吸納從其他 PoW 鏈溢出的算力，鞏固其作為「算力黑洞」的地位。
+
+---
+
+## 第十章：結論與投資建議
+
+以太坊經典 (ETC) 是一個矛盾的綜合體。它擁有最古老的靈魂，卻試圖通過最新的 Olympia 升級來重塑肉身；它擁有最強的 PoW 算力保護，卻守護著一座沒有居民的空城。
+
+對於台灣的一般理財大眾，我們的結論如下：
+
+1. **投資定位**：ETC 不應被視為 ETH 的競爭對手，而應被視為**「帶有智能合約功能的比特幣」**或是**「針對以太坊系統性風險的對沖保單」**。如果有一天 ETH 因為中心化或監管問題倒下，ETC 是唯一的繼承者。
+2. **交易策略**：
+   - **不要長持**：除非你是極致的去中心化信仰者，否則不要將 ETC 作為資產配置的核心（Core Holding）。
+   - **關注週期**：利用「末日戰車」效應。當市場狂熱、人人都在談論比特幣新高時，關注 ETC 的補漲機會，並將其視為離場信號。
+   - **關注折價**：對於有美股帳戶的投資者，ETCG 的深度折價提供了比直接買幣更具安全邊際的入場機會。
+3. **挖礦建議**：鑑於台灣電價政策，家庭用戶應避免高功耗挖礦。若有興趣參與，請選擇高能效的靜音機種 (如 Jasminer)，並將其視為一種支持網絡的愛好，而非暴利手段。
+4. **風險提示**：Olympia 升級雖然美好，但引入 DAO 治理可能引發新的社區分裂。需密切關注 2026 年底升級前後的社區動態。
+
+## ETC 的故事告訴我們，在區塊鏈的世界裡，活著本身就是一種勝利。只要代碼還在運行，只要還有礦工在哈希，經典就永遠不會消逝。
+
+*(本報告基於截止至 2026 年 1 月的可用數據與市場預測，加密貨幣投資具有極高波動性與風險，讀者應自行評估財務狀況後決策。)*
+
+#### **引用的著作**
+
+1. Some personal opinions on how to judge whether etc has launched the doomsday chariot | 的的 on Binance Square, 檢索日期：1月 3, 2026， <https://www.binance.com/en/square/post/4607351839018>
+2. Ethereum Classic (ETC) Price Prediction For 2026 & Beyond - CoinMarketCap, 檢索日期：1月 3, 2026， <https://coinmarketcap.com/cmc-ai/ethereum-classic/price-prediction/>
+3. Ethereum Classic - Wikipedia, 檢索日期：1月 3, 2026， <https://en.wikipedia.org/wiki/Ethereum_Classic>
+4. Ethereum Classic was hit with another 51% attack — for the third time in a month | The Block, 檢索日期：1月 3, 2026， <https://www.theblock.co/linked/76431/ethereum-classic-etc-third-51-attack>
+5. Attacker Stole 807K ETC in Ethereum Classic 51% Attack - Bitquery, 檢索日期：1月 3, 2026， <https://bitquery.io/blog/attacker-stole-807k-etc-in-ethereum-classic-51-attack>
+6. MESS Client Upgrade - Ethereum Classic, 檢索日期：1月 3, 2026， <https://ethereumclassic.org/blog/2020-10-10-mess-client-upgrade/>
+7. ECIP 1100: MESS (Modified Exponential Subjective Scoring) - Ethereum Classic Improvement Proposals, 檢索日期：1月 3, 2026， <https://ecips.ethereumclassic.org/ECIPs/ecip-1100>
+8. Risk Evaluation of 51-Percent Attacks on Ethereum Classic, 檢索日期：1月 3, 2026， <https://meowsbits.github.io/51-percent-docs/>
+9. ECBP-1110: Deactivate MESS · ethereumclassic · Discussion #522 - GitHub, 檢索日期：1月 3, 2026， <https://github.com/orgs/ethereumclassic/discussions/522>
+10. Ethereum Classic's Roadmap, 檢索日期：1月 3, 2026， <https://ethereumclassic.org/blog/2024-01-30-ethereum-classics-roadmap/>
+11. Spiral Network Upgrade Block Announcement: Call to Update ..., 檢索日期：1月 3, 2026， <https://ethereumclassic.org/blog/2023-12-09-spiral-fork-announcement/>
+12. Latest Ethereum Classic (ETC) News Update - CoinMarketCap, 檢索日期：1月 3, 2026， <https://coinmarketcap.com/cmc-ai/ethereum-classic/latest-updates/>
+13. ANNOUNCEMENT: Upgrade Your Nodes for the Ethereum Classic Spiral Hard Fork on Block 19,250,000, 檢索日期：1月 3, 2026， <https://ethereumclassic.org/blog/2024-01-16-announcement-upgrade-your-nodes-for-the-ethereum-classic-spiral-upgrade-on-block-19250000/>
+14. Olympia Upgrade: ECIPs 1111–1114 Open for Community Review - Ethereum Classic, 檢索日期：1月 3, 2026， <https://ethereumclassic.org/blog/2025-07-04-olympia-upgrade-draft-review/>
+15. ECIP-1111 — Olympia EVM and Protocol Upgrades - Ethereum Classic Improvement Proposals, 檢索日期：1月 3, 2026， <https://ecips.ethereumclassic.org/ECIPs/ecip-1111>
+16. ECIP 1111–1115 Discussion: Olympia Upgrade – Decentralized Protocol Funding, Governance & Long-Term Miner Incentives #530 - GitHub, 檢索日期：1月 3, 2026， <https://github.com/orgs/ethereumclassic/discussions/530>
+17. ECIP 1113: Olympia DAO Governance Framework - Ethereum, 檢索日期：1月 3, 2026， <https://ecips.ethereumclassic.org/ECIPs/ecip-1113>
+18. The DeFi Stack Is Rising. How Olympia Positions Ethereum Classic, 檢索日期：1月 3, 2026， <https://ethereum-classic.medium.com/the-defi-stack-is-rising-db79bff0d91c>
+19. Ethereum Classic halving countdown - NiceHash, 檢索日期：1月 3, 2026， <https://www.nicehash.com/countdown/etc-halving-2026-09-15-12-00>
+20. 5M20 Era 4 Fifthening: ETC Nears Bitcoin inspired Block Reward Reduction, 檢索日期：1月 3, 2026， <https://ethereumclassic.org/blog/2022-03-23-etc-nears-bitcoin-inspired-block-reward-reduction/>
+21. Household electricity rates to rise 3.12% on average - Focus Taiwan, 檢索日期：1月 3, 2026， <https://focustaiwan.tw/business/202509190017>
+22. Taipower to raise electricity rates by average of 0.71% - Taipei Times, 檢索日期：1月 3, 2026， <https://www.taipeitimes.com/News/front/archives/2025/09/20/2003844112>
+23. Taiwan electricity prices, June 2025 | GlobalPetrolPrices.com, 檢索日期：1月 3, 2026， <https://www.globalpetrolprices.com/Taiwan/electricity_prices/>
+24. What is the profit of an Asic E9 PRO? current profitability, 檢索日期：1月 3, 2026， <https://www.rigsmineria.com/en/profit-asic-e9-pro-rentabilidad-actual/>
+25. Jasminer X16-Q - Profitability Calculator | NiceHash, 檢索日期：1月 3, 2026， <https://www.nicehash.com/profitability-calculator/jasminer-x16-q>
+26. How Much Crypto I Earned Mining with the Jasminer X16-Q for 101 Days! - YouTube, 檢索日期：1月 3, 2026， <https://www.youtube.com/watch?v=TIbQMCnqfzg>
+27. Ethereum Classic (ETC) Price Prediction for 2025: Short-Term Struggles, Long-Term Gains, 檢索日期：1月 3, 2026， <https://www.ccn.com/ethereum-classic-etc-price-prediction/>
+28. EthereumClassic - DefiLlama, 檢索日期：1月 3, 2026， <https://defillama.com/chain/ethereumclassic>
+29. Who is Tom Lee of Solana?, 檢索日期：1月 3, 2026， <https://news.futunn.com/en/post/60787239/who-is-tom-lee-of-solana>
+30. Grayscale Ethereum Classic Trust (ETC) (ETCG) - AAII, 檢索日期：1月 3, 2026， <https://www.aaii.com/etf/ticker/ETCG>
+31. Grayscale Ethereum Classic Trust, 檢索日期：1月 3, 2026， <https://www.grayscale.com/funds/grayscale-ethereum-classic-trust>
+32. Bitcoin and Ethereum Classic in Times of Crisis: A Volatility Analysis, 檢索日期：1月 3, 2026， <https://liu.diva-portal.org/smash/get/diva2:1980770/FULLTEXT02.pdf>
+33. CRYPTO CLASSIFICATION CONFUSION: A RECOMMENDATION TO NOT REGULATE ETHEREUM UNDER SECURITIES LAWS, 檢索日期：1月 3, 2026， <https://www.fsulawreview.com/wp-content/uploads/2024/06/Crypto-Classification-Confusion-Holleman-1.pdf>
+34. Ethereum Classic Is a Commodity, Ethereum Is a Security, 檢索日期：1月 3, 2026， <https://ethereumclassic.org/blog/2023-02-28-ethereum-classic-is-a-commodity-ethereum-is-a-security/>
+35. Ethereum Classic is a Commodity & Ethereum is a Security - Gate.com, 檢索日期：1月 3, 2026， <https://www.gate.com/learn/articles/ethereum-classic-is-a-commodity-ethereum-is-a-security/2294>

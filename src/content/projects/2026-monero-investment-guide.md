@@ -1,0 +1,288 @@
+---
+title: "數位現金的終極完全體：門羅幣 (Monero) 2026 深度研究與生存投資指南"
+description: "深入剖析門羅幣 (XMR) 的強制隱私技術、對抗鏈上分析的 Fluorine Fermi 升級，以及在交易所下架潮中利用原子交換生存的策略。"
+date: 2026-01-04
+author: wu-yan
+categories: ["深度研究", "門羅幣"]
+tags: ["Monero", "XMR", "Privacy", "Atomic Swaps", "Investment", "Research", "Anti-Surveillance"]
+complexity: 3
+---
+
+## 執行摘要：隱私資產的最後堡壘
+
+在加密貨幣發展的歷史長河中， 2026 年註定將被視為一個分水嶺。隨著全球金融監管機構對「旅行規則」(Travel Rule) 的全面實施，以及歐盟 MiCA 法案與美國財政部針對非託管錢包的監管收緊，絕大多數加密貨幣已實質上被納入傳統金融監控體系。比特幣，這位曾經的去中心化先驅，如今因其公開透明的帳本特性，已演變為世界上最易於追蹤的資產之一。在此背景下，門羅幣 (Monero, XMR) 作為唯一倖存且未被技術攻破的隱私幣王者，其價值主張發生了根本性的轉變：它不再僅僅是投資組合中的一個選項，而是「數位現金」這一概念的唯一完全體。
+
+本報告專為台灣理財大眾與加密貨幣投資者撰寫，旨在提供一份詳盡的生存與投資指南。我們將深入剖析門羅幣「預設隱私」(Privacy by Default) 的技術護城河，揭示其如何抵禦 Chainalysis 等鏈上分析巨頭的圍剿；探討在 Binance、Kraken 等合規交易所全面下架後，門羅幣如何依賴原子交換 (Atomic Swaps) 與去中心化流動性網絡構建獨立的經濟循環；並結合台灣金管會 (FSC) 的最新法規與執法動態，為台灣投資者提供合規且安全的資產配置策略。研究表明，儘管流動性入口變窄，但憑藉剛性的黑市需求、抗審查的挖礦算法以及不可替代的電子現金屬性，門羅幣在 2026 年後的地下經濟與隱私保護領域，將展現出前所未有的生存韌性。
+
+---
+
+## 第一章：透明帳本的悖論與數位現金的必要性
+
+### **1.1 比特幣的「原罪」：透明性帶來的監控危機**
+
+自 2009 年比特幣誕生以來，其「公開帳本」特性被視為去中心化信任的基石。然而，隨著區塊鏈分析技術的飛速發展，這種透明性已演變為隱私災難。比特幣區塊鏈上的每一筆交易、每一個地址餘額、每一條資金路徑，對於擁有高階分析工具的政府機構、數據公司乃至惡意駭客而言，皆是一覽無遺的 1。  
+這種透明性導致了一個嚴重的經濟學後果：**可互換性 (Fungibility) 的喪失**。在傳統貨幣理論中，貨幣必須是同質化的，即一張新台幣 1000 元鈔票的價值與購買力，應等同於另一張 1000 元鈔票，無論其是否曾流經非法賭場。然而，比特幣網絡中出現了「髒幣」(Dirty Coin) 的概念。當某些比特幣被標記為涉嫌駭客攻擊、勒索軟體或暗網交易時，這些代幣會被合規交易所 (CEX) 拒收、凍結甚至沒收 2。這實際上將比特幣分裂為「乾淨幣」與「髒幣」兩種資產，嚴重損害了其作為貨幣的流通功能 3。
+
+### **1.2 門羅幣的核心哲學：預設隱私**
+
+門羅幣 (Monero, XMR) 誕生於 2014 年 4 月，其設計初衷即是為了解決比特幣的上述缺陷。與 Zcash 或 Dash 等提供「可選隱私」的競品不同，門羅幣強制執行**「預設隱私」(Privacy by Default)**。這意味著在門羅幣網絡上，沒有「透明交易」的選項，所有用戶的隱私保護是強制且自動的 4。  
+這種設計哲學構建了門羅幣最強大的護城河：
+
+1. **完全的可互換性**：由於無法追溯歷史，沒有任何一枚 XMR 可以被標記為「髒幣」。商家或交易所無法因為資金的過去歷史而拒絕接收，這使得 XMR 成為數位世界中唯一真正具備現金屬性的資產 3。
+2. **群體免疫效應**：在 Zcash 等可選隱私幣中，絕大多數用戶選擇透明交易，導致少數使用隱私功能的用戶反而變得顯眼（「只有罪犯才藏藏掖掖」）。而在門羅幣中，所有交易外觀一致，沒有人會因為使用隱私功能而被特別標記，這正如混跡於擁擠市集中的行人在數學上無法被單獨識別 5。
+
+### **1.3 主流加密貨幣隱私特性對比**
+
+| 特性 | 比特幣 (BTC) | 以太坊 (ETH) | Zcash (ZEC) | 門羅幣 (XMR) |
+| :--- | :--- | :--- | :--- | :--- |
+| **預設隱私** | 無 (完全透明) | 無 (完全透明) | 否 (可選，多數透明) | **是 (強制)** |
+| **可互換性** | 低 (存在髒幣風險) | 低 (Tornado Cash 被制裁) | 中 (受限於透明池) | **極高 (完全同質)** |
+| **發送者隱藏** | 否 | 否 | 是 (僅限屏蔽交易) | **是 (環狀簽章)** |
+| **接收者隱藏** | 否 | 否 | 是 (僅限屏蔽交易) | **是 (隱形地址)** |
+| **金額隱藏** | 否 | 否 | 是 (僅限屏蔽交易) | **是 (RingCT)** |
+| **監管友好度** | 高 | 高 | 中 (提供查看金鑰) | **低 (監管公敵)** |
+| **主要用途** | 數位黃金/儲值 | 智能合約/DeFi | 合規隱私轉帳 | **匿名現金/抗審查支付** |
+
+---
+
+## 第二章：技術護城河——三位一體的密碼學架構
+
+門羅幣之所以能在全球監管圍堵與頂尖鏈上分析公司的攻擊下屹立不倒，歸功於其持續演進的「三位一體」密碼學架構。這一架構分別針對交易的三個核心要素——發送者、接收者與金額——進行了徹底的數學混淆。
+
+### **2.1 環狀簽章 (Ring Signatures)：隱藏發送者**
+
+環狀簽章是門羅幣混淆資金來源的核心技術。當用戶發起一筆交易時，協議會自動從區塊鏈的歷史數據中隨機抓取多個過去的交易輸出 (Outputs) 作為「誘餌」(Decoys)，並將真實的發送者與這些誘餌混合在一起進行數位簽章 5。
+
+- **運作機制**：對於外部觀察者而言，這筆交易看起來像是由一群人（一個「環」）中的某一個發起的，所有的環成員在密碼學驗證上都是等效的，無法指認具體是誰簽署了交易。
+- **技術演進**：門羅幣經歷了多次硬分叉升級以增加環的大小 (Ring Size)。從早期的較小環到現在的固定 16 個成員（1 個真實 + 15 個誘餌），破解難度呈指數級上升。這就像目擊者看到一群人走出銀行，卻無法確定是誰拿走了現金 6。
+- **關鍵優勢**：不同於混幣器 (Mixer) 需要將資金交給第三方混合，環狀簽章是在本地錢包完成的，無需信任任何中介，且不會產生額外的等待時間。
+
+### **2.2 隱形地址 (Stealth Addresses)：隱藏接收者**
+
+即使發送者的身份被隱藏，如果接收者的地址是固定且公開的，外界依然可以通過長期觀察該地址的資金流入來推斷其身份。門羅幣通過「隱形地址」解決了這一問題 8。
+
+- **一次性目的地**：對於區塊鏈上的每一筆交易，發送者的錢包都會利用接收者的公鑰和隨機數據生成一個獨一無二的「一次性公開金鑰」(One-time Public Key)。資金實際上是發送到這個一次性地址上的。
+- **鏈上脫鉤**：這意味著，即使你在個人網站或社交媒體上公開了你的門羅幣捐贈地址，區塊鏈瀏覽器上也查不到任何與該地址關聯的交易記錄。所有的交易都流向了看似隨機且互不關聯的隱形地址 9。
+- **檢索機制**：只有持有私鑰（查看金鑰 View Key）的接收者，才能掃描區塊鏈上的所有交易，計算並識別出哪些一次性地址屬於自己，進而動用資金。這將監控者的工作從簡單的「查表」變成了不可能完成的密碼學破解 5。
+
+### **2.3 環狀機密交易 (RingCT)：隱藏金額**
+
+在 2017 年之前，門羅幣的交易金額是可見的，這曾是一個隱私漏洞。RingCT (Ring Confidential Transactions) 的引入補上了最後一塊拼圖 5。
+
+- **佩德森承諾 (Pedersen Commitments)**：RingCT 使用這種密碼學原語對交易金額進行加密。網絡節點可以在不知道具體金額的情況下，通過數學公式驗證「輸入總額等於輸出總額」（即沒有憑空創造貨幣），並且所有金額均為正數（範圍證明 Range Proofs）。
+- **全面致盲**：結合前兩項技術，RingCT 確保了交易的三要素（誰發、誰收、多少錢）對外界完全不可見。這使得外部觀察者甚至無法知道一筆交易是大額轉帳還是微額支付，進一步增加了流量分析的難度 7。
+
+---
+
+## 第三章：2026 年全球大清洗——監管圍堵與交易所下架
+
+隨著 2024 年至 2026 年全球加密貨幣監管框架的收緊，門羅幣面臨了前所未有的流動性挑戰。這一章將詳述這場「大清洗」的背景、過程及其對市場結構的深遠影響。
+
+### **3.1 交易所下架潮的時間線與邏輯**
+
+FATF 的「旅行規則」要求虛擬資產服務提供商 (VASP) 在處理交易時，必須收集並傳輸發送方與接收方的身份信息。由於門羅幣的隱形地址技術使得交易所無法識別鏈上的接收方，這與合規要求存在根本性衝突 2。
+
+- **Kraken 的撤退**：作為曾經最支持隱私理念的美國交易所，Kraken 在歐洲監管壓力下，於 2024 年 6 月在愛爾蘭和比利時下架 XMR，並於隨後兩年內逐步在多數合規市場停止 XMR 交易。這標誌著機構通道的關閉 11。
+- **Binance 與 OKX 的清退**：全球最大的交易所 Binance 與 OKX 於 2024 年至 2025 年間，以「合規風險」為由，陸續移除了 XMR 的所有現貨與合約交易對。這導致門羅幣失去了最大的流動性池與價格發現場所 13。
+- **台灣市場的寒冬**：台灣金管會對 VASP 的監管極為嚴格，要求所有上架幣種必須符合洗錢防制規範。因此，台灣本土交易所如 MAX、BitoPro 早已不支持 XMR，且嚴格禁止來自混幣器或隱私幣的資金流入，一旦偵測到關聯，用戶帳戶將面臨凍結 14。
+
+### **3.2 「蜜罐理論」的破產與監管的無奈**
+
+在加密社群中曾流行一種「蜜罐理論」(Honeypot Theory)，認為如果情報機構（如 NSA 或 CIA）已經破解了門羅幣，他們會施壓交易所保留 XMR 上架，以便作為蜜罐收集用戶數據。然而，2024-2026 年的全面下架行動恰恰證明了**現有的技術手段無法有效追蹤門羅幣** 12。  
+監管機構無法透過技術手段「看穿」門羅幣的隱私層，因此只能採取「焦土政策」，試圖通過切斷其與法幣世界的連接來扼殺其流動性。這種行為反向認證了 XMR 的安全性——它是如此難以追蹤，以至於監管者只能選擇「隔離」而非「監控」。
+
+### **3.3 隱私幣賽道的格局演變：XMR 的獨霸**
+
+在監管大棒下，隱私幣市場發生了劇烈分化：
+
+- **Zcash (ZEC)**：選擇了妥協路線，推廣「合規隱私」，重點發展可供審計的查看金鑰與透明池交易，試圖融入合規體系，但這也使其失去了追求絕對隱私的核心用戶群 16。
+- **Dash**：為了避免被下架，Dash 團隊宣稱其「隱私功能與比特幣混幣無異」，試圖剝離隱私標籤 18。
+- **Monero (XMR)**：堅持不妥協。XMR 社群與開發者拒絕為了合規而犧牲隱私，甚至通過硬分叉升級對抗監控。這種態度使其成為了真正的「密碼龐克」(Cypherpunk) 遺產繼承者，壟斷了暗網、黑市以及極致隱私主義者的剛性需求 19。
+
+---
+
+## 第四章：隱私與監控的戰爭——鏈上分析的極限與反擊**
+
+儘管門羅幣在密碼學上堅不可摧，但以 Chainalysis 為首的鏈上分析公司並未放棄。近年的攻防戰從區塊鏈層面轉移到了**網絡層 (Network Layer)**。
+
+### **4.1 Chainalysis 的攻擊手法：IP 關聯與女巫攻擊**
+
+根據 2024-2025 年洩露的 Chainalysis 內部資料顯示，該公司雖然無法破解環狀簽章，但能通過運行大量的「間諜節點」(Spy Nodes) 來獲取部分交易資訊 21。
+
+- **攻擊原理**：當用戶發起交易時，錢包需要將交易廣播到網絡中。如果用戶不幸連接到了 Chainalysis 控制的間諜節點，該節點可以記錄下交易廣播的瞬間與來源 IP 地址。如果該 IP 地址此前曾在交易所進行過 KYC 認證，分析公司就能將這個 IP 與特定身份關聯起來 22。
+- **局限性**：這種攻擊只能獲取 IP 地址與交易時間的關聯，依然無法得知交易的接收方與金額，且對於使用 Tor 或 I2P 的用戶完全無效 23。
+
+### **4.2 門羅幣的反擊：Fluorine Fermi 升級**
+
+為了應對這種網絡層面的攻擊，門羅幣社群在 2025 年推出了代號為 **"Fluorine Fermi" (v0.18.4.3)** 的重大升級，專門針對間諜節點進行防禦 24。
+
+- **智能節點選擇**：升級後的錢包優化了節點選擇算法。它會自動檢測並避免連接到位於同一 IP 子網 (Subnet) 或同一雲服務商的大量節點。由於間諜節點通常為了節省成本而批量部署在 AWS 或 Azure 的同一網段下，這一機制直接瓦解了監控公司的低成本部署策略 26。
+- **增強的 Dandelion++ 協議**：優化了交易廣播的路由路徑。交易在廣播給全網之前，會先在隨機選擇的節點路徑中進行私密跳轉 (Stem Phase)，直到遠離發起節點後才擴散 (Fluff Phase)。這使得監控節點即使捕獲到交易，也無法判斷它是源自當前連接的節點還是僅僅是轉發而來的 23。
+
+### **4.3 終極防禦：Tor 與 I2P 的必要性**
+
+報告強烈建議台灣投資者，在操作門羅幣時務必配合 **Tor (洋蔥網絡)** 或 **I2P** 使用。
+
+- **實務操作**：目前的官方 GUI 錢包、Cake Wallet 以及 Feather Wallet 都已內置 Tor 開關。開啟後，所有的網絡流量都會經過多層加密與跳轉，徹底隱藏真實 IP 地址。這使得針對網絡層的 IP 關聯攻擊在物理上失效 28。
+
+---
+
+## 第五章：生存之道——原子交換與去中心化流動性
+
+在 CEX 全面退場的 2026 年，門羅幣的流動性並未枯竭，而是轉移到了更為隱密且抗審查的基礎設施上。**原子交換 (Atomic Swaps)** 與 **去中心化交易所 (DEX)** 是 XMR 生態系統在後合規時代的生存引擎。
+
+### **5.1 原子交換：無須信任的跨鏈橋樑**
+
+原子交換技術允許用戶在比特幣 (BTC) 和門羅幣 (XMR) 之間進行點對點的直接兌換，且過程中無需任何第三方中介、無需 KYC，資金也無需託管在交易所 30。
+
+- **技術原理 (HTLC)**：
+  1. **鎖定**：買方在比特幣區塊鏈上鎖定 BTC，設定一個哈希密碼 (Hash Lock) 和時間鎖 (Time Lock)。
+  2. **驗證**：賣方在門羅幣鏈上確認 BTC 已鎖定後，鎖定等值的 XMR，並使用相同的哈希鎖。
+  3. **互換**：買方使用密碼原像 (Preimage) 解鎖 XMR，這個動作會同時在鏈上揭露密碼，賣方隨即使用該密碼解鎖 BTC。
+  4. **原子性**：交易要麼全部成功（雙方互換），要麼全部失敗（超時退款），不存在一方拿錢跑路的風險 32。
+
+### **5.2 核心工具評測：2026 年的主流選擇**
+
+隨著技術的成熟，原子交換已從早期的命令行工具演變為用戶友好的圖形化應用。
+
+#### **5.2.1 UnstoppableSwap / Eigenwallet**
+
+這是目前最成熟的 XMR<>BTC 原子交換工具之一。
+
+- **特點**：由早期的 UnstoppableSwap 演變為現在的 **Eigenwallet**，提供直觀的 GUI 界面。用戶可以作為 Maker（提供流動性賺取價差）或 Taker（快速換幣）。
+- **優勢**：速度快，專注於 BTC 與 XMR 的互換，代碼經過實戰檢驗 34。
+
+#### **5.2.2 BasicSwapDEX**
+
+由 Particl 團隊開發的隱私優先 DEX，是目前功能最強大的去中心化交易平台。
+
+- **架構**：完全去中心化的訂單簿，沒有中央伺服器。支持 XMR 與 BTC、LTC、DASH、FIRO 等多種資產的原子交換 36。
+- **隱私性**：訂單簿分佈在隱私網絡上，交易雙方通過 Tor 進行通信，極難被審查或關閉。
+
+#### **5.2.3 Haveno**
+
+基於著名的 Bisq 架構開發的門羅幣專用 DEX。
+
+- **定位**：解決「法幣入金」難題。Haveno 允許用戶使用銀行轉帳、郵局匯款或現金面交等方式購買 XMR。
+- **機制**：XMR 鎖定在多重簽名合約中，法幣在鏈下轉帳。一旦發生糾紛，去中心化的仲裁員將介入解決 39。
+
+---
+
+## 第六章：台灣投資者實戰指南——合規、避險與資產配置
+
+對於身處台灣的投資者而言，在金管會嚴格監管的環境下操作門羅幣，需要極高的風險意識與正確的操作路徑。
+
+### **6.1 台灣法規環境與風險警示**
+
+台灣金管會要求 VASP 業者落實「洗錢防制法」，這意味著：
+
+1. **交易所封鎖**：MAX、BitoPro 等本土合規交易所絕對不會上架 XMR，且會主動偵測並封鎖來自已知混幣器或高風險地址的資金 14。
+2. **現金交易陷阱**：2024-2025 年間，台灣檢警加大了對 OTC 幣商的打擊力度。投資者若通過社交媒體私下代買 XMR，極易捲入三方詐騙或收到贓款，導致銀行帳戶被列為「警示帳戶」凍結 41。
+
+### **6.2 建議的資產獲取與變現路徑 (2026 版)**
+
+#### **路徑 A：安全獲取 XMR (台幣 -> XMR)**
+
+這是最推薦的「乾淨」路徑，雖然步驟較多，但法律風險最低。
+
+1. **法幣入金**：在台灣合規交易所 (MAX/BitoPro) 使用台幣購買 **LTC (萊特幣)**。*提示：LTC 轉帳手續費低且速度快，優於 BTC* 14。
+2. **提幣至非託管錢包**：將 LTC 提現至自己的非託管錢包（如 Cake Wallet）。
+3. **去中心化交換**：使用 **Trocador.app** 或 **Cake Wallet** 內建的交換功能將 LTC 換成 XMR 43。
+4. **資產隔離**：獲得的 XMR 應存儲在官方 GUI 錢包中，並建議轉帳給自己的子地址以進一步斷開連結。
+
+#### **路徑 B：安全變現 XMR (XMR -> 台幣)**
+
+1. **原子交換**：使用 **UnstoppableSwap** 將 XMR 換回 **BTC**。
+2. **淨化緩衝**：將 BTC 轉入自己的中轉錢包，觀察一段時間，分批小額轉入台灣交易所。
+3. **交易所變現**：將 BTC 轉入 MAX/BitoPro，賣成台幣並提領到銀行。
+
+---
+
+## 第七章：2026 年市場需求——黑市、勒索軟體與避險
+
+門羅幣的生存不僅依賴技術，更依賴剛性的市場需求。
+
+### **7.1 勒索軟體與暗網經濟的「貨幣升級」**
+
+根據 2025 年的加密犯罪報告，門羅幣的使用佔比正在顯著上升 48。許多勒索軟體組織現在提供「折扣」給使用 XMR 支付的受害者，因為駭客若收取 BTC，後續洗錢風險與成本極高 50。
+
+### **7.2 數位極權下的避風港**
+
+隨著 CBDC (央行數位貨幣) 在全球推廣，門羅幣作為「數位現金」的合法需求也在增長。高淨值人士利用 XMR 切斷資產的歷史記錄，防止針對富人的定向綁架或駭客攻擊。當你在比特幣鏈上轉帳 100 顆 BTC 時，全世界都知道你有錢，而 XMR 則默默無聞。
+
+---
+
+## 第八章：結論——門羅幣的長期價值與投資哲學
+
+### **8.1 價格與價值的分離**
+
+投資者必須認識到，門羅幣的價格表現可能不會像迷因幣或熱門公鏈那樣瘋狂爆發。因為它缺乏機構資金的炒作（機構無法合規持有），且沒有「項目方」進行營銷拉盤。  
+然而，它的**基本面價值 (Fundamental Value)** 顯著高於絕大多數加密貨幣。它是區塊鏈世界中極少數被**實際使用 (Used)**、具有**剛性需求 (Need)** 且**無法被替代 (Irreplaceable)** 的資產。只要這世界上還有人需要進行不被審查的交易，門羅幣就有存在的價值。
+
+### **8.2 投資策略：防守型配置**
+
+建議將 XMR 視為投資組合中的**「末日保險」**或**「數位黃金的隱私層」**。
+
+- **配置比例**：建議佔加密資產總倉位的 5%-10%。
+- **心態**：持有門羅幣是對抗「監控資本主義」的一種表態。
+
+### **8.3 結語**
+
+交易所的下架並不是門羅幣的終結，而是它完成「完全體」進化的最後一步。它終於擺脫了投機的枷鎖，回歸了中本聰白皮書中那個最純粹的願景——**一種點對點的電子現金系統**。
+
+---
+
+**免責聲明**：本報告僅供教育與研究用途，不構成任何投資建議。加密貨幣投資具有極高風險，門羅幣因其特殊性質面臨更大的法律與流動性不確定性。投資者應自行評估風險並遵守當地法律法規。
+
+#### **引用的著作**
+
+1. Monero and Private Money: Why Privacy Coins Still Matter, 檢索日期：1月 3, 2026， <https://nordpasdecalais.centres-sociaux.fr/monero-and-private-money-why-privacy-coins-still-matter/>
+2. Why Fungibility Is Important in Understanding Money and Crypto - Mises Institute, 檢索日期：1月 3, 2026， <https://mises.org/mises-wire/why-fungibility-important-understanding-money-and-crypto>
+3. Fungibility | Moneropedia | Monero - secure, private, untraceable, 檢索日期：1月 3, 2026， <https://www.getmonero.org/resources/moneropedia/fungibility.html>
+4. Why is Monero (XMR) being compared to the “perfect Bitcoin”? - OAK Research, 檢索日期：1月 3, 2026， <https://oakresearch.io/en/analyses/investigations/why-is-monero-xmr-compared-to-perfect-bitcoin>
+5. Behind the Curtains: How Monero Hides You — Stealth Addresses, Ring Signatures, and Anonymous Transactions - Business Review at Berkeley, 檢索日期：1月 3, 2026， <https://businessreview.studentorg.berkeley.edu/behind-the-curtains-how-monero-hides-you-stealth-addresses-ring-signatures-and-anonymous-transactions/>
+6. Ring Signature | Moneropedia | Monero - secure, private, untraceable, 檢索日期：1月 3, 2026， <https://www.getmonero.org/resources/moneropedia/ringsignatures.html>
+7. How Ring Signatures Obscure Monero's Outputs - LocalMonero, 檢索日期：1月 3, 2026， <https://localmonero.co/knowledge/ring-signatures?language=en>
+8. What is Stealth Address technology and Why Does Monero Use It? - SerHack, 檢索日期：1月 3, 2026， <https://serhack.me/articles/white-is-stealth-address-technology-monero/>
+9. Ring Signatures, RingCT, and Stealth Addresses Explained with Resources - NoviceDock, 檢索日期：1月 3, 2026， <https://novicedock.com/learn/cryptocurrency/monero/ring-signatures-ringct-stealth-addresses>
+10. $XMR plunges 9% as Kraken announces it will delist Monero for European customers | 區塊客 on Binance Square, 檢索日期：1月 3, 2026， <https://www.binance.com/en/square/post/14363536102297>
+11. Notice of asset delisting in Ireland and Belgium for Monero (XMR) - Kraken support, 檢索日期：1月 3, 2026， <https://support.kraken.com/articles/notice-of-asset-delisting-in-ireland-and-belgium-for-monero-xmr>
+12. Monero (XMR) Delisted From This Major Exchange: Reasons | U.today on Binance Square, 檢索日期：1月 3, 2026， <https://www.binance.com/en/square/post/14338287512874>
+13. Binance Delists Monero: The End of Privacy Cryptos? | KADG, 檢索日期：1月 3, 2026， <https://www.binance.com/en-NG/square/post/26858077087114>
+14. MAX宣布下架台灣本土幣BCNT、LOOT，5/16停止交易、5/31關閉提領, 檢索日期：1月 3, 2026， <https://www.blocktempo.com/max-announced-the-delisting-bcnt-and-loot/>
+15. Enterprises or Persons Providing Virtual Asset Services, 檢索日期：1月 3, 2026， <https://www.sfb.gov.tw/en/home.jsp?id=286&parentpath=0,117>
+16. Top 3 Privacy Coins and How They Work - CoinGecko, 檢索日期：1月 3, 2026， <https://www.coingecko.com/learn/3-most-popular-privacy-coins-and-the-tech-behind-them>
+17. Zcash vs Monero: The Battle for Privacy Dominance in 2025 | by NOWNodes - Medium, 檢索日期：1月 3, 2026， <https://nownodes.medium.com/zcash-vs-monero-the-battle-for-privacy-dominance-in-2025-e4ee917246ad>
+18. Privacy Coins Comparison: Which One Is Right for Your Needs? - NOWPayments, 檢索日期：1月 3, 2026， <https://nowpayments.io/blog/privacy-coins-comparison-which-one-is-right-for-your-needs>
+19. ZCash vs Monero total on-chain transaction volume - Reddit, 檢索日期：1月 3, 2026， <https://www.reddit.com/r/Monero/comments/1ogdn5s/zcash_vs_monero_total_onchain_transaction_volume/>
+20. Debate on privacy models XMR vs. ZEC, 檢索日期：1月 3, 2026， <https://www.reddit.com/r/Monero/comments/1o9ri8w/debate_on_privacy_models_xmr_vs_zec/>
+21. How Chainalysis Helped the FBI Track Down and Freeze Millions in the Caesars Casino Ransomware Attack, 檢索日期：1月 3, 2026， <https://www.chainalysis.com/blog/chainalysis-fbi-caesars-ransomware-recovery/>
+22. How Monero Users Get Traced (RUN YOUR OWN NODE!) - YouTube, 檢索日期：1月 3, 2026， <https://www.youtube.com/watch?v=WkphgF6Hn4w>
+23. Monero: Why It May Fall Short as a Money Laundering Tool | by Nefture Security - Medium, 檢索日期：1月 3, 2026， <https://medium.com/coinmonks/monero-why-it-may-fall-short-as-a-money-laundering-tool-457e0fd79f94>
+24. Monero Unveils Flourine Fermi Update to Counter Spy Nodes - ForkLog, 檢索日期：1月 3, 2026， <https://forklog.com/en/monero-unveils-flourine-fermi-update-to-counter-spy-nodes/>
+25. Monero GUI 0.18.4.3 'Fluorine Fermi' released, 檢索日期：1月 3, 2026， <https://www.getmonero.org/2025/10/08/monero-GUI-0.18.4.3-released.html>
+26. Monero releases "Fluorine Fermi" update to combat malicious network nodes - RootData, 檢索日期：1月 3, 2026， <http://www.rootdata.com/news/389502>
+27. Monero's 'Fluorine Fermi' Update: What it Means for Crypto Startups - OneSafe Blog, 檢索日期：1月 3, 2026， <https://www.onesafe.io/blog/monero-fluorine-fermi-update-regulatory-compliance-crypto-startups>
+28. Who Accepts Monero Payments in 2025? Businesses Supporting XMR Transactions, 檢索日期：1月 3, 2026， <https://nowpayments.io/blog/businesses-that-accept-monero>
+29. Where to buy a VPN privately with Monero (XMR), 檢索日期：1月 3, 2026， <https://guides.monero.com/docs/tutorials/buy-vpn-privately-monero/>
+30. Bitcoin <-> Monero atomic swaps are now live, 檢索日期：1月 3, 2026， <https://www.getmonero.org/2021/08/20/atomic-swaps.html>
+31. Cross-Chain Atomic Swaps - Bcoin Guide, 檢索日期：1月 3, 2026， <https://bcoin.io/guides/swaps.html>
+32. Cross-chain atomic swaps - CoinGeek, 檢索日期：1月 3, 2026， <https://coingeek.com/cross-chain-atomic-swaps/>
+33. Atomic swap - Bitcoin Wiki, 檢索日期：1月 3, 2026， <https://en.bitcoin.it/wiki/Atomic_swap>
+34. How to Swap XMR to BTC in 2025: A Complete Guide to Private and Secure Conversions, 檢索日期：1月 3, 2026， <https://opsmatters.com/posts/how-swap-xmr-btc-2025-complete-guide-private-and-secure-conversions>
+35. EigenWallet: the future of Monero wallets - Reddit, 檢索日期：1月 3, 2026， <https://www.reddit.com/r/Monero/comments/1m8llk5/eigenwallet_the_future_of_monero_wallets/>
+36. BasicSwap DEX - The World's Most Secure and Decentralized Exchange, 檢索日期：1月 3, 2026， <https://basicswapdex.com/>
+37. basicswap/basicswap: Basic Atomic Swap Proof of Concept - GitHub, 檢索日期：1月 3, 2026， <https://github.com/basicswap/basicswap/>
+38. BasicSwap is Actually Getting Pretty Good Now - Worth Another Shot : r/Monero - Reddit, 檢索日期：1月 3, 2026， <https://www.reddit.com/r/Monero/comments/1ilredj/basicswap_is_actually_getting_pretty_good_now/>
+39. haveno/docs/deployment-guide.md at master - GitHub, 檢索日期：1月 3, 2026， <https://github.com/haveno-dex/haveno/blob/master/docs/deployment-guide.md>
+40. How to buy Monero after the delisting of Monero – get to know Haveno : r/CryptoCurrency, 檢索日期：1月 3, 2026， <https://www.reddit.com/r/CryptoCurrency/comments/1gln0tt/how_to_buy_monero_after_the_delisting_of_monero/>
+41. News Releases-Taiwan-U.S. Collaboration Leads to Further Breakthrough: Gang-Operated Scam Call Center and Cryptocurrency Exchange Busted, Millions in Illicit Funds Seized and Frozen-Criminal Investigation Bureau, National Police Agency, 檢索日期：1月 3, 2026， <https://www.cib.npa.gov.tw/en/app/news/view?module=news&id=18935&serno=ab99aa22-781e-4044-a543-a74d7c32a806>
+42. 14 indicted in NT$1.27 billion crypto-related fraud case - Focus Taiwan, 檢索日期：1月 3, 2026， <https://focustaiwan.tw/society/202508220022>
+43. What is the easiest way to buy Monero with FIAT but no KYC? | NEWBIE, 檢索日期：1月 3, 2026， <https://discuss.privacyguides.net/t/what-is-the-easiest-way-to-buy-monero-with-fiat-but-no-kyc-newbie/25691>
+44. Monero newbie - Questions - Privacy Guides Community, 檢索日期：1月 3, 2026， <https://discuss.privacyguides.net/t/monero-newbie/19134>
+45. Stores That Accept Monero Payments – Top 20 - Cryptomus, 檢索日期：1月 3, 2026， <https://cryptomus.com/blog/stores-that-accept-xmr>
+46. Monero GUI vs Feather Wallet – why do we still keep the GUI? explain it to me as if I was a 5 year old - Reddit, 檢索日期：1月 3, 2026， <https://www.reddit.com/r/Monero/comments/1l20e76/monero_gui_vs_feather_wallet_why_do_we_still_keep/>
+47. Monero.com: Monero, Made Easy - Apps on Google Play, 檢索日期：1月 3, 2026， <https://play.google.com/store/apps/details?id=com.monero.app>
+48. 2025 Crypto Crime Trends from Chainalysis, 檢索日期：1月 3, 2026， <https://www.chainalysis.com/blog/2025-crypto-crime-report-introduction/>
+49. 2025 Crypto Crime Report | TRM Labs, 檢索日期：1月 3, 2026， <https://www.trmlabs.com/reports-and-whitepapers/2025-crypto-crime-report>
+50. Ransom Payments: Monero Promises Privacy; Bitcoin Dominates - BankInfoSecurity, 檢索日期：1月 3, 2026， <https://www.bankinfosecurity.com/ransom-payments-monero-promises-privacy-bitcoin-dominates-a-18966>
