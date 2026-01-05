@@ -5,21 +5,23 @@ import type { MenuItem } from "@/types";
 interface Props {
   menu: MenuItem[];
   currentPage: string;
+  basePath?: string;
+  title?: string;
 }
 
-const { menu, currentPage } = Astro.props;
+const { menu, currentPage, basePath = "/docs", title = "Documents" } = Astro.props;
 ---
 
 {
   menu.length > 0 && (
     <div class="relative glass rounded-lg p-4 my-2 w-full intersect:animate-fadeRight opacity-0">
       <ScrollArea className="h-full" client:only="react">
-        <h2 class="text-2xl border-none">Documents</h2>
+        <h2 class="text-2xl border-none">{title}</h2>
         <ul class="list-none m-0">
           {menu.map((item) => (
             <li class="ml-0">
               <a
-                href={`/docs/${item.id}`}
+                href={`${basePath}/${item.id}`}
                 class={`w-full leading-none no-underline ${item.id === currentPage ? "font-bold" : ""}`}
               >
                 {item.title}
@@ -29,7 +31,7 @@ const { menu, currentPage } = Astro.props;
                   {item.children.map((child) => (
                     <li class="ml-4">
                       <a
-                        href={`/docs/${child.id}`}
+                        href={`${basePath}/${child.id}`}
                         class={`w-full leading-none no-underline ${child.id === currentPage ? "font-bold" : ""}`}
                       >
                         {child.title}

@@ -1,19 +1,22 @@
 ---
 import BaseLayout from "@components/base/BaseLayout.astro";
-import type { DocsEntry, MenuItem } from "@/types";
+import type { DocsEntry, TradingEntry, MenuItem } from "@/types";
 import DocBrowser from "@components/docs/Browser.astro";
 import TableOfContents from "@components/common/TableOfContents.astro";
 import { render } from "astro:content";
 import EntryHeader from "@components/common/EntryHeader.astro";
 
 interface Props {
-  entry: DocsEntry;
+  entry: DocsEntry | TradingEntry;
   browserMenu: MenuItem[];
+  basePath?: string;
+  title?: string;
 }
 
-const { entry, browserMenu } = Astro.props;
+const { entry, browserMenu, basePath = "/docs", title = "Documents" } = Astro.props;
 const { Content, headings } = await render(entry);
-const { title, description, hideNav, hideToc, image } = entry.data;
+const { description, hideNav, hideToc, image } = entry.data; // Removed title from destructuring to avoid conflict with prop
+const pageTitle = entry.data.title;
 
 const globalHideNav = false; // set true to always hide the nav bar (left side menu)
 const globalHideToc = false; // set true to always hide the table of contents (right side menu)
@@ -49,12 +52,14 @@ if (actuallyHideNav && actuallyHideToc) {
 }
 ---
 
-<BaseLayout title={title} image={image?.src} description={description}>
+<BaseLayout title={pageTitle} image={image?.src} description={description}>
   <section class="flex container p-4">
     <div class=`max-h-static_sidemenu sticky top-[5rem] mr-4 ${navClass}`>
       <DocBrowser
         menu={browserMenu}
         currentPage={entry.id.replace("/-index", "")}
+        basePath={basePath}
+        title={title}
       />
     </div>
     <div class=`w-full ${articleClass}`>

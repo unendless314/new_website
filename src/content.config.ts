@@ -192,6 +192,19 @@ const terms = defineCollection({
   schema: searchable,
 });
 
+const trading = defineCollection({
+  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/trading" }),
+  schema: ({ image }) =>
+    searchable.extend({
+      pubDate: z.date().optional(),
+      modDate: z.date().optional(),
+      image: image().optional(),
+      imageAlt: z.string().default(""),
+      hideToc: z.boolean().default(false),
+      hideNav: z.boolean().default(false),
+    }),
+});
+
 // Export collections
 export const collections = {
   about,
@@ -206,4 +219,5 @@ export const collections = {
   projects,
   tutorials,
   terms,
+  trading,
 };

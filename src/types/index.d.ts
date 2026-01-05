@@ -15,6 +15,7 @@ export type PortfolioEntry = CollectionEntry<"portfolio">;
 export type ProjectsEntry = CollectionEntry<"projects">;
 export type TutorialsEntry = CollectionEntry<"tutorials">;
 export type TermsEntry = CollectionEntry<"terms">;
+export type TradingEntry = CollectionEntry<"trading">;
 
 export type SearchableEntry =
   | AboutEntry
@@ -26,7 +27,8 @@ export type SearchableEntry =
   | PortfolioEntry
   | ProjectsEntry
   | TutorialsEntry
-  | TermsEntry;
+  | TermsEntry
+  | TradingEntry;
 
 export type SocialLinks = {
   discord?: string;

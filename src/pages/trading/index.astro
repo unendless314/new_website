@@ -1,0 +1,11 @@
+---
+import CollectionLayout from "@components/docs/CollectionLayout.astro";
+import { getIndex, getGroups } from "@lib/contentParser";
+import type { TradingEntry } from "@/types";
+import { sortByTitle } from "@lib/sortFunctions";
+
+const collectionIndex = (await getIndex("trading")) as TradingEntry;
+const groupIndices = (await getGroups("trading", sortByTitle)) as TradingEntry[];
+---
+
+<CollectionLayout entries={groupIndices} collectionIndex={collectionIndex} basePath="/trading" />
