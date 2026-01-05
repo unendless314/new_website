@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master] # 因為您剛才初始化時是 master 分支
+    branches: [master]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -15,12 +16,26 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-            # path: . # The root location of your Astro project inside the repository. (optional)
-            node-version: 22 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
-            # package-manager: npm # The package manager used to install dependencies. (optional)
+          node-version: 22
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Build site
+        run: npm run build
+        
+      - name: Create search index
+        run: npm run postbuild
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
 
   deploy:
     needs: build
