@@ -3,7 +3,7 @@ title: "Indexer（索引器）"
 date: 2026-01-05
 description: "區塊鏈的圖書管理員，讓開發者能快速查詢鏈上數據的基礎設施。"
 author: unendless314
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/indexer.jpeg"
 imageAlt: "圖書館的索引卡片"
 categories: ["I"]
 tags: ["技術", "數據", "開發工具"]

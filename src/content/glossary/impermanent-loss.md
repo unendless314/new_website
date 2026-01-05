@@ -3,7 +3,7 @@ title: "Impermanent Loss（無常損失）"
 date: 2025-12-31
 description: "在流動性池提供資產時，因幣價變動而導致的潛在損失。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/impermanent-loss.jpeg"
 imageAlt: "無常損失示意圖"
 categories: ["I"]
 tags: ["DeFi", "進階", "流動性"]

@@ -3,7 +3,7 @@ title: "ICO, IEO, IDO（加密貨幣募資模式）"
 date: 2026-01-04
 description: "從瘋狂的群眾募資到交易所把關，解密幣圈項目的融資演進史。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/ico.jpeg"
 imageAlt: "募資模式示意圖"
 categories: ["I"]
 tags: ["募資", "歷史", "金融"]

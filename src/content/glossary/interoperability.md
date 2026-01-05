@@ -3,7 +3,7 @@ title: "Interoperability（互操作性）"
 date: 2026-01-05
 description: "區塊鏈之間的通用語言，讓比特幣和以太坊能夠互相溝通。"
 author: unendless314
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/interoperability.jpeg"
 imageAlt: "連接兩個星球的橋樑"
 categories: ["I"]
 tags: ["跨鏈", "技術", "基礎設施"]

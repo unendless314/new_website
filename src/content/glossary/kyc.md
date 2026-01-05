@@ -3,7 +3,7 @@ title: "KYC（身分認證）"
 date: 2026-01-05
 description: "認識你的客戶，中心化交易所必做的實名認證流程。"
 author: unendless314
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/kyc.jpeg"
 imageAlt: "身分證件掃描"
 categories: ["K"]
 tags: ["合規", "安全", "交易所"]
