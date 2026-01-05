@@ -1,6 +1,8 @@
 ---
 import ThemeSwitcher from "@components/base/ThemeSwitcher.astro";
 import { IoSearch } from "react-icons/io5";
+import { Image } from "astro:assets";
+import logo from "@/assets/logo.png";
 
 const { pathname } = Astro.url;
 
@@ -61,11 +63,22 @@ const menu = [
   class={`container glass py-2 z-30 mb-4 lg:mt-4 lg:rounded-lg ${stickyHeader && "sticky top-0"}`}
 >
   <nav class="relative flex flex-wrap items-center justify-between">
+    <!-- logo -->
+    <a href="/" class="order-0 flex items-center mr-4">
+      <Image
+        src={logo}
+        alt="鏈魂宗 Logo"
+        width={40}
+        height={40}
+        class="h-10 w-10 object-contain rounded-full"
+      />
+      <span class="ml-2 font-bold text-xl text-txt-p dark:text-darkmode-txt-p hidden sm:block">鏈魂宗</span>
+    </a>
     <!-- navbar toggler -->
     <input id="nav-toggle" type="checkbox" class="hidden" />
     <label
       for="nav-toggle"
-      class="order-0 cursor-pointer flex items-center md:hidden text-txt-p dark:text-darkmode-txt-p lg:order-1"
+      class="order-0 cursor-pointer flex items-center md:hidden text-txt-p dark:text-darkmode-txt-p lg:order-1 ml-auto md:ml-0"
     >
       <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
         <title>Menu Open</title>

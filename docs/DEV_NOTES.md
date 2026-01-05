@@ -121,6 +121,16 @@
     - Synthetic Asset, Slippage, Front-run, Aggregator, Arbitrage
     - Hashrate, Consensus, Collateral, Delegate
 
+### 2026-01-05 術語庫補完 (Glossary Completion)
+*   **任務目標**：完成 1/4 筆記中列出的 30 個待辦術語。
+*   **已完成清單**：
+    *   **基礎/技術**: TGE, KYC, Due Diligence, Trilemma, Interoperability, Byzantine Generals Problem, Hashrate, Consensus, Validator, Epoch, Permissionless.
+    *   **DeFi/金融**: Treasury, Vault, Liquidity Pool, Venture Capital, FDV, Collateral, Synthetic Asset, Slippage, Aggregator, Arbitrage.
+    *   **基礎設施**: Sequencer, Indexer, Audit, Multi-signature, Custody.
+    *   **代幣經濟/治理**: Token Emission, Vesting, Delegate.
+    *   **交易/風險**: Front-run.
+*   **成果**：目前術語庫已涵蓋絕大多數幣圈核心概念，內容結構統一（定義 -> 大白話 -> 機制 -> 風險 -> 總結）。
+
 未處理但需留意：
 *   搜尋長遠方案：Pagefind 或更佳的中文分詞策略尚未導入。
 *   站點文案/品牌：BaseLayout `siteTitle/Description/Author` 仍為模板值；Footer 年份未自動化；Breadcrumb/PageHeader 中英混雜未 i18n。

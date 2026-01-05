@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-description: Jane Doe's projects and programs.
+description: 鏈魂宗的項目與足跡。
 
 projects:
   - title: "Conway's Game of Life"
