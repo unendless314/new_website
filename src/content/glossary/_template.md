@@ -1,7 +1,7 @@
 ---
 title:
 description:
-image: "@assets/poetry/.jpg"
+image: "../../assets/poetry/.jpg"
 imageAlt:
 author:
 date: YYYY-MM-DD

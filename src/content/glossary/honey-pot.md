@@ -3,7 +3,7 @@ title: "Honey Pot（貔貅盤 / 蜂蜜罐陷阱）"
 date: 2026-01-04
 description: "只能買、不能賣的惡意合約，讓投資者看著暴漲卻無法提現的終極囚籠。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/honey-pot.jpeg"
 imageAlt: "貔貅盤示意圖"
 categories: ["H"]
 tags: ["風險管理", "詐騙", "DeFi"]

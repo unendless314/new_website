@@ -3,7 +3,7 @@ title: "FUD（恐懼、不確定與懷疑）"
 date: 2025-12-31
 description: "市場上的負面噪音，往往是心理博弈的一部分。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/fud.jpeg"
 imageAlt: "FUD 概念圖"
 categories: ["F"]
 tags: ["交易心理", "新手", "風險管理"]

@@ -3,7 +3,7 @@ title: "Private Key（私鑰）"
 date: 2025-12-31
 description: "資產的所有權權杖，一旦丟失即失去一切的終極密碼。"
 author: wu-yan
-image: "@assets/glossary/private-key.jpeg"
+image: "../../assets/glossary/private-key.jpeg"
 imageAlt: "私鑰概念圖"
 categories: ["P"]
 tags: ["安全", "錢包", "新手"]

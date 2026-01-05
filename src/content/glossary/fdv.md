@@ -3,7 +3,7 @@ title: "FDV（完全稀釋估值）"
 date: 2026-01-05
 description: "如果所有代幣都解鎖流通，這個項目的總價值是多少？投資必看的魔鬼細節。"
 author: unendless314
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/fdv.jpeg"
 imageAlt: "冰山水面下的巨大體積"
 categories: ["F"]
 tags: ["估值", "代幣經濟", "投資指標"]

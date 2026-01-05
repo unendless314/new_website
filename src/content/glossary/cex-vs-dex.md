@@ -3,7 +3,7 @@ title: "CEX vs DEX（中心化 vs 去中心化交易所）"
 date: 2026-01-04
 description: "銀行櫃檯 vs 自動販賣機，你該在哪裡買賣加密貨幣？"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/cex-vs-dex.png"
 imageAlt: "交易所對比圖"
 categories: ["C"]
 tags: ["基礎知識", "交易所", "新手"]

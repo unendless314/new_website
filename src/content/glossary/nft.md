@@ -3,7 +3,7 @@ title: "NFT（非同質化代幣）"
 date: 2025-12-31
 description: "獨一無二的數位身份證，讓數位資產具備稀缺性與所有權。"
 author: wu-yan
-image: "@assets/glossary/nft.jpeg"
+image: "../../assets/glossary/nft.jpeg"
 imageAlt: "NFT 概念圖"
 categories: ["N"]
 tags: ["藝術", "所有權", "新手"]

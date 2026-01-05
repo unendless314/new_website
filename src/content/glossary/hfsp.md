@@ -3,7 +3,7 @@ title: "HFSP（祝你窮得開心）"
 date: 2026-01-04
 description: "幣圈最具爭議性的迷因語錄：對質疑者與錯過者的強烈嘲諷。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/hfsp.jpeg"
 imageAlt: "HFSP 迷因示意圖"
 categories: ["H"]
 tags: ["文化", "迷因", "社群"]

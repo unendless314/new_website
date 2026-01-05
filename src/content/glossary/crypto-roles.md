@@ -3,7 +3,7 @@ title: "Crypto Roles（幣圈職業圖鑑）"
 date: 2026-01-04
 description: "你在 Web3 世界扮演什麼角色？從囤幣黨到擼毛獵人的生存風格。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/crypto-roles.png"
 imageAlt: "幣圈職業角色圖"
 categories: ["C"]
 tags: ["文化", "社群", "新手"]

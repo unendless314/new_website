@@ -3,7 +3,7 @@ title: "Altcoin（山寨幣 / 替代幣）"
 date: 2026-01-04
 description: "比特幣之外的無限可能：從單純的模仿到區塊鏈生態的全面爆發。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/altcoin.png"
 imageAlt: "山寨幣概念圖"
 categories: ["A"]
 tags: ["基礎知識", "投資", "新手"]

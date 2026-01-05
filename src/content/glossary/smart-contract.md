@@ -3,7 +3,7 @@ title: "Smart Contract（智能合約）"
 date: 2025-12-31
 description: "Web3 世界的法律與規則，一段自動執行的數位承諾。"
 author: wu-yan
-image: "@assets/glossary/smart-contract.jpeg"
+image: "../../assets/glossary/smart-contract.jpeg"
 imageAlt: "智能合約示意圖"
 categories: ["S"]
 tags: ["技術原理", "新手", "以太坊"]

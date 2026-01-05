@@ -3,7 +3,7 @@ title: "Halving（減半）"
 date: 2025-12-31
 description: "比特幣與其他加密貨幣的稀缺性設計，每隔一段時間供應量砍半。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/halving.jpeg"
 imageAlt: "減半概念圖"
 categories: ["H"]
 tags: ["比特幣", "經濟模型", "新手"]

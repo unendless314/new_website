@@ -3,7 +3,7 @@ title: "Gas Fee（燃料費）"
 date: 2025-12-31
 description: "使用區塊鏈網路必須支付的手續費，由供需決定價格。"
 author: wu-yan
-image: "@assets/glossary/gas-fee.jpeg"
+image: "../../assets/glossary/gas-fee.jpeg"
 imageAlt: "Gas Fee 示意圖"
 categories: ["G"]
 tags: ["新手", "基礎知識", "以太坊"]

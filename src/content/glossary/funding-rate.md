@@ -3,7 +3,7 @@ title: "Funding Rate（資金費率）"
 date: 2026-01-04
 description: "永續合約的錨定機制，也是低風險「期現套利」的利潤來源。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/funding-rate.jpeg"
 imageAlt: "資金費率示意圖"
 categories: ["F"]
 tags: ["交易", "套利", "進階"]

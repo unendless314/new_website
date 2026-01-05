@@ -3,7 +3,7 @@ title: "Buyback & Burn（回購與銷毀）"
 date: 2026-01-04
 description: "減少供應、提升價值的經濟手段，加密貨幣世界的「庫藏股」機制。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/buyback-burn.png"
 imageAlt: "代幣銷毀火焰圖"
 categories: ["B"]
 tags: ["經濟模型", "投資", "進階"]

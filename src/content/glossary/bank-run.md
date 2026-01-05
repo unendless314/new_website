@@ -3,7 +3,7 @@ title: "Bank Run（擠兌）"
 date: 2026-01-04
 description: "當所有人同時想把錢領出來，交易所或銀行卻拿不出錢的災難時刻。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/bank-run.png"
 imageAlt: "擠兌示意圖"
 categories: ["B"]
 tags: ["風險管理", "金融歷史", "中心化風險"]
