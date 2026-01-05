@@ -1,7 +1,7 @@
 ---
 title: Wu Yan
 email: wuyan@example.com
-image: "@assets/profile/wu-yan.jpg"
+image: "@assets/profile/wu-yan.webp"
 social:
   github: "https://github.com/"
   linkedIn: "https://www.linkedin.com/"

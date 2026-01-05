@@ -1,7 +1,7 @@
 ---
 title: "關於鏈魂宗"
 description: "鏈魂宗 - 專注於加密貨幣與區塊鏈技術的教育平台"
-image: "../../assets/profile.png"
+image: "../../assets/profile/wu-yan.webp"
 draft: false
 ---
 
