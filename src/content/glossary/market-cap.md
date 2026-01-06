@@ -3,7 +3,7 @@ title: "Market Cap（市值）"
 date: 2025-12-31
 description: "衡量加密貨幣規模的核心指標：當前價格乘以流通總量。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/market-cap.jpg"
 imageAlt: "市值概念圖"
 categories: ["M"]
 tags: ["數據指標", "新手", "投資"]

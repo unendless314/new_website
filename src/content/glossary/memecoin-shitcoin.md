@@ -3,7 +3,7 @@ title: "Memecoin vs Shitcoin（迷因幣與垃圾幣）"
 date: 2026-01-04
 description: "當文化成為資產：從狗狗幣的幽默到空氣幣的陷阱。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/memecoin-shitcoin.jpg"
 imageAlt: "迷因幣示意圖"
 categories: ["M"]
 tags: ["文化", "風險", "新手"]

@@ -3,7 +3,7 @@ title: "Mainnet vs Testnet（主網與測試網）"
 date: 2026-01-04
 description: "真實的金錢戰場 vs 開發者的沙盒遊樂場。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/mainnet-testnet.jpg"
 imageAlt: "主網測試網對比圖"
 categories: ["M"]
 tags: ["基礎知識", "開發", "新手"]

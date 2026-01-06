@@ -3,7 +3,7 @@ title: "Oracle（預言機）"
 date: 2025-12-31
 description: "連接區塊鏈與現實世界的橋樑，將鏈外數據餵入智能合約的關鍵機制。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/oracle.jpg"
 imageAlt: "預言機示意圖"
 categories: ["O"]
 tags: ["基礎設施", "技術原理", "Chainlink"]

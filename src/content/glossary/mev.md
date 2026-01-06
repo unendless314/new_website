@@ -3,7 +3,7 @@ title: "MEV（最大可提取價值）"
 date: 2025-12-31
 description: "隱藏在區塊鏈背後的影子利潤，礦工或節點透過排序交易所獲得的額外收益。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/mev.jpg"
 imageAlt: "MEV 示意圖"
 categories: ["M"]
 tags: ["進階", "技術原理", "以太坊"]
