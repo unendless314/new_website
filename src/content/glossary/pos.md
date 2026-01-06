@@ -3,7 +3,7 @@ title: "PoS（權益證明）"
 date: 2026-01-04
 description: "以太坊 2.0 採用的機制，透過質押資產來維護網路安全，節能且高效。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/pos.jpeg"
 imageAlt: "PoS 質押示意圖"
 categories: ["P"]
 tags: ["技術原理", "以太坊", "質押"]

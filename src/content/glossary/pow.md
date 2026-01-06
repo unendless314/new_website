@@ -3,7 +3,7 @@ title: "PoW（工作量證明）"
 date: 2026-01-04
 description: "比特幣的核心機制，透過消耗電力與算力來確保網路安全的共識算法。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/pow.jpeg"
 imageAlt: "PoW 挖礦示意圖"
 categories: ["P"]
 tags: ["技術原理", "比特幣", "挖礦"]

@@ -3,7 +3,7 @@ title: "Proof of Reserve（儲備證明）"
 date: 2026-01-04
 description: "交易所的「驗資報告」，透過鏈上數據證明其擁有足額的資產來支付用戶提款。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/proof-of-reserve.jpeg"
 imageAlt: "PoR 示意圖"
 categories: ["P"]
 tags: ["安全", "交易所", "數據分析"]

@@ -3,7 +3,7 @@ title: "SBT（靈魂綁定代幣）"
 date: 2026-01-04
 description: "不可轉讓的數位勳章，建構 Web3 身份與信用的核心技術。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/sbt.jpeg"
 imageAlt: "SBT 概念圖"
 categories: ["S"]
 tags: ["所有權", "身份認證", "新手"]
