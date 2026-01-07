@@ -3,7 +3,7 @@ title: "Slashing（罰沒機制）"
 date: 2026-01-04
 description: "PoS 區塊鏈的執法手段，沒收惡意或失職驗證者的質押金。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/slashing.jpg"
 imageAlt: "Slashing 懲罰示意圖"
 categories: ["S"]
 tags: ["安全", "質押", "技術原理"]

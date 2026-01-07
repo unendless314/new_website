@@ -3,7 +3,7 @@ title: "Synthetic Asset（合成資產）"
 date: 2026-01-05
 description: "在區塊鏈上交易美股、黃金甚至石油，而無需真正持有實物。"
 author: unendless314
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/synthetic-asset.jpg"
 imageAlt: "鏡子裡的黃金"
 categories: ["S"]
 tags: ["DeFi", "衍生品", "金融"]

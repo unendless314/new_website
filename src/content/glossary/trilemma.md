@@ -3,7 +3,7 @@ title: "Blockchain Trilemma（區塊鏈不可能三角）"
 date: 2026-01-05
 description: "去中心化、安全、效能，三者難以兼得的技術困境。"
 author: unendless314
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/trilemma.jpg"
 imageAlt: "三角形的三個頂點"
 categories: ["T"]
 tags: ["技術原理", "基礎", "公鏈"]

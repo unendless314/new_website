@@ -3,7 +3,7 @@ title: "TGE（代幣生成事件）"
 date: 2026-01-05
 description: "項目的誕生時刻，代幣正式被創造並開始流通的日期。"
 author: unendless314
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/tge.jpg"
 imageAlt: "代幣生成啟動按鈕"
 categories: ["T"]
 tags: ["發幣", "投資", "一級市場"]

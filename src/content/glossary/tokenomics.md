@@ -3,7 +3,7 @@ title: "Tokenomics（代幣經濟學）"
 date: 2025-12-31
 description: "加密項目的靈魂：代幣的供應、分配、激勵與價值的核心設計。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/tokenomics.jpg"
 imageAlt: "代幣分配圖"
 categories: ["T"]
 tags: ["經濟模型", "進階", "投資"]
