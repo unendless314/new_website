@@ -3,7 +3,7 @@ title: "Yield Farming（流動性挖礦）"
 date: 2026-01-04
 description: "DeFi 的煉金術，透過在不同協議間搬移資金來榨取最大收益。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/yield-farming.jpg"
 imageAlt: "流動性挖礦示意圖"
 categories: ["Y"]
 tags: ["DeFi", "高風險", "被動收入"]

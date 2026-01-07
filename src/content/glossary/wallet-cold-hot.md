@@ -3,7 +3,7 @@ title: "Wallet（冷錢包與熱錢包）"
 date: 2025-12-31
 description: "存儲私鑰、與區塊鏈互動的數位錢包分類。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/wallet-cold-hot.jpg"
 imageAlt: "錢包類型示意圖"
 categories: ["W"]
 tags: ["錢包", "安全", "新手"]

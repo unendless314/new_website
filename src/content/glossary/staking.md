@@ -3,7 +3,7 @@ title: "Staking（質押）"
 date: 2026-01-04
 description: "Web3 世界的「數位定存」，透過維護區塊鏈安全賺取穩定收益。"
 author: wu-yan
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/staking.jpg"
 imageAlt: "Staking 概念圖"
 categories: ["S"]
 tags: ["被動收入", "基礎設施", "低風險"]

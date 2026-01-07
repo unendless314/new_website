@@ -3,7 +3,7 @@ title: "Vault（策略金庫/機槍池）"
 date: 2026-01-05
 description: "自動執行複雜投資策略的智能合約，DeFi 玩家的懶人理財工具。"
 author: unendless314
-image: "../../assets/astrogon-star.svg"
+image: "../../assets/glossary/vault.jpg"
 imageAlt: "銀行保險庫大門"
 categories: ["V"]
 tags: ["DeFi", "理財", "Yield Aggregator"]
