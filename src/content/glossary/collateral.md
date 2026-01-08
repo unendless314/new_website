@@ -3,7 +3,7 @@ title: "Collateral（抵押品）"
 date: 2026-01-05
 description: "DeFi 借貸的基石，想借錢？先把你的資產押在這裡。"
 author: unendless314
-image: "../../assets/glossary/collateral.png"
+image: "../../assets/glossary/collateral.webp"
 imageAlt: "當鋪的櫃檯"
 categories: ["C"]
 tags: ["DeFi", "借貸", "金融"]

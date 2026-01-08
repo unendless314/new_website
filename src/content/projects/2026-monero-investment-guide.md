@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "門羅幣"]
 tags: ["Monero", "XMR", "Privacy", "Atomic Swaps", "Investment", "Research", "Anti-Surveillance"]
 complexity: 3
-image: "../../assets/projects/2026-monero-investment-guide.png"
+image: "../../assets/projects/2026-monero-investment-guide.webp"
 imageAlt: "數位現金的終極完全體：門羅幣 (Monero) 2026 深度研究與生存投資指南 封面"
 ---
 ## 執行摘要：隱私資產的最後堡壘
@@ -292,7 +292,7 @@ FATF 的「旅行規則」要求虛擬資產服務提供商 (VASP) 在處理交�
 39. haveno/docs/deployment-guide.md at master - GitHub, 檢索日期：1月 3, 2026， <https://github.com/haveno-dex/haveno/blob/master/docs/deployment-guide.md>
 40. How to buy Monero after the delisting of Monero – get to know Haveno : r/CryptoCurrency, 檢索日期：1月 3, 2026， <https://www.reddit.com/r/CryptoCurrency/comments/1gln0tt/how_to_buy_monero_after_the_delisting_of_monero/>
 41. News Releases-Taiwan-U.S. Collaboration Leads to Further Breakthrough: Gang-Operated Scam Call Center and Cryptocurrency Exchange Busted, Millions in Illicit Funds Seized and Frozen-Criminal Investigation Bureau, National Police Agency, 檢索日期：1月 3, 2026， <https://www.cib.npa.gov.tw/en/app/news/view?module=news&id=18935&serno=ab99aa22-781e-4044-a543-a74d7c32a806>
-42. 14 indicted in NT$1.27 billion crypto-related fraud case - Focus Taiwan, 檢索日期：1月 3, 2026， <https://focustaiwan.tw/society/202508220022>
+42. 14 indicted in NT\$1.27 billion crypto-related fraud case - Focus Taiwan, 檢索日期：1月 3, 2026， <https://focustaiwan.tw/society/202508220022>
 43. What is the easiest way to buy Monero with FIAT but no KYC? | NEWBIE, 檢索日期：1月 3, 2026， <https://discuss.privacyguides.net/t/what-is-the-easiest-way-to-buy-monero-with-fiat-but-no-kyc-newbie/25691>
 44. Monero newbie - Questions - Privacy Guides Community, 檢索日期：1月 3, 2026， <https://discuss.privacyguides.net/t/monero-newbie/19134>
 45. Stores That Accept Monero Payments – Top 20 - Cryptomus, 檢索日期：1月 3, 2026， <https://cryptomus.com/blog/stores-that-accept-xmr>

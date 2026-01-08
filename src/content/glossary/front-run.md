@@ -3,7 +3,7 @@ title: "Front-run（搶跑交易/夾子）"
 date: 2026-01-05
 description: "我在你買入之前先買，然後高價賣給你。區塊鏈黑暗森林裡的掠食者。"
 author: unendless314
-image: "../../assets/glossary/front-run.jpeg"
+image: "../../assets/glossary/front-run.webp"
 imageAlt: "賽跑時偷跑的人"
 categories: ["F"]
 tags: ["MEV", "交易", "攻擊"]

@@ -1,7 +1,7 @@
 ---
 title: 倉位管理與風控
 description: 交易系統的核心靈魂，決定你能走多遠。
-image: "@assets/trading/risk-cover.png"
+image: "@assets/trading/risk-cover.webp"
 draft: false
 ---
 

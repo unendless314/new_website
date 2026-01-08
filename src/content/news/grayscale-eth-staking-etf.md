@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["市場動態", "機構投資", "ETF"]
 tags: ["Grayscale", "Ethereum", "ETF", "Staking", "Yield"]
 description: "華爾街的又一里程碑。灰度 (Grayscale) 宣佈其以太坊 ETF (ETHE) 正式開啟質押獎勵分配，機構投資者無需持有私鑰即可享受「鏈上股息」。"
-image: "@assets/news/grayscale-eth-staking-etf.jpg"
+image: "@assets/news/grayscale-eth-staking-etf.webp"
 imageAlt: "ETF Staking Diagram"
 complexity: 2
 ---

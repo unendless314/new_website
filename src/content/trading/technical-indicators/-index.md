@@ -1,7 +1,7 @@
 ---
 title: 技術指標
 description: 常用技術指標原理解析與實戰應用。
-image: "@assets/trading/indicators-cover.png"
+image: "@assets/trading/indicators-cover.webp"
 draft: false
 ---
 

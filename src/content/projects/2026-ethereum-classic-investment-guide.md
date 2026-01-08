@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "以太坊經典"]
 tags: ["Ethereum Classic", "ETC", "PoW", "Code is Law", "Mining", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-ethereum-classic-investment-guide.png"
+image: "../../assets/projects/2026-ethereum-classic-investment-guide.webp"
 imageAlt: "不朽的悖論與沈默的螺旋：2026 以太坊經典 (ETC) 深度投資與生態研究報告 封面"
 ---
 ## 第一章：執行摘要：在代碼律法與市場現實的夾縫中
@@ -200,7 +200,7 @@ ETC 採用了被稱為「5M20」的減產機制。
 
 
 - |
-| **Antminer E9 Pro** | 3,680 MH/s    | 2,200 W    | 0.6        | \~220 TWD      | \~280 TWD     | **高風險**。僅在幣價高於 $30 時有微利，夏季極易虧損。     |
+| **Antminer E9 Pro** | 3,680 MH/s    | 2,200 W    | 0.6        | \~220 TWD      | \~280 TWD     | **高風險**。僅在幣價高於 \$30 時有微利，夏季極易虧損。     |
 | **Jasminer X16-Q**  | 1,950 MH/s    | 620 W      | 0.32       | \~65 TWD       | \~80 TWD      | **中等**。憑藉極致的靜音與低功耗，適合家庭環境，抗電價波動能力強。 |
 | **NVIDIA RTX 4090** | \~130 MH/s    | \~250 W    | 1.9        | \~25 TWD       | \~30 TWD      | **嚴重虧損**。電費遠高於產出，僅具備取暖價值。           |
 

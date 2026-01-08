@@ -3,7 +3,7 @@ title: "Airdrop（空投）"
 date: 2026-01-04
 description: "天上掉下來的禮物，項目方免費發送代幣給早期使用者的獎勵機制。"
 author: wu-yan
-image: "../../assets/glossary/airdrop.jpeg"
+image: "../../assets/glossary/airdrop.webp"
 imageAlt: "空投禮物盒"
 categories: ["A"]
 tags: ["福利", "行銷", "新手"]

@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Zcash"]
 tags: ["Zcash", "ZEC", "Privacy", "zk-SNARKs", "Crosslink", "ZSA", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-zcash-investment-guide.png"
+image: "../../assets/projects/2026-zcash-investment-guide.webp"
 imageAlt: "隱私復興與價值重估：Zcash (ZEC) 2026 深度投資與技術轉型報告 封面"
 ---
 ## 執行摘要：沈睡巨人的覺醒與 50 倍行情的底層邏輯
@@ -169,7 +169,7 @@ Crosslink 的引入導致大量 ZEC 被質押鎖定，減少了流通盤，並�
 26. ZIP 226: Transfer and Burn of Zcash Shielded Assets, 檢索日期：1月 3, 2026， <https://zips.z.cash/zip-0226>
 27. Seize, Burn, Block, Reissue: Understanding the Legal Tools Behind Crypto Asset Recovery, 檢索日期：1月 3, 2026， <https://www.trmlabs.com/resources/blog/seize-burn-block-reissue-understanding-the-legal-tools-behind-crypto-asset-recovery>
 28. Crypto Hardware Giant Bitmain to Release First Zcash ASIC Miner - CCN.com, 檢索日期：1月 3, 2026， <https://www.ccn.com/bitmain-to-release-first-zcash-asic-miner/>
-29. Can This $100 Miner Still Make Me Money in 2025?! - YouTube, 檢索日期：1月 3, 2026， <https://www.youtube.com/watch?v=pDQyDcc1nfI>
+29. Can This \$100 Miner Still Make Me Money in 2025?! - YouTube, 檢索日期：1月 3, 2026， <https://www.youtube.com/watch?v=pDQyDcc1nfI>
 30. Best Zcash Miner - Bitmain Antminer Z11 Review | Setup | Profitability | Equihash Mining, 檢索日期：1月 3, 2026， <https://www.youtube.com/watch?v=B6VLt6FvaPk>
 31. Forge Ahead with Determination - BITMAIN, 檢索日期：1月 3, 2026， <https://www.bitmain.com/news-detail/forge-ahead-with-determination-114>
 32. ASIC Miner Value: Miners profitability and best prices, 檢索日期：1月 3, 2026， <https://www.asicminervalue.com/en/>

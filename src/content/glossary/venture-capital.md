@@ -3,7 +3,7 @@ title: "Venture Capital（風險投資/VC）"
 date: 2026-01-05
 description: "提供早期資金的投資機構，是推動創新的推手，也是倒貨的大戶？"
 author: unendless314
-image: "../../assets/glossary/venture-capital.jpg"
+image: "../../assets/glossary/venture-capital.webp"
 imageAlt: "穿著西裝的投資人"
 categories: ["V"]
 tags: ["投資", "一級市場", "機構"]

@@ -2,7 +2,7 @@
 title: 杯柄型態 (Cup and Handle)
 description: 長線投資者的搖錢樹。學會辨識圓弧底結構與最後的壓力測試，捕捉那些即將翻倍的主升浪行情。
 pubDate: 2026-01-05
-image: "@assets/trading/cup-and-handle.png"
+image: "@assets/trading/cup-and-handle.webp"
 ---
 
 ## 1. 什麼是杯柄型態？ (Introduction)

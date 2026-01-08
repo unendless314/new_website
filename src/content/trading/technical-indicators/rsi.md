@@ -2,7 +2,7 @@
 title: 相對強弱指標 (RSI)
 description: 判斷市場「過熱」或「過冷」的最佳工具。掌握超買超賣區間，並學會辨識最強大的反轉訊號——「背離」。
 pubDate: 2026-01-05
-image: "@assets/trading/rsi.png"
+image: "@assets/trading/rsi.webp"
 ---
 
 ## 1. 什麼是 RSI？ (Introduction)

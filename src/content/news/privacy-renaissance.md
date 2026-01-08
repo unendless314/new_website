@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["市場趨勢", "隱私", "密碼學"]
 tags: ["Privacy", "FHE", "Zero-Knowledge", "Zama", "Institutional Adoption"]
 description: "VeradiVerdict 指出，隨著全同態加密 (FHE) 的成熟與機構入場的需求，我們正從「完全透明」的帳本時代，邁向「可程式化隱私」的文藝復興。"
-image: "@assets/news/privacy-renaissance.jpg"
+image: "@assets/news/privacy-renaissance.webp"
 imageAlt: "Privacy Renaissance Concept Art"
 complexity: 2
 ---

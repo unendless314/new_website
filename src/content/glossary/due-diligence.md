@@ -3,7 +3,7 @@ title: "Due Diligence（盡職調查）"
 date: 2026-01-05
 description: "DYOR 的專業版，投資前對項目進行全面且深入的背景調查。"
 author: unendless314
-image: "../../assets/glossary/due-diligence.jpeg"
+image: "../../assets/glossary/due-diligence.webp"
 imageAlt: "放大鏡檢視文件"
 categories: ["D"]
 tags: ["投資", "研究", "基本面分析"]

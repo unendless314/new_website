@@ -1,7 +1,7 @@
 ---
 title: 型態學
 description: K線型態辨識與價格行為分析。
-image: "@assets/trading/patterns-cover.png"
+image: "@assets/trading/patterns-cover.webp"
 draft: false
 ---
 

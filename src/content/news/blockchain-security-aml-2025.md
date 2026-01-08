@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["安全報告", "反洗錢", "數據分析"]
 tags: ["SlowMist", "Security", "AML", "Lazarus Group", "AI Scams"]
 description: "慢霧科技發布重磅年度報告，揭露 2025 年加密犯罪新趨勢：AI 深度偽造詐騙興起、北韓駭客組織持續活躍，以及 DeFi 協議面臨的權限管理危機。"
-image: "@assets/news/blockchain-security-aml-2025.jpg"
+image: "@assets/news/blockchain-security-aml-2025.webp"
 imageAlt: "Blockchain Security Heatmap"
 complexity: 2
 ---

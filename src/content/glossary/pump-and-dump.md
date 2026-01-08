@@ -3,7 +3,7 @@ title: "Pump and Dump（拉高出貨）"
 date: 2026-01-04
 description: "惡意操弄市場的經典陷阱：人為拉抬幣價後快速倒貨套現。"
 author: wu-yan
-image: "../../assets/glossary/pump-and-dump.jpeg"
+image: "../../assets/glossary/pump-and-dump.webp"
 imageAlt: "Pump and Dump 示意圖"
 categories: ["P"]
 tags: ["風險管理", "詐騙", "新手"]

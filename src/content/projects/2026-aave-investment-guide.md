@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Aave"]
 tags: ["Aave", "AAVE", "DeFi", "Lending", "Flash Loans", "GHO", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-aave-investment-guide.png"
+image: "../../assets/projects/2026-aave-investment-guide.webp"
 imageAlt: "Aave 協議研究報告封面"
 ---
 
@@ -156,9 +156,9 @@ Aave 已經超越了一個單純的借貸平台，它構建了一套完整的去
 
 **附錄：借貸實戰教學 - 如何計算安全邊際**
 
-假設你抵押 10 顆 ETH（價值 $30,000），清算門檻 83%。
+假設你抵押 10 顆 ETH（價值 \$30,000），清算門檻 83%。
 為了保持健康係數 $H_f \ge 2.0$，你最多應借入 **12,450 USDC**。
-此時你的清算價格約為 **$1,500**，意味著 ETH 需下跌 50% 才會觸發清算。
+此時你的清算價格約為 **\$1,500**，意味著 ETH 需下跌 50% 才會觸發清算。
 
 #### **引用的著作**
 
@@ -180,7 +180,7 @@ Aave 已經超越了一個單純的借貸平台，它構建了一套完整的去
 16. Flash Loans: Aave. How are Aave flash loans used? | by Maddy Bergen | ElektraVC, 檢索日期：1月 2, 2026， <https://medium.com/elektravc/flash-loans-aave-a0a2e8791a60>
 17. GHO Stablecoin | Aave, 檢索日期：1月 2, 2026， <https://aave.com/help/gho-stablecoin/gho>
 18. How Aave's stablecoin GHO is core to its plan to 10X its revenue | The Block, 檢索日期：1月 2, 2026， <https://www.theblock.co/post/350525/how-aaves-stablecoin-gho-is-core-to-its-plan-to-10x-its-revenue>
-19. Aave's GHO stablecoin finally reaches $1 peg - DL News, 檢索日期：1月 2, 2026， <https://www.dlnews.com/articles/defi/aave-stablecoin-gho-finally-reaches-1-peg/>
+19. Aave's GHO stablecoin finally reaches \$1 peg - DL News, 檢索日期：1月 2, 2026， <https://www.dlnews.com/articles/defi/aave-stablecoin-gho-finally-reaches-1-peg/>
 20. Foundation - Isolation Mode - Aave V3 Protocol Development - Video, 檢索日期：1月 2, 2026， <https://updraft.cyfrin.io/courses/aave-v3/foundation/isolation-mode>
 21. A Note on Isolation Mode Risk Parameters - Chaos Labs, 檢索日期：1月 2, 2026， <https://chaoslabs.xyz/resources/chaos_aave_isolation_mode.pdf>
 22. Aave V3 Technical Paper - CryptoCompare, 檢索日期：1月 2, 2026， <https://resources.cryptocompare.com/asset-management/9/1682584843504.pdf>
@@ -193,7 +193,7 @@ Aave 已經超越了一個單純的借貸平台，它構建了一套完整的去
 29. Methodology: Isolation Mode | by Gauntlet - Medium, 檢索日期：1月 2, 2026， <https://medium.com/gauntlet-networks/methodology-isolation-mode-3b8d67eee695>
 30. Arbitrum | Aave, 檢索日期：1月 2, 2026， <https://aave.com/blog/aave-arbitrum>
 31. Aave V3 Risk Parameter Methodology - Chaos Labs, 檢索日期：1月 2, 2026， <https://chaoslabs.xyz/resources/chaos_aave_risk_param_methodology.pdf>
-32. An In-depth Analysis of How AAVE's $1.6 Million Bad Debt Was Created - Medium, 檢索日期：1月 2, 2026， <https://medium.com/@eigenphi/an-in-depth-analysis-of-how-aaves-1-6-million-bad-debt-was-created-ab74027ea108>
+32. An In-depth Analysis of How AAVE's \$1.6 Million Bad Debt Was Created - Medium, 檢索日期：1月 2, 2026， <https://medium.com/@eigenphi/an-in-depth-analysis-of-how-aaves-1-6-million-bad-debt-was-created-ab74027ea108>
 33. CRV, Aave, and the Art of Liquidation - Kaiko - Research, 檢索日期：1月 2, 2026， <https://research.kaiko.com/insights/crv-aave-liquidation>
 34. Digital Assets Regulation: Insights from Jurisdictional Approaches - World Economic Forum: Publications, 檢索日期：1月 2, 2026， <https://www3.weforum.org/docs/WEF_Digital_Assets_Regulation_2024.pdf>
 35. Regulation (EU) 2023/ of the European Parliament and of the Council of 31 May 2023 on markets in crypto-assets, and amending Re - EUR-Lex, 檢索日期：1月 2, 2026， <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1114>

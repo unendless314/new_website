@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "DeFi"]
 tags: ["Sky Protocol", "MakerDAO", "Ethena", "USDe", "USDS", "RWA", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-sky-vs-ethena-investment-guide.png"
+image: "../../assets/projects/2026-sky-vs-ethena-investment-guide.webp"
 imageAlt: "深度研究報告：Sky Protocol (原 MakerDAO) vs. Ethena (USDe) —— 去中心化金融的終局之戰與投資指南 封面"
 ---
 ## 執行摘要
@@ -148,7 +148,7 @@ Sky 的終局之戰才正要開始，它是否能成為全球金融的新底層�
 17. Real-World Assets (RWAs) Adoption Examined In Dune Analytics Report, 檢索日期：1月 3, 2026， <https://www.crowdfundinsider.com/2025/09/251620-real-world-assets-rwas-adoption-examined-in-dune-analytics-report/>
 18. Decentralized Finance Entering the Real World - DeSpread Research, 檢索日期：1月 3, 2026， <https://research.despread.io/rwa/>
 19. Revenue - SKY - Token Terminal, 檢索日期：1月 3, 2026， <https://tokenterminal.com/explorer/projects/makerdao/metrics/revenue>
-20. MakerDAO's $2.4bn in crypto loans just became the protocol's biggest moneymaker. Again, 檢索日期：1月 3, 2026， <https://www.dlnews.com/articles/defi/crypto-backed-loans-back-as-biggest-earner-for-makerdao/>
+20. MakerDAO's \$2.4bn in crypto loans just became the protocol's biggest moneymaker. Again, 檢索日期：1月 3, 2026， <https://www.dlnews.com/articles/defi/crypto-backed-loans-back-as-biggest-earner-for-makerdao/>
 21. Inside Modern Stablecoin Architecture: How Ethena's USDe Work, 檢索日期：1月 3, 2026， <https://rocknblock.io/blog/stablecoin-architecture-how-ethena-usde-works>
 22. Analyzing the Technical Stack of Synthetic Dollar Stablecoins | by Jung-Hua Liu - Medium, 檢索日期：1月 3, 2026， <https://medium.com/@gwrx2005/analyzing-the-technical-stack-of-synthetic-dollar-stablecoins-0a39560c52cb>
 23. Ethena: Delving into the Mechanics and Risks of USDe - Chorus One, 檢索日期：1月 3, 2026， <https://chorus.one/reports-research/ethena-delving-into-the-mechanics-and-risks-of-usde>
@@ -158,11 +158,11 @@ Sky 的終局之戰才正要開始，它是否能成為全球金融的新底層�
 27. Sky Protocol Assigned 'B-' Rating; Outlook Stable - S\&P Global, 檢索日期：1月 3, 2026， <https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101639449>
 28. Savings USDC - Spark Docs, 檢索日期：1月 3, 2026， <https://docs.spark.fi/user-guides/earning-savings/susdc>
 29. One year into Sky, adoption lags behind vision - Blockworks, 檢索日期：1月 3, 2026， <https://blockworks.co/news/sky-dao-adoption>
-30. Sky approves $1 billion allocation for Janus Henderson's onchain fund using fresh-out-of-stealth Grove infrastructure | The Block, 檢索日期：1月 3, 2026， <https://www.theblock.co/post/359687/sky-approves-1-billion-allocation-for-janus-hendersons-onchain-fund-using-fresh-out-of-stealth-grove-infrastructure>
+30. Sky approves \$1 billion allocation for Janus Henderson's onchain fund using fresh-out-of-stealth Grove infrastructure | The Block, 檢索日期：1月 3, 2026， <https://www.theblock.co/post/359687/sky-approves-1-billion-allocation-for-janus-hendersons-onchain-fund-using-fresh-out-of-stealth-grove-infrastructure>
 31. CoinGecko 2025 RWA Report, 檢索日期：1月 3, 2026， <https://assets.coingecko.com/reports/2025/CoinGecko-2025-RWA-Report.pdf>
 32. Revenue | Token Terminal, 檢索日期：1月 3, 2026， <https://tokenterminal.com/explorer/metrics/revenue>
-33. Sky's Painful Transition: $5M Loss Highlights USDS Growing Pains | CoinRank on Binance Square, 檢索日期：1月 3, 2026， <https://www.binance.com/en/square/post/24275081283698>
-34. Sky's Stablecoin USDS Climbs to $2 Billion Circulation in Breakout Month - Binance, 檢索日期：1月 3, 2026， <https://www.binance.com/en/square/post/19132311857106>
+33. Sky's Painful Transition: \$5M Loss Highlights USDS Growing Pains | CoinRank on Binance Square, 檢索日期：1月 3, 2026， <https://www.binance.com/en/square/post/24275081283698>
+34. Sky's Stablecoin USDS Climbs to \$2 Billion Circulation in Breakout Month - Binance, 檢索日期：1月 3, 2026， <https://www.binance.com/en/square/post/19132311857106>
 35. Spark Fi: DeFi Lending & USDS Savings Guide 2025 - Nansen, 檢索日期：1月 3, 2026， <https://www.nansen.ai/post/spark-fi-guide-2025>
 36. Legal Terms | Sky Legal Terms - sky.money, 檢索日期：1月 3, 2026， <https://docs.sky.money/legal-terms>
 37. Sky Token Rewards - sky.money, 檢索日期：1月 3, 2026， <https://sky.money/features>

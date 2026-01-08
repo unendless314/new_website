@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Sui"]
 tags: ["Sui", "SUI", "Move", "Mysticeti", "Walrus", "GameFi", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-sui-investment-guide.png"
+image: "../../assets/projects/2026-sui-investment-guide.webp"
 imageAlt: "範式轉移：Sui (SUI) 深度投資研究與生態架構分析報告 封面"
 ---
 ## 第一章：宏觀背景與執行摘要：Layer 1 的終局之戰

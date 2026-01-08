@@ -2,7 +2,7 @@
 title: 斐波那契回撤
 description: 預測未來的數學魔法。學會利用黃金比例 0.618 尋找精準的回調買點與獲利目標。
 pubDate: 2026-01-05
-image: "@assets/trading/fibonacci.png"
+image: "@assets/trading/fibonacci.webp"
 ---
 
 ## 1. 什麼是斐波那契回撤？ (Introduction)

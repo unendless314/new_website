@@ -3,7 +3,7 @@ title: "Rug Pull（拉地毯）"
 date: 2026-01-04
 description: "項目方突然捲款潛逃，讓流動性瞬間歸零的終極詐騙。"
 author: wu-yan
-image: "../../assets/glossary/rug-pull.jpeg"
+image: "../../assets/glossary/rug-pull.webp"
 imageAlt: "Rug Pull 漫畫圖"
 categories: ["R"]
 tags: ["風險管理", "詐騙", "DeFi"]

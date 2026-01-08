@@ -3,7 +3,7 @@ title: "On-ramp & Off-ramp（出入金）"
 date: 2026-01-04
 description: "連接現實與虛擬的通道，將法幣與加密貨幣互相轉換的過程。"
 author: wu-yan
-image: "../../assets/glossary/on-ramp-off-ramp.jpg"
+image: "../../assets/glossary/on-ramp-off-ramp.webp"
 imageAlt: "出入金示意圖"
 categories: ["O"]
 tags: ["基礎知識", "交易所", "新手"]

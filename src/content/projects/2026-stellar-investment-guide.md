@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "恆星鏈"]
 tags: ["Stellar", "XLM", "Soroban", "RWA", "Payment", "MoneyGram", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-stellar-investment-guide.png"
+image: "../../assets/projects/2026-stellar-investment-guide.webp"
 imageAlt: "恆星幣 (Stellar, XLM) 權威研究報告：從支付協議到全球金融結算層的終極演化 封面"
 ---
 ## 第一章：執行摘要：被誤解的金融巨頭與價值重估
@@ -56,7 +56,7 @@ Stellar 的核心引擎是 **SCP**，這是第一個安全實施聯邦拜占庭�
  |
 | **共識機制** | SCP (FBA) | PoH + PoS | PoS |
 | **交易確認時間** | 3-5 秒 (即時最終性) | \~0.4 秒 | \~12 秒 |
-| **平均手續費** | < $0.00001 | < $0.001 | $1.00 - $50.00+ |
+| **平均手續費** | < \$0.00001 | < \$0.001 | \$1.00 - \$50.00+ |
 | **主要應用場景** | 支付、匯款、RWA | 高頻交易、NFT | 廣義智能合約 |
 
 ### **3.3 原生資產發行與路徑支付 (Path Payment)**
@@ -176,8 +176,8 @@ Stellar (XLM) 已經從 XRP 的影子成長為擁有獨立技術靈魂、強大�
 29. Protocol Selection: Customize Your Swapping Experience : r/Stellar - Reddit, 檢索日期：1月 3, 2026， <https://www.reddit.com/r/Stellar/comments/1fokvyh/protocol_selection_customize_your_swapping/>
 30. Best DeFi & DEX Protocols on Stellar: TVL Rankings - DappRadar, 檢索日期：1月 3, 2026， <https://dappradar.com/narratives/defi/protocols/chain/stellar>
 31. Top Stellar Dapps | DappRadar, 檢索日期：1月 3, 2026， <https://dappradar.com/rankings/protocol/stellar>
-32. Franklin Templeton Announces the Franklin OnChain U.S. Government Money Fund Surpasses $270 Million in Assets Under Management, 檢索日期：1月 3, 2026， <https://www.franklintempleton.com/press-releases/news-room/2023/franklin-templeton-announces-the-franklin-onchain-u.s.-government-money-fund-surpasses-usd270-million-in-assets-under-management>
-33. Franklin Templeton Announces the Franklin OnChain U.S. Government Money Fund Surpasses $270 Million in Assets Under Management, 檢索日期：1月 3, 2026， <https://www.franklintempleton.co.uk/press-releases/news-room/2023/franklin-templeton-announces-the-franklin-onchain-u.s.-government-money-fund-surpasses-usd270-million-in-assets-under-management>
+32. Franklin Templeton Announces the Franklin OnChain U.S. Government Money Fund Surpasses \$270 Million in Assets Under Management, 檢索日期：1月 3, 2026， <https://www.franklintempleton.com/press-releases/news-room/2023/franklin-templeton-announces-the-franklin-onchain-u.s.-government-money-fund-surpasses-usd270-million-in-assets-under-management>
+33. Franklin Templeton Announces the Franklin OnChain U.S. Government Money Fund Surpasses \$270 Million in Assets Under Management, 檢索日期：1月 3, 2026， <https://www.franklintempleton.co.uk/press-releases/news-room/2023/franklin-templeton-announces-the-franklin-onchain-u.s.-government-money-fund-surpasses-usd270-million-in-assets-under-management>
 34. Franklin Templeton Announces Availability of Peer-to-Peer Transfers for Franklin OnChain U.S. Government Money Fund, 檢索日期：1月 3, 2026， <https://www.franklintempleton.com/press-releases/news-room/2024/franklin-templeton-announces-availability-of-peer-to-peer-transfers-for-franklin-onchain-u.s.-government-money-fund>
 35. How UNHCR Distributes Cash Assistance Through Stellar Aid Assist, 檢索日期：1月 3, 2026， <https://stellar.org/case-studies/unhcr>
 36. UNHCR wins award for innovative use of blockchain solutions to provide cash to forcibly displaced in Ukraine, 檢索日期：1月 3, 2026， <https://www.unhcr.org/us/news/press-releases/unhcr-wins-award-innovative-use-blockchain-solutions-provide-cash-forcibly>

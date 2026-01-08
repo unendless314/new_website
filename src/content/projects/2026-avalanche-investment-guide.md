@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Avalanche"]
 tags: ["Avalanche", "AVAX", "Subnet", "RWA", "GameFi", "Investment", "Research", "Taiwan"]
 complexity: 2
-image: "../../assets/projects/2026-avalanche-investment-guide.png"
+image: "../../assets/projects/2026-avalanche-investment-guide.webp"
 imageAlt: "雪崩協議 (Avalanche) 深度投資研究報告：從技術架構、RWA 變革到台灣實務操作全解析 封面"
 ---
 ## 第一章：執行摘要與市場定位
@@ -193,8 +193,8 @@ Avalanche 已經從單一 DeFi 公鏈轉型為**機構金融與 Web3 遊戲的�
 29. Citi the latest TradFi player to test out asset tokenization - Blockworks, 檢索日期：1月 2, 2026， <https://blockworks.co/news/citibank-explores-tokenization-wisdomtree>
 30. KKR fund is partly tokenized on Avalanche public blockchain - Ledger Insights, 檢索日期：1月 2, 2026， <https://www.ledgerinsights.com/kkr-fund-tokenized-avalanche-public-blockchain/>
 31. Securitize Launches Fund for Tokenized Exposure to KKR, 檢索日期：1月 2, 2026， <https://securitize.io/press-releases/securitize-kkr-tokenized-fund>
-32. Avalanche Foundation Announces $50 Million Allocation For Tokenized Asset Purchase, 檢索日期：1月 2, 2026， <https://cryptorank.io/news/feed/d71e2-205862-avalanche-foundation-50-million-allocation>
-33. Avalanche Foundation creates $50 million incentive program to purchase tokenized assets, 檢索日期：1月 2, 2026， <https://www.theblock.co/post/240989/avalanche-foundation-creates-50-million-incentive-program-to-purchase-tokenized-assets>
+32. Avalanche Foundation Announces \$50 Million Allocation For Tokenized Asset Purchase, 檢索日期：1月 2, 2026， <https://cryptorank.io/news/feed/d71e2-205862-avalanche-foundation-50-million-allocation>
+33. Avalanche Foundation creates \$50 million incentive program to purchase tokenized assets, 檢索日期：1月 2, 2026， <https://www.theblock.co/post/240989/avalanche-foundation-creates-50-million-incentive-program-to-purchase-tokenized-assets>
 34. MapleStory universe goes Web3 on Avalanche's Henesys L1 - Esports Insider, 檢索日期：1月 2, 2026， <https://esportsinsider.com/2025/05/maplestory-universe-goes-web3>
 35. How to withdraw cryptocurrencies? - MAX Exchange / MaiCoin, 檢索日期：1月 2, 2026， <https://support.maicoin.com/en/support/solutions/articles/32000016879-how-to-withdraw-cryptocurrencies->
 36. 2025/01/15 MAX 支援AVAX 鏈USDT 接收和發送, 檢索日期：1月 2, 2026， <https://support.maicoin.com/zh-TW/support/solutions/articles/32000035520-2025-01-15-max-%E6%94%AF%E6%8F%B4-avax-%E9%8F%88-usdt-%E6%8E%A5%E6%94%B6%E5%92%8C%E7%99%BC%E9%80%81>

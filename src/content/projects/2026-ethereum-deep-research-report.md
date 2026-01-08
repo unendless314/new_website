@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "以太坊"]
 tags: ["Ethereum", "DeFi", "L2", "RWA", "Investment", "Research"]
 complexity: 3
-image: "../../assets/projects/2026-ethereum-deep-research-report.png"
+image: "../../assets/projects/2026-ethereum-deep-research-report.webp"
 imageAlt: "Ethereum 深度研究封面"
 ---
 
@@ -93,7 +93,7 @@ DeFi 仍是以太坊生態的核心支柱，儘管面臨多鏈競爭，以太坊
 | **技術架構** | Optimistic Rollup (Nitro) | Optimistic Rollup (OP Stack) | Optimistic Rollup (OP Stack) |
 | **市場定位** | DeFi 巨頭，鎖倉量（TVL）最高，深受鯨魚與資深玩家青睞。 | 消費級應用入口，依託 Coinbase 龐大用戶群，強調合規與易用性。 | 超級鏈（Superchain）願景，致力於標準化 L2 開發堆棧，連結多個鏈。 |
 | **生態亮點** | 擁有 GMX, Pendle 等原生 DeFi 藍籌，流動性最深。 | Farcaster (社交), Friend.tech 等高頻應用爆發地；2025 年利潤佔比最高 8。 | Worldcoin 等大型項目採用其技術堆棧；治理結構最為成熟。 |
-| **平均交換費用** | \~$0.01 \- $0.05 | \~$0.005 \- $0.02 | \~$0.01 \- $0.05 |
+| **平均交換費用** | \~\$0.01 \- \$0.05 | \~\$0.005 \- \$0.02 | \~\$0.01 \- \$0.05 |
 | **日活躍度** | 高價值交易為主 | 零售用戶交易頻次極高 | 穩定的開發者與治理活動 |
 
 **深度洞察**：Base 在 2025 年的表現尤為搶眼，其產生的收入甚至一度佔據了整個 L2 板塊利潤的 60% 8。這得益於 Coinbase 提供的無縫法幣出入金通道，解決了用戶「入金難」的問題。這表明，在技術同質化的背景下，「分發渠道（Distribution）」和「用戶體驗（UX）」將成為 L2 競爭的決勝關鍵。
@@ -132,7 +132,7 @@ Solana 是以太坊目前最強勁的競爭對手，其採用「單體鏈（Mono
 | :---- | :---- | :---- |
 | **擴容哲學** | 模組化 (Modular)：L1 負責安全與結算，L2 負責執行。 | 單體化 (Monolithic)：所有操作在同一層完成，追求硬體極致效能。 |
 | **去中心化指標** | Nakamoto 係數極高（由數千個獨立節點支撐），客戶端多樣性豐富。 | Nakamoto 係數約為 **19-20** 11，雖有提升但仍低於以太坊，且對驗證者硬體要求極高。 |
-| **交易成本** | L1 較高，L2 極低 ($0.01)。 | 極低，平均約 **$0.00025** 13。 |
+| **交易成本** | L1 較高，L2 極低 (\$0.01)。 | 極低，平均約 **\$0.00025** 13。 |
 | **網路穩定性** | 極高，主網幾乎從未發生宕機。 | 歷史上曾多次發生因擁堵導致的網路中斷，穩定性仍是其改進重點。 |
 | **生態定位** | 高價值資產結算、機構金融、複雜 DeFi。 | 零售用戶、Meme 幣炒作、高頻交易、DePIN（去中心化物理基礎設施）。 |
 
@@ -221,13 +221,13 @@ Solana 是以太坊目前最強勁的競爭對手，其採用「單體鏈（Mono
 #### **引用的著作**
 
 1. SEC Approves Listings of Spot Ether ETFs: Waiting is the Hardest Part \- Mayer Brown, 檢索日期：1月 2, 2026， [https://www.mayerbrown.com/en/insights/publications/2024/05/sec-approves-listings-of-spot-ether-etfs-waiting-is-the-hardest-part](https://www.mayerbrown.com/en/insights/publications/2024/05/sec-approves-listings-of-spot-ether-etfs-waiting-is-the-hardest-part)  
-2. BlackRock’s Tokenised Fund Hits $100M in Dividends, Signalling Institutional Onchain Shift, 檢索日期：1月 2, 2026， [https://cryptonews.com.au/news/blackrocks-tokenised-fund-hits-100m-in-dividends-signalling-institutional-onchain-shift-132305/](https://cryptonews.com.au/news/blackrocks-tokenised-fund-hits-100m-in-dividends-signalling-institutional-onchain-shift-132305/)  
+2. BlackRock’s Tokenised Fund Hits \$100M in Dividends, Signalling Institutional Onchain Shift, 檢索日期：1月 2, 2026， [https://cryptonews.com.au/news/blackrocks-tokenised-fund-hits-100m-in-dividends-signalling-institutional-onchain-shift-132305/](https://cryptonews.com.au/news/blackrocks-tokenised-fund-hits-100m-in-dividends-signalling-institutional-onchain-shift-132305/)  
 3. Ethereum's Dencun upgrade lowers layer 2 fees by as much as 98% \- DL News, 檢索日期：1月 2, 2026， [https://www.dlnews.com/articles/defi/ethereums-dencun-upgrade-cuts-layer-2-fees-as-much-as-98/](https://www.dlnews.com/articles/defi/ethereums-dencun-upgrade-cuts-layer-2-fees-as-much-as-98/)  
 4. Ethereum Gas Fees Statistics 2025: Real Numbers, Big Savings \- SQ Magazine, 檢索日期：1月 2, 2026， [https://sqmagazine.co.uk/ethereum-gas-fees-statistics/](https://sqmagazine.co.uk/ethereum-gas-fees-statistics/)  
 5. Which Blockchain Has the Lowest Fees in 2025? Full Comparison \- Bleap, 檢索日期：1月 2, 2026， [https://www.bleap.finance/blog/which-blockchain-has-the-lowest-fees](https://www.bleap.finance/blog/which-blockchain-has-the-lowest-fees)  
 6. Ethereum's Pectra Upgrade — Avail Co-Founder Breaks Down What's Coming \- CCN.com, 檢索日期：1月 2, 2026， [https://www.ccn.com/analysis/crypto/ethereum-pectra-upgrade-avail/](https://www.ccn.com/analysis/crypto/ethereum-pectra-upgrade-avail/)  
 7. All Chains DeFi TVL \- DefiLlama, 檢索日期：1月 2, 2026， [https://defillama.com/chains](https://defillama.com/chains)  
-8. Ethereum forfeited over $100M in 2025 L2 fees as Coinbase's Base led profits \- BingX, 檢索日期：1月 2, 2026， [https://bingx.com/es-ar/news/post/ethereum-forfeited-over-m-in-l-fees-as-coinbase-s-base-led-profits](https://bingx.com/es-ar/news/post/ethereum-forfeited-over-m-in-l-fees-as-coinbase-s-base-led-profits)  
+8. Ethereum forfeited over \$100M in 2025 L2 fees as Coinbase's Base led profits \- BingX, 檢索日期：1月 2, 2026， [https://bingx.com/es-ar/news/post/ethereum-forfeited-over-m-in-l-fees-as-coinbase-s-base-led-profits](https://bingx.com/es-ar/news/post/ethereum-forfeited-over-m-in-l-fees-as-coinbase-s-base-led-profits)  
 9. Ethereum stock supply hits post-Merge high, risks 'ultrasound' status \- Investing.com, 檢索日期：1月 2, 2026， [https://www.investing.com/news/cryptocurrency-news/ethereum-stock-supply-hits-postmerge-high-risks-ultrasound-status-93CH-3849804](https://www.investing.com/news/cryptocurrency-news/ethereum-stock-supply-hits-postmerge-high-risks-ultrasound-status-93CH-3849804)  
 10. Ethereum Returns to Inflation – A Concerning Signal for Investors? | Anh\_ba\_Cong on Binance Square, 檢索日期：1月 2, 2026， [https://www.binance.com/en/square/post/19977659322834](https://www.binance.com/en/square/post/19977659322834)  
 11. Solana Network Health Report: June 2025, 檢索日期：1月 2, 2026， [https://solana.com/news/network-health-report-june-2025](https://solana.com/news/network-health-report-june-2025)  

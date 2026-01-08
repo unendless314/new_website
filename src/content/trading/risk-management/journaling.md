@@ -2,7 +2,7 @@
 title: 交易紀錄與復盤
 description: 進步的唯一途徑。打造專屬的交易日誌，透過數據化的復盤，找出策略漏洞並優化你的獲利模型。
 pubDate: 2026-01-05
-image: "@assets/trading/journaling.png"
+image: "@assets/trading/journaling.webp"
 ---
 
 ## 1. 為什麼要復盤？ (Introduction)

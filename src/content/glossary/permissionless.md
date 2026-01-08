@@ -3,7 +3,7 @@ title: "Permissionless（無許可）"
 date: 2026-01-05
 description: "無需任何人批准即可使用，這是區塊鏈最迷人也最危險的特性。"
 author: unendless314
-image: "../../assets/glossary/permissionless.jpeg"
+image: "../../assets/glossary/permissionless.webp"
 imageAlt: "敞開的大門"
 categories: ["P"]
 tags: ["去中心化", "核心精神", "抗審查"]

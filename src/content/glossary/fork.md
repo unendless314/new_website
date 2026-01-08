@@ -3,7 +3,7 @@ title: "Fork（分叉）"
 date: 2026-01-04
 description: "當區塊鏈社群意見不合時，一條路分成兩條路的歷史時刻。"
 author: wu-yan
-image: "../../assets/glossary/fork.jpeg"
+image: "../../assets/glossary/fork.webp"
 imageAlt: "區塊鏈分叉示意圖"
 categories: ["F"]
 tags: ["技術原理", "歷史", "進階"]

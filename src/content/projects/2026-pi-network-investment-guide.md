@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Pi Network"]
 tags: ["Pi Network", "PI", "Mobile Mining", "GCV", "Investment", "Research", "SocialFi"]
 complexity: 2
-image: "../../assets/projects/2026-pi-network-investment-guide.png"
+image: "../../assets/projects/2026-pi-network-investment-guide.webp"
 imageAlt: "數位資產深度研究報告：Pi Network (PI) 開放主網一週年之生態總體檢與投資策略指南 封面"
 ---
 ## 執行摘要 (Executive Summary)
@@ -51,7 +51,7 @@ Binance 與 Coinbase 仍未上架 PI 現貨交易對。流動性主要集中在 
 
 ### **2.3 共識價值（GCV）的社會學分析**
 
-「1 Pi = $314,159」的 GCV 理論在真實市場面前徹底破產。社群因此分裂為接受市場定價的理性派與堅持封閉易物的極端派。
+「1 Pi = \$314,159」的 GCV 理論在真實市場面前徹底破產。社群因此分裂為接受市場定價的理性派與堅持封閉易物的極端派。
 
 
 
@@ -123,12 +123,12 @@ KYC 與遷移的寬限期將於 **2025 年 3 月 14 日** 截止。未完成者�
 ## 第七章：2026 年展望與投資策略
 
 ### **7.1 價格預測模型**
-- **中性情境 (50%)**：幣價在 **$0.20 - $0.40** 區間震盪。
-- **樂觀情境 (20%)**：若成功登陸 Binance，可能反彈至 **$1.00+**。
+- **中性情境 (50%)**：幣價在 **\$0.20 - \$0.40** 區間震盪。
+- **樂觀情境 (20%)**：若成功登陸 Binance，可能反彈至 **\$1.00+**。
 
 ### **7.2 策略建議**
 - **被套牢者**：視為 3-5 年期的風險投資，完成 KYC 並利用鎖倉獲取獎勵。
-- **新進投機者**：$0.20 的 Pi 擁有龐大用戶基數，可進行區間操作，但勿用槓桿。
+- **新進投機者**：\$0.20 的 Pi 擁有龐大用戶基數，可進行區間操作，但勿用槓桿。
 
 
 
@@ -143,7 +143,7 @@ Pi Network 的開放主網一週年證明了「手機挖礦」可以創造巨大
 
 1. Will Pi Network price recover in 2026 on real-world applications?, 檢索日期：1月 2, 2026， <https://www.fxstreet.com/cryptocurrencies/news/pi-network-price-annual-forecast-pi-set-for-rocky-2026-as-community-eyes-real-world-utility-202512190755>
 2. Pi Network price prediction: How high could Pi Coin go in January 2026?, 檢索日期：1月 2, 2026， <https://www.bitget.com/news/detail/12560605127896>
-3. Will Pi Reach GCV of $314,159 ? | Evillo on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/21551105574170>
+3. Will Pi Reach GCV of \$314,159 ? | Evillo on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/21551105574170>
 4. Price of 1 Pi Network (PI) in Indonesia Today (1/2/26), 檢索日期：1月 2, 2026， <https://pintu.co.id/en/news/243706-price-of-1-pi-network-pi-in-indonesia-today-1-2-26>
 5. Pi Network’s Highest Monthly $PI Token Unlock of 2026 Arrives in January – What It Means for Holders?, 檢索日期：1月 2, 2026， <https://www.bitget.com/news/detail/12560605127420>
 6. First Pi Hackathon Winner Seeks Buyer Amid Developer Sustainability Crisis | Yellow.com, 檢索日期：1月 2, 2026， <https://yellow.com/news/first-pi-hackathon-winner-seeks-buyer-amid-developer-sustainability-crisis>

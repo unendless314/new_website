@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "柴犬幣"]
 tags: ["Shiba Inu", "SHIB", "Shibarium", "Meme", "DeFi", "Investment", "Research"]
 complexity: 3
-image: "../../assets/projects/2026-shiba-inu-investment-guide.png"
+image: "../../assets/projects/2026-shiba-inu-investment-guide.webp"
 imageAlt: "柴犬幣 (Shiba Inu, SHIB) 生態轉型深度研究報告：從迷因狂熱到去中心化金融的基礎建設 封面"
 ---
 ## 第一章：執行摘要與市場背景分析
@@ -155,7 +155,7 @@ Shibarium 的主網上線並非一帆風順。2023 年 8 月首次上線時，�
 - | :
 - | :
 - | 
-| **總鎖倉量 (TVL)** | ~$24 億 USD | ~$25 億 USD | **~$136 萬 USD** | Shibarium 的資金規模僅為主流 L2 的千分之一，顯示大資金尚未進場 9。 | 
+| **總鎖倉量 (TVL)** | ~\$24 億 USD | ~\$25 億 USD | **~\$136 萬 USD** | Shibarium 的資金規模僅為主流 L2 的千分之一，顯示大資金尚未進場 9。 | 
 | **日活躍地址數** | >500,000 | ~1,500,000 | **~3,000 - 5,000** | 用戶活躍度存在巨大落差，主要仍集中在投機性交易 32。 | 
 | **日交易筆數** | >100 萬 | >200 萬 | **波動劇烈** (3k - 數百萬) | Shibarium 的交易量極不穩定，通常由單一迷因幣或銘文活動驅動 32。 | 
 | **主要應用類型** | GMX (衍生品), Uniswap | SocialFi, Aerodrome | Marswap, DogSwap | 缺乏像 Aave 或 Compound 這樣的借貸協議，DeFi 樂高尚未堆疊起來 34。 | 
@@ -183,7 +183,7 @@ Shibarium 的主網上線並非一帆風順。2023 年 8 月首次上線時，�
 
 目前 SHIB 的燃燒主要來自三個途徑：
 
-1. **Shibarium 交易費燃燒**：這是系統性的燃燒機制。Shibarium 上的每筆交易手續費分為 Base Fee 與 Priority Fee。Base Fee 的 70% 會累積起來，當累積達到一定金額 (如 $25,000 BONE) 時，會自動轉換為 SHIB 並發送至死地址銷毀 37。  
+1. **Shibarium 交易費燃燒**：這是系統性的燃燒機制。Shibarium 上的每筆交易手續費分為 Base Fee 與 Priority Fee。Base Fee 的 70% 會累積起來，當累積達到一定金額 (如 \$25,000 BONE) 時，會自動轉換為 SHIB 並發送至死地址銷毀 37。  
 2. **社群自發燃燒**：部分項目方或個人為了營銷目的，會主動銷毀 SHIB。例如，某些 NFT 項目會承諾將銷售收入的一部分用於回購並銷毀 SHIB。  
 3. **合作夥伴燃燒**：如 NOWPayments 等支付網關，允許商家選擇將部分收益自動燃燒 39。
 
@@ -195,11 +195,11 @@ Shibarium 的主網上線並非一帆風順。2023 年 8 月首次上線時，�
 
 ### **6.3 「1 美分」情境模擬分析**
 
-讓我們進行一個簡單的數學推演，假設目標價格為 **$0.01 USD**。  
+讓我們進行一個簡單的數學推演，假設目標價格為 **\$0.01 USD**。  
 **情境 A：市值不變，僅靠燃燒**
 
-* 當前市值：假設 SHIB 價格為 $0.00001，市值約為 58.9 億美元。  
-* 若價格達到 $0.01 且市值保持 58.9 億美元，流通供應量需降至：$5,890,000,000 / $0.01 = **5,890 億枚**。  
+* 當前市值：假設 SHIB 價格為 \$0.00001，市值約為 58.9 億美元。  
+* 若價格達到 \$0.01 且市值保持 58.9 億美元，流通供應量需降至：\$5,890,000,000 / \$0.01 = **5,890 億枚**。  
 * 需銷毀數量：589 兆 - 0.589 兆 ≈ 588.4 兆枚。  
 * 所需時間 (以 2024 年速率 446 億枚/年 計算)：
 
@@ -208,7 +208,7 @@ Shibarium 的主網上線並非一帆風順。2023 年 8 月首次上線時，�
 **情境 B：市值成長至比特幣規模，配合燃燒**
 
 * 假設 SHIB 市值成長至 1 兆美元 (約等於比特幣當前市值)。  
-* 若價格達到 $0.01，流通供應量可容許為：$1,000,000,000,000 / $0.01 = **100 兆枚**。  
+* 若價格達到 \$0.01，流通供應量可容許為：\$1,000,000,000,000 / \$0.01 = **100 兆枚**。  
 * 需銷毀數量：589 兆 - 100 兆 = 489 兆枚。  
 * 所需時間：
 
@@ -330,18 +330,18 @@ SHIB 生態的治理權主要通過 **BONE** 代幣實現。Doggy DAO 分為多�
 8. New Functions Made Available on ShibaSwap 2.0 and Pawzaar | koinmilyoner on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/1604918](https://www.binance.com/en/square/post/1604918)  
 9. Shibarium - DefiLlama, 檢索日期：1月 3, 2026， [https://defillama.com/chain/shibarium](https://defillama.com/chain/shibarium)  
 10. Ethereum Layer 2 Network 'Base' Surpasses Arbitrum in Total Value Locked, 檢索日期：1月 3, 2026， [https://coinmarketcap.com/academy/article/ethereum-layer-2-network-base-surpasses-arbitrum-in-total-value-locked](https://coinmarketcap.com/academy/article/ethereum-layer-2-network-base-surpasses-arbitrum-in-total-value-locked)  
-11. What If $SHIB Reaches $0.001, $0.01, $0.1, or Even | Kaleem 781 on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/31490128820618](https://www.binance.com/en/square/post/31490128820618)  
+11. What If $SHIB Reaches \$0.001, \$0.01, \$0.1, or Even | Kaleem 781 on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/31490128820618](https://www.binance.com/en/square/post/31490128820618)  
 12. How many Shiba Inu Coins have been burned in 2025 and what impact will it have?, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/22867478914274](https://www.binance.com/en/square/post/22867478914274)  
 13. Shiba Inu | Digital Asset - Bullish, 檢索日期：1月 3, 2026， [https://www.bullish.com/digital-assets/shib](https://www.bullish.com/digital-assets/shib)  
-14. Vitalik Buterin destroyed 410EBitc SHIB tokens worth $7.4 | Crypto_Investori on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/20833053111194](https://www.binance.com/en/square/post/20833053111194)  
+14. Vitalik Buterin destroyed 410EBitc SHIB tokens worth \$7.4 | Crypto_Investori on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/20833053111194](https://www.binance.com/en/square/post/20833053111194)  
 15. Vitalik Buterin Burns 410 Trillion SHIB After Donating to India Relief Fund - Investing.com, 檢索日期：1月 3, 2026， [https://www.investing.com/news/cryptocurrency-news/vitalik-buterin-burns-410-trillion-shib-after-donating-to-india-relief-fund-2507841](https://www.investing.com/news/cryptocurrency-news/vitalik-buterin-burns-410-trillion-shib-after-donating-to-india-relief-fund-2507841)  
 16. Ethereum co-founder Vitalik Buterin destroys 90% of his Shiba Inu holdings — almost half the coin's circulation - Markets Insider, 檢索日期：1月 3, 2026， [https://markets.businessinsider.com/currencies/news/vitalik-buterin-shiba-inu-coin-burn-dogecoin-ethereum-2021-5-1030436920](https://markets.businessinsider.com/currencies/news/vitalik-buterin-shiba-inu-coin-burn-dogecoin-ethereum-2021-5-1030436920)  
-17. What If You Invested $1,000 in Shiba Inu When Vitalik Buterin Burned 410 Trillion SHIB? | Moon5labs on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en-IN/square/post/22456993785794](https://www.binance.com/en-IN/square/post/22456993785794)  
+17. What If You Invested \$1,000 in Shiba Inu When Vitalik Buterin Burned 410 Trillion SHIB? | Moon5labs on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en-IN/square/post/22456993785794](https://www.binance.com/en-IN/square/post/22456993785794)  
 18. Shiba Inu's BONE and LEASH: The Governance and Utility Tokens for the Shiba Inu Ecosystem | Crypto Pericles on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/321097](https://www.binance.com/en/square/post/321097)  
 19. Shiba Inu Ecosystem Guide: SHIB, BONE, and LEASH Explained : r/CryptoCurrency - Reddit, 檢索日期：1月 3, 2026， [https://www.reddit.com/r/CryptoCurrency/comments/rbh9is/shiba_inu_ecosystem_guide_shib_bone_and_leash/](https://www.reddit.com/r/CryptoCurrency/comments/rbh9is/shiba_inu_ecosystem_guide_shib_bone_and_leash/)  
 20. What is Shiba Inu (SHIB)? - Kraken, 檢索日期：1月 3, 2026， [https://www.kraken.com/learn/what-is-shiba-inu-shib](https://www.kraken.com/learn/what-is-shiba-inu-shib)  
 21. Biggest Shiba Inu Burn In Months — And It Came From A Coinbase Account - TradingView, 檢索日期：1月 3, 2026， [https://www.tradingview.com/news/newsbtc:ef2f46a7f094b:0-biggest-shiba-inu-burn-in-months-and-it-came-from-a-coinbase-account/](https://www.tradingview.com/news/newsbtc:ef2f46a7f094b:0-biggest-shiba-inu-burn-in-months-and-it-came-from-a-coinbase-account/)  
-22. No, SHIB can't reach $1 but never underestimate the psychology of numbers : r/CryptoCurrency - Reddit, 檢索日期：1月 3, 2026， [https://www.reddit.com/r/CryptoCurrency/comments/yn91pd/no_shib_cant_reach_1_but_never_underestimate_the/](https://www.reddit.com/r/CryptoCurrency/comments/yn91pd/no_shib_cant_reach_1_but_never_underestimate_the/)  
+22. No, SHIB can't reach \$1 but never underestimate the psychology of numbers : r/CryptoCurrency - Reddit, 檢索日期：1月 3, 2026， [https://www.reddit.com/r/CryptoCurrency/comments/yn91pd/no_shib_cant_reach_1_but_never_underestimate_the/](https://www.reddit.com/r/CryptoCurrency/comments/yn91pd/no_shib_cant_reach_1_but_never_underestimate_the/)  
 23. Why is LEASH important in the Shiba Inu Ecosystem? - NOWPayments, 檢索日期：1月 3, 2026， [https://nowpayments.io/blog/why-is-leash-important-in-the-shiba-inu-ecosystem](https://nowpayments.io/blog/why-is-leash-important-in-the-shiba-inu-ecosystem)  
 24. What Is Bone ShibaSwap (BONE) And How Does It Work? - CoinMarketCap, 檢索日期：1月 3, 2026， [https://coinmarketcap.com/cmc-ai/bone-shibaswap/what-is/](https://coinmarketcap.com/cmc-ai/bone-shibaswap/what-is/)  
 25. Bone ShibaSwap Price Prediction | Is Bone ShibaSwap a Good Investment? | Capital.com, 檢索日期：1月 3, 2026， [https://capital.com/en-int/analysis/bone-shibaswap-price-prediction](https://capital.com/en-int/analysis/bone-shibaswap-price-prediction)  
@@ -349,7 +349,7 @@ SHIB 生態的治理權主要通過 **BONE** 代幣實現。Doggy DAO 分為多�
 27. Shiba Inu - Bit2Me News, 檢索日期：1月 3, 2026， [https://news.bit2me.com/wp-content/uploads/2021/05/SHIBAINU_Ecosystem_WOOF_Paper.pdf](https://news.bit2me.com/wp-content/uploads/2021/05/SHIBAINU_Ecosystem_WOOF_Paper.pdf)  
 28. Shiba Inu News: ShibaSwap 2.0 And Pawzaar Unleash New Features - TradingView, 檢索日期：1月 3, 2026， [https://www.tradingview.com/news/newsbtc:417802ef5094b:0-shiba-inu-news-shibaswap-2-0-and-pawzaar-unleash-new-features/](https://www.tradingview.com/news/newsbtc:417802ef5094b:0-shiba-inu-news-shibaswap-2-0-and-pawzaar-unleash-new-features/)  
 29. Shiba Inu ShibaSwap 2.0: Enhanced Features, DeFi Potential And More - CoinDCX, 檢索日期：1月 3, 2026， [https://coindcx.com/blog/coindcx-news/shiba-inu-shibaswap-2-0-enhanced-features-defi-potential-and-more-28-october-2024/](https://coindcx.com/blog/coindcx-news/shiba-inu-shibaswap-2-0-enhanced-features-defi-potential-and-more-28-october-2024/)  
-30. Shibarium Network Halted After $2.3 Million Hack, Recovery Plan Unclear | MEXC News, 檢索日期：1月 3, 2026， [https://www.mexc.co/en-PH/news/104160](https://www.mexc.co/en-PH/news/104160)  
+30. Shibarium Network Halted After \$2.3 Million Hack, Recovery Plan Unclear | MEXC News, 檢索日期：1月 3, 2026， [https://www.mexc.co/en-PH/news/104160](https://www.mexc.co/en-PH/news/104160)  
 31. Shibarium Reopens After Exploit, Plans User Compensation | MEXC News, 檢索日期：1月 3, 2026， [https://www.mexc.com/en-GB/news/shibarium-reopens-after-exploit-plans-user-compensation/119101](https://www.mexc.com/en-GB/news/shibarium-reopens-after-exploit-plans-user-compensation/119101)  
 32. Shibarium Transactions Hit 14-Day High, SHIB Price Reacts - TradingView, 檢索日期：1月 3, 2026， [https://www.tradingview.com/news/u_today:f0a2844e9094b:0-shibarium-transactions-hit-14-day-high-shib-price-reacts/](https://www.tradingview.com/news/u_today:f0a2844e9094b:0-shibarium-transactions-hit-14-day-high-shib-price-reacts/)  
 33. Shibarium sets a record with over 400 million transactions - CryptoRank, 檢索日期：1月 3, 2026， [https://cryptorank.io/news/feed/5b53e-shibarium-sets-a-record-with-over-400m-transactions](https://cryptorank.io/news/feed/5b53e-shibarium-sets-a-record-with-over-400m-transactions)  
@@ -360,8 +360,8 @@ SHIB 生態的治理權主要通過 **BONE** 代幣實現。Doggy DAO 分為多�
 38. $SHIB Shiba Inu (SHIB) is an ERC-20 token based on the | 投资取巧 on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/17064724297569](https://www.binance.com/en/square/post/17064724297569)  
 39. How to accept Shiba Inu coin using NOWPayments, 檢索日期：1月 3, 2026， [https://nowpayments.io/blog/how-to-accept-shiba-inu-coin](https://nowpayments.io/blog/how-to-accept-shiba-inu-coin)  
 40. 44.6 Billion SHIB Burned in 2024 – A Year in Review | Trader Rai on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/18379320294641](https://www.binance.com/en/square/post/18379320294641)  
-41. Can Shiba Inu (SHIB) Ever Reach $1? The Math Might Shock You. | The Motley Fool, 檢索日期：1月 3, 2026， [https://www.fool.com/investing/2025/09/24/can-shiba-inu-shib-ever-reach-1-the-math-might-sho/](https://www.fool.com/investing/2025/09/24/can-shiba-inu-shib-ever-reach-1-the-math-might-sho/)  
-42. How Long Until Shiba-Inu Burns To $1 : r/CryptoCurrency - Reddit, 檢索日期：1月 3, 2026， [https://www.reddit.com/r/CryptoCurrency/comments/y836z1/how_long_until_shibainu_burns_to_1/](https://www.reddit.com/r/CryptoCurrency/comments/y836z1/how_long_until_shibainu_burns_to_1/)  
+41. Can Shiba Inu (SHIB) Ever Reach \$1? The Math Might Shock You. | The Motley Fool, 檢索日期：1月 3, 2026， [https://www.fool.com/investing/2025/09/24/can-shiba-inu-shib-ever-reach-1-the-math-might-sho/](https://www.fool.com/investing/2025/09/24/can-shiba-inu-shib-ever-reach-1-the-math-might-sho/)  
+42. How Long Until Shiba-Inu Burns To \$1 : r/CryptoCurrency - Reddit, 檢索日期：1月 3, 2026， [https://www.reddit.com/r/CryptoCurrency/comments/y836z1/how_long_until_shibainu_burns_to_1/](https://www.reddit.com/r/CryptoCurrency/comments/y836z1/how_long_until_shibainu_burns_to_1/)  
 43. SHIB Army Split On Leadership: Will It Boost Or Sink Shiba? - DailyCoin, 檢索日期：1月 3, 2026， [https://dailycoin.com/shib-army-split-on-leadership-will-it-boost-or-sink-shiba/](https://dailycoin.com/shib-army-split-on-leadership-will-it-boost-or-sink-shiba/)  
 44. Shytoshi Kusama Faces Backlash Over 'SHIB President' Proposal: Details - TradingView, 檢索日期：1月 3, 2026， [https://www.tradingview.com/news/u_today:dbeb89a25094b:0-shytoshi-kusama-faces-backlash-over-shib-president-proposal-details/](https://www.tradingview.com/news/u_today:dbeb89a25094b:0-shytoshi-kusama-faces-backlash-over-shib-president-proposal-details/)  
 45. Shiba Inu Lead Breaks Silence With Cryptic "Blue Kachina" Message - What It Means, 檢索日期：1月 3, 2026， [https://coinpaper.com/12083/shiba-inu-lead-breaks-silence-with-cryptic-blue-kachina-message-what-it-means](https://coinpaper.com/12083/shiba-inu-lead-breaks-silence-with-cryptic-blue-kachina-message-what-it-means)  

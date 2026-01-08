@@ -3,7 +3,7 @@ title: "Multi-signature（多重簽名/多簽）"
 date: 2026-01-05
 description: "集齊鑰匙才能開門，保護鉅額資產的標準配備。"
 author: unendless314
-image: "../../assets/glossary/multi-signature.jpg"
+image: "../../assets/glossary/multi-signature.webp"
 imageAlt: "多把鑰匙同時轉動"
 categories: ["M"]
 tags: ["安全", "錢包", "DAO"]

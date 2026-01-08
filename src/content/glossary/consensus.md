@@ -3,7 +3,7 @@ title: "Consensus（共識機制）"
 date: 2026-01-05
 description: "區塊鏈的靈魂，讓互不相識的節點達成一致的遊戲規則。"
 author: unendless314
-image: "../../assets/glossary/consensus.png"
+image: "../../assets/glossary/consensus.webp"
 imageAlt: "握手達成協議"
 categories: ["C"]
 tags: ["技術", "PoW", "PoS"]

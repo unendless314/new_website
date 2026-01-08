@@ -3,7 +3,7 @@ title: "Liquidity Mining（流動性挖礦）"
 date: 2026-01-04
 description: "透過提供資產流動性來「挖掘」新代幣，協議啟動的核心引擎。"
 author: wu-yan
-image: "../../assets/glossary/liquidity-mining.jpeg"
+image: "../../assets/glossary/liquidity-mining.webp"
 imageAlt: "流動性挖礦概念圖"
 categories: ["L"]
 tags: ["DeFi", "經濟模型", "進階"]

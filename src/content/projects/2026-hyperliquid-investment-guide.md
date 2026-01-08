@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "DeFi"]
 tags: ["Hyperliquid", "HYPE", "HLP", "HyperEVM", "Perp DEX", "Layer 1", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-hyperliquid-investment-guide.png"
+image: "../../assets/projects/2026-hyperliquid-investment-guide.webp"
 imageAlt: "Hyperliquid (HYPE) 深度投資研究報告：從高性能 L1 架構到去中心化金融的終極型態 封面"
 ---
 ## 摘要
@@ -161,12 +161,12 @@ Hyperliquid 的出現標誌著 DeFi 從「模組化」向「垂直整合」的�
 19. Hyperliquid Platform Airdrop: How It Became the Most Lucrative in Crypto History | OKX, 檢索日期：1月 2, 2026， <https://www.okx.com/learn/hyperliquid-platform-airdrop-lucrative-history>
 20. Hyperliquid (HYPE) | Tokenomics, Supply & Release Schedule - Token Unlocks, 檢索日期：1月 2, 2026， <https://tokenomist.ai/hyperliquid>
 21. Hyperliquid HYPE Token Unlocks, Vesting Schedule & Tokenomics | DropsTab, 檢索日期：1月 2, 2026， <https://dropstab.com/coins/hyperliquid/vesting>
-22. Hyperliquid Puts $1B HYPE Tokens Up for Burn Vote - TradingView, 檢索日期：1月 2, 2026， <https://www.tradingview.com/news/coinpedia:98492b3c7094b:0-hyperliquid-puts-1b-hype-tokens-up-for-burn-vote/>
-23. Hyperliquid Validators Vote on $1B HYPE Token Fund Status | CoinMarketCap, 檢索日期：1月 2, 2026， <https://coinmarketcap.com/academy/article/hyperliquid-validators-vote-1b-hype-fund-status>
+22. Hyperliquid Puts \$1B HYPE Tokens Up for Burn Vote - TradingView, 檢索日期：1月 2, 2026， <https://www.tradingview.com/news/coinpedia:98492b3c7094b:0-hyperliquid-puts-1b-hype-tokens-up-for-burn-vote/>
+23. Hyperliquid Validators Vote on \$1B HYPE Token Fund Status | CoinMarketCap, 檢索日期：1月 2, 2026， <https://coinmarketcap.com/academy/article/hyperliquid-validators-vote-1b-hype-fund-status>
 24. A Risk & Return Analysis of Hyperliquid's HLP Vault | by Geronimo | Medium, 檢索日期：1月 2, 2026， <https://medium.com/@RyskyGeronimo/a-risk-return-analysis-of-hyperliquids-hlp-vault-7c164cd00a0d>
 25. Hyperliquid (HYPE): S1 2025 Activity Report | OAK Research, 檢索日期：1月 2, 2026， <https://oakresearch.io/en/reports/protocols/hyperliquid-hype-s1-2025-activity-report>
 26. Hyperliquid vs dYdX: How This Decentralized Futures Platform Captured 60% Market Share, 檢索日期：1月 2, 2026， <https://www.okx.com/en-us/learn/hyperliquid-dydx-market-share>
-27. Hyperliquid Denies $362M Risk Claims, Says Platform Is Fully Solvent - CryptoPotato, 檢索日期：1月 2, 2026， <https://cryptopotato.com/hyperliquid-denies-362m-risk-claims-says-platform-is-fully-solvent/>
+27. Hyperliquid Denies \$362M Risk Claims, Says Platform Is Fully Solvent - CryptoPotato, 檢索日期：1月 2, 2026， <https://cryptopotato.com/hyperliquid-denies-362m-risk-claims-says-platform-is-fully-solvent/>
 28. How to start trading - Hyperliquid Docs - GitBook, 檢索日期：1月 2, 2026， <https://hyperliquid.gitbook.io/hyperliquid-docs/onboarding/how-to-start-trading>
 29. How to Use Hyperliquid API - Apidog, 檢索日期：1月 2, 2026， <https://apidog.com/blog/hyperliquid-api/>
 30. Send Limits and Fees - MaiCoin, 檢索日期：1月 2, 2026， <https://www.maicoin.com/docs/fees-limits/transfers>
@@ -178,4 +178,4 @@ Hyperliquid 的出現標誌著 DeFi 從「模組化」向「垂直整合」的�
 36. A Hyperliquid Analysis - Medium, 檢索日期：1月 2, 2026， <https://medium.com/@stevescryptocorner/a-hyperliquid-analysis-7b5787f98238>
 37. Cross-Chain Transfer Mechanism in Hyperliquid: Architecture and Proxy Design - Medium, 檢索日期：1月 2, 2026， <https://medium.com/@gwrx2005/cross-chain-transfer-mechanism-in-hyperliquid-architecture-and-proxy-design-b3179e636ec7>
 38. Analysis of the Top 10 HyperLiquid vaults, and what quality returns mean - Medium, 檢索日期：1月 2, 2026， <https://medium.com/@growi.fi/analysis-of-the-top-10-hyperliquid-vaults-and-what-quality-returns-mean-245fc1f5d2be>
-39. The Great Whale Slap: How a Whale Offloaded $4M in Losses to Hyperliquid's HLP Vault, 檢索日期：1月 2, 2026， <https://www.wisdomtreeprime.com/blog/the-great-whale-slap-how-a-whale-offloaded-4m-in-losses-to-hyperliquids-hlp-vault/>
+39. The Great Whale Slap: How a Whale Offloaded \$4M in Losses to Hyperliquid's HLP Vault, 檢索日期：1月 2, 2026， <https://www.wisdomtreeprime.com/blog/the-great-whale-slap-how-a-whale-offloaded-4m-in-losses-to-hyperliquids-hlp-vault/>

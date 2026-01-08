@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Ethena"]
 tags: ["Ethena", "ENA", "USDe", "Stablecoin", "Delta Neutral", "Basis Trade", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-ethena-investment-guide.png"
+image: "../../assets/projects/2026-ethena-investment-guide.webp"
 imageAlt: "Ethena (ENA / USDe) 深度投資研究報告：合成美元的金融架構、收益來源與風險全景 封面"
 ---
 ## 第一章：緒論：從穩定幣的三難困境到合成美元的誕生

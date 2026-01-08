@@ -3,7 +3,7 @@ title: "Treasury（國庫/金庫）"
 date: 2026-01-05
 description: "DAO 或項目的資金儲備，用於支付開發、行銷與營運成本。"
 author: unendless314
-image: "../../assets/glossary/treasury.jpg"
+image: "../../assets/glossary/treasury.webp"
 imageAlt: "裝滿金幣的寶箱"
 categories: ["T"]
 tags: ["DAO", "治理", "代幣經濟"]

@@ -3,7 +3,7 @@ title: "Market Maker（做市商）"
 date: 2026-01-04
 description: "市場背後的影武者，提供流動性並以此獲利的專業機構。"
 author: wu-yan
-image: "../../assets/glossary/market-maker.jpg"
+image: "../../assets/glossary/market-maker.webp"
 imageAlt: "做市商示意圖"
 categories: ["M"]
 tags: ["市場機制", "機構", "進階"]

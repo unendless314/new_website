@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["技術研究", "以太坊", "ZK"]
 tags: ["Ethereum", "zkEVM", "Zero-Knowledge", "L1", "Multi-prover"]
 description: "以太坊官方發布 L1 zkEVM 系列研報第二章，重點探討如何透過「多重證明者」機制與「形式化驗證」，消除零知識證明電路中的致命 Bug。"
-image: "@assets/news/l1-zkevm-security.jpg"
+image: "@assets/news/l1-zkevm-security.webp"
 imageAlt: "zkEVM Security Architecture"
 complexity: 4
 ---

@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "波卡"]
 tags: ["Polkadot", "DOT", "Parachain", "Agile Coretime", "JAM", "Investment", "Research"]
 complexity: 3
-image: "../../assets/projects/2026-polkadot-investment-guide.png"
+image: "../../assets/projects/2026-polkadot-investment-guide.webp"
 imageAlt: "Polkadot (DOT) 深度轉型報告：從「幽靈公鏈」到全球算力超級電腦的價值重構 封面"
 ---
 ## 執行摘要 (Executive Summary)
@@ -163,10 +163,10 @@ Polkadot 正在經歷一場從「封閉花園」走向「開放市集」的蛻�
 3. Slot Auctions vs Coretime: What's Changing for Polkadot Projects | by Integritee Network, 檢索日期：1月 2, 2026， <https://medium.com/integritee/slot-auctions-vs-coretime-whats-changing-for-polkadot-projects-489e32dee049>
 4. Polkadot at a Crossroads — Here's What I Think Needs to Change | by Bifrost - Medium, 檢索日期：1月 2, 2026， <https://medium.com/bifrost-finance/polkadot-at-a-crossroads-heres-what-i-think-needs-to-change-d389312ce6ca>
 5. Proposal for Adjusting Polkadot's Inflation System: Reducing Issuance and Complexity, 檢索日期：1月 2, 2026， <https://forum.polkadot.network/t/proposal-for-adjusting-polkadots-inflation-system-reducing-issuance-and-complexity/9157>
-6. Polkadot's half-year financial report sparks controversy: $87 million in promotional expenses accounts for nearly half, with revenue only at $1.1 million. - RootData, 檢索日期：1月 2, 2026， <https://www.rootdata.com/news/233598>
+6. Polkadot's half-year financial report sparks controversy: \$87 million in promotional expenses accounts for nearly half, with revenue only at \$1.1 million. - RootData, 檢索日期：1月 2, 2026， <https://www.rootdata.com/news/233598>
 7. Polkadot Marketing Cost Controversy Sparks Claims of Discrimination - Decrypt, 檢索日期：1月 2, 2026， <https://decrypt.co/238252/polkadot-marketing-spending-controversy-discrimination-allegations>
 8. Polkadot 2.0 - Reddit, 檢索日期：1月 2, 2026， <https://www.reddit.com/r/Polkadot/comments/1c71br4/polkadot_20/>
-9. Polkadot's $37 Million Marketing Spend Prompts Backlash, Ecosystem Revenues Fall, 檢索日期：1月 2, 2026， <https://www.ccn.com/news/crypto/polkadots-marketing-backlash-ecosystem-revenues-fall/>
+9. Polkadot's \$37 Million Marketing Spend Prompts Backlash, Ecosystem Revenues Fall, 檢索日期：1月 2, 2026， <https://www.ccn.com/news/crypto/polkadots-marketing-backlash-ecosystem-revenues-fall/>
 10. Asset Transactor on Asset Hubs not Working With Sufficient Assets · Issue #3958 · paritytech/polkadot-sdk - GitHub, 檢索日期：1月 2, 2026， <https://github.com/paritytech/polkadot-sdk/issues/3958>
 11. Sufficiency on assethub - Ecosystem - Polkadot Forum, 檢索日期：1月 2, 2026， <https://forum.polkadot.network/t/sufficiency-on-assethub/7095>
 12. Polkadot 2.0, 檢索日期：1月 2, 2026， <https://wiki.polkadot.com/general/polkadot-v2/>
@@ -184,7 +184,7 @@ Polkadot 正在經歷一場從「封閉花園」走向「開放市集」的蛻�
 24. Which real world use cases is JAM going to enable? : r/Polkadot - Reddit, 檢索日期：1月 2, 2026， <https://www.reddit.com/r/Polkadot/comments/1i1s6ri/which_real_world_use_cases_is_jam_going_to_enable/>
 25. JAM and the JAM Grid: The Subsequent Phases of the Polkadot Cloud - Permanence DAO, 檢索日期：1月 2, 2026， <https://permanencedao.medium.com/jam-and-the-jam-grid-the-subsequent-phases-of-the-polkadot-cloud-a79f416e5ec5>
 26. Polkadot Roundup MMXXIV - Medium, 檢索日期：1月 2, 2026， <https://medium.com/polkadot-network/polkadot-roundup-mmxxiv-8d3e880dd637>
-27. ATTENTION: DEVELOPERS! Discover the $50 Million JAM Implementer's Prize and Access a Supercomputer Playground - Scytale Digital, 檢索日期：1月 2, 2026， <https://www.scytale.digital/blog-posts/attention-developers-discover-the-50-million-jam-implementers-prize-and-access-a-supercomputer-playground>
+27. ATTENTION: DEVELOPERS! Discover the \$50 Million JAM Implementer's Prize and Access a Supercomputer Playground - Scytale Digital, 檢索日期：1月 2, 2026， <https://www.scytale.digital/blog-posts/attention-developers-discover-the-50-million-jam-implementers-prize-and-access-a-supercomputer-playground>
 28. Latest! Polkadot Updates 2025 Roadmap, Multiple Core Products Are About to Launch! | PolkaWorld on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/26801367530721>
 29. 2025-Q1 Polkadot Treasury Report - Governance, 檢索日期：1月 2, 2026， <https://forum.polkadot.network/t/2025-q1-polkadot-treasury-report/12951>
 30. 2025-Q3 Polkadot Treasury Report - Governance, 檢索日期：1月 2, 2026， <https://forum.polkadot.network/t/2025-q3-polkadot-treasury-report/16001>

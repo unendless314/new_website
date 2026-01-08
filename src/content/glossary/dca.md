@@ -3,7 +3,7 @@ title: "DCA（定期定額 / 定期定投）"
 date: 2026-01-04
 description: "對抗市場劇烈波動的最強策略，散戶的長線贏家之道。"
 author: wu-yan
-image: "../../assets/glossary/dca.jpeg"
+image: "../../assets/glossary/dca.webp"
 imageAlt: "DCA 策略示意圖"
 categories: ["D"]
 tags: ["投資策略", "新手", "風險管理"]

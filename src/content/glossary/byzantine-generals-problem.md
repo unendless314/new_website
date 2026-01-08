@@ -3,7 +3,7 @@ title: "Byzantine Generals Problem（拜占庭將軍問題）"
 date: 2026-01-05
 description: "分散式系統中最核心的信任難題，比特幣用 PoW 解決了它。"
 author: unendless314
-image: "../../assets/glossary/byzantine-generals-problem.png"
+image: "../../assets/glossary/byzantine-generals-problem.webp"
 imageAlt: "古代將軍商討戰術"
 categories: ["B"]
 tags: ["共識機制", "歷史", "技術原理"]

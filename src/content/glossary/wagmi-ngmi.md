@@ -3,7 +3,7 @@ title: "WAGMI & NGMI（幣圈專屬的正負能量語錄）"
 date: 2026-01-04
 description: "「我們都會成功的」vs「你沒救了」，Web3 社群的口頭禪。"
 author: wu-yan
-image: "../../assets/glossary/wagmi-ngmi.jpg"
+image: "../../assets/glossary/wagmi-ngmi.webp"
 imageAlt: "WAGMI 示意圖"
 categories: ["W"]
 tags: ["文化", "迷因", "社群"]

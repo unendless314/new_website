@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "比特幣現金"]
 tags: ["BCH", "Bitcoin Cash", "Payment", "CashTokens", "EDX Markets", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-bitcoin-cash-investment-guide.png"
+image: "../../assets/projects/2026-bitcoin-cash-investment-guide.webp"
 imageAlt: "重塑電子現金：比特幣現金 (BCH) 的機構合規紅利、技術奇點與台灣實務應用深度研究報告 封面"
 ---
 ## 執行摘要 (Executive Summary)
@@ -298,8 +298,8 @@ Paytaca 是一款專注於 BCH 的錢包應用，在菲律賓市場增長迅速�
 31. ELI5 AnyHedge and DeToken : r/btc - Reddit, 檢索日期：1月 2, 2026， <https://www.reddit.com/r/btc/comments/ksytiw/eli5_anyhedge_and_detoken/>
 32. AnyHedge - DefiLlama, 檢索日期：1月 2, 2026， <https://defillama.com/protocol/anyhedge>
 33. Cauldron: The original DEX to the CashTokens, Bitcoin Cash because of the Pantera The fresh Crypto Kiosk - CHESIQUIMICA, 檢索日期：1月 2, 2026， <https://www.chesiquimica.com.br/cauldron-the-original-dex-to-the-cashtokens-bitcoin-cash-because-of-the-pantera-the-fresh-crypto-kiosk/>
-34. The BCH Bullet - Cauldron DEX Hits $1M TVL - BLAZE Hackathon Opens : r/CryptoCurrency, 檢索日期：1月 2, 2026， <https://www.reddit.com/r/CryptoCurrency/comments/1natmo0/the_bch_bullet_cauldron_dex_hits_1m_tvl_blaze/>
-35. Monthly Perpetual Futures Trading Volume on DEXes Hits $1T - CoinMarketCap, 檢索日期：1月 2, 2026， <https://coinmarketcap.com/academy/article/dex-perps-trading-volume-1-trillion-monthly>
+34. The BCH Bullet - Cauldron DEX Hits \$1M TVL - BLAZE Hackathon Opens : r/CryptoCurrency, 檢索日期：1月 2, 2026， <https://www.reddit.com/r/CryptoCurrency/comments/1natmo0/the_bch_bullet_cauldron_dex_hits_1m_tvl_blaze/>
+35. Monthly Perpetual Futures Trading Volume on DEXes Hits \$1T - CoinMarketCap, 檢索日期：1月 2, 2026， <https://coinmarketcap.com/academy/article/dex-perps-trading-volume-1-trillion-monthly>
 36. Perp DEXs almost triple volume in 2025 as onchain derivatives mature - TradingView, 檢索日期：1月 2, 2026， <https://www.tradingview.com/news/cointelegraph:9642104b5094b:0-perp-dexs-almost-triple-volume-in-2025-as-onchain-derivatives-mature/>
 37. Liquidity Analysis: a glance at some fundamentals - Keyrock, 檢索日期：1月 2, 2026， <https://keyrock.com/liquidity-analysis-glance-some-fundamentals/>
 38. Cauldron - DefiLlama, 檢索日期：1月 2, 2026， <https://defillama.com/protocol/cauldron>

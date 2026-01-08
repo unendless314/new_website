@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Uniswap"]
 tags: ["Uniswap", "UNI", "DeFi", "AMM", "V4", "UniswapX", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-uniswap-deep-research-report.png"
+image: "../../assets/projects/2026-uniswap-deep-research-report.webp"
 imageAlt: "2026 Uniswap (UNI) 深度投資研究報告：DeFi 基石的技術重構與經濟模型轉型 封面"
 ---
 ## 執行摘要 (Executive Summary)
@@ -169,7 +169,7 @@ V3 與 V4 的集中流動性雖然提高了資金效率，但也放大了風險�
 
 ### **6.1 節省 Gas 費用的 L2 策略：以 Arbitrum 為例**
 
-以太坊主網單筆交易 Gas 費動輒數十美元。強烈建議台灣用戶使用 **Arbitrum One** 進行操作，其交易成本僅約 $0.1 - $0.3 美元。
+以太坊主網單筆交易 Gas 費動輒數十美元。強烈建議台灣用戶使用 **Arbitrum One** 進行操作，其交易成本僅約 \$0.1 - \$0.3 美元。
 
 #### **操作流程：從台幣到 Uniswap (Arbitrum)**
 
@@ -233,7 +233,7 @@ V3 與 V4 的集中流動性雖然提高了資金效率，但也放大了風險�
 17. Intent-based protocols pt1: unfolding UniswapX | Research - Anoma, 檢索日期：1月 3, 2026， <https://anoma.net/research/uniswapx>
 18. UniswapX — A Deep Dive, 檢索日期：1月 3, 2026， <https://xangle.io/en/research/detail/1611>
 19. UniswapX — A Deep Dive. Are Intents the Future of Bridging? | by Arjun Chand | LI.FI Blog, 檢索日期：1月 3, 2026， <https://blog.li.fi/uniswapx-a-deep-dive-4b4ea7673dc1>
-20. Uniswap's fee switch goes live – Will UNI's price head to $8.4 or $4.5? | Bitget News, 檢索日期：1月 3, 2026， <https://www.bitget.com/news/detail/12560605123894>
+20. Uniswap's fee switch goes live – Will UNI's price head to \$8.4 or \$4.5? | Bitget News, 檢索日期：1月 3, 2026， <https://www.bitget.com/news/detail/12560605123894>
 21. UNIfication Greenlights 100M UNI Burn and Switches On Protocol Fees - CryptoNinjas, 檢索日期：1月 3, 2026， <https://www.cryptoninjas.net/news/unification-greenlights-100m-uni-burn-and-switches-on-protocol-fees/>
 22. UNIfication Proposal - Requests for Comment - Uniswap Governance, 檢索日期：1月 3, 2026， <https://gov.uniswap.org/t/unification-proposal/25881>
 23. Uniswap's Unification Proposal Passes, Triggering UNI Burn and Fee Switch Activation | MEXC News, 檢索日期：1月 3, 2026， <https://www.mexc.com/news/349866>
@@ -243,7 +243,7 @@ V3 與 V4 的集中流動性雖然提高了資金效率，但也放大了風險�
 27. Wells Notice Response - Uniswap Blog, 檢索日期：1月 3, 2026， <https://blog.uniswap.org/wells-notice-response.pdf>
 28. The Fight for DeFi Continues - Uniswap Blog, 檢索日期：1月 3, 2026， <https://blog.uniswap.org/the-fight-for-defi-continues>
 29. SEC drops Uniswap Labs investigation as agency continues crypto-friendly push | The Block, 檢索日期：1月 3, 2026， <https://www.theblock.co/post/343353/sec-drops-uniswap-labs-investigation-as-agency-continues-crypto-friendly-push-wsj>
-30. Uniswap Labs settles with the US CFTC for $175,000 on charges related to derivatives trading | The Block, 檢索日期：1月 3, 2026， <https://www.theblock.co/post/314708/uniswap-labs-settles-with-the-us-cftc-for-175000-on-charges-related-to-derivatives-trading>
+30. Uniswap Labs settles with the US CFTC for \$175,000 on charges related to derivatives trading | The Block, 檢索日期：1月 3, 2026， <https://www.theblock.co/post/314708/uniswap-labs-settles-with-the-us-cftc-for-175000-on-charges-related-to-derivatives-trading>
 31. Impermanent Loss and How AMMs Protect Their LPs, Pt. 1 | by Jack Ratkovich - Medium, 檢索日期：1月 3, 2026， <https://medium.com/@jackratko/impermanent-loss-and-how-amms-protect-their-lps-9b039986ac0d>
 32. Concentrated Liquidity & Capital Efficiency in Uniswap V3 - Cyfrin, 檢索日期：1月 3, 2026， <https://www.cyfrin.io/blog/uniswap-v3-concentrated-liquidity-capital-efficiency>
 33. Automated Market Makers: Toward More Profitable Liquidity Provisioning Strategies - arXiv, 檢索日期：1月 3, 2026， <https://arxiv.org/html/2501.07828v1>

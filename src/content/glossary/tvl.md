@@ -3,7 +3,7 @@ title: "TVL（總鎖定價值）"
 date: 2025-12-31
 description: "衡量 DeFi 協議規模與信任度的核心指標。"
 author: wu-yan
-image: "../../assets/glossary/tvl.jpg"
+image: "../../assets/glossary/tvl.webp"
 imageAlt: "TVL 指標圖"
 categories: ["T"]
 tags: ["數據指標", "DeFi", "進階"]

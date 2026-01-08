@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Filecoin"]
 tags: ["Filecoin", "FIL", "IPFS", "DePIN", "AI", "Storage", "FVM", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-filecoin-investment-guide.png"
+image: "../../assets/projects/2026-filecoin-investment-guide.webp"
 imageAlt: "數位基石與智慧引擎：Filecoin (FIL) 深度研究報告——從分佈式存儲邁向 AI 時代的去中心化數據層 封面"
 ---
 ## 執行摘要：重塑數據價值的範式轉移
@@ -161,8 +161,8 @@ FIL 總量理論上限 20 億枚。區塊獎勵遵循 6 年減半模型，並結
 41. Filecoin releases content delivery network called Saturn: Exclusive | The Block, 檢索日期：1月 2, 2026， <https://www.theblock.co/post/180450/filecoin-releases-new-content-delivery-network-called-saturn>
 42. 10 Best Crypto Staking Platforms 2025 - Koinly, 檢索日期：1月 2, 2026， <https://koinly.io/blog/best-staking-platforms/>
 43. GLIF protocol launches token, distributes 94 million GLF in airdrop as it expands beyond Filecoin | The Block, 檢索日期：1月 2, 2026， <https://www.theblock.co/post/346864/glif-protocol-token-airdrop-filecoin-depins>
-44. 14 indicted in NT$1.27 billion crypto-related fraud case - Focus Taiwan, 檢索日期：1月 2, 2026， <https://focustaiwan.tw/society/202508220022>
-45. Taiwan prosecutors charge 14 suspects in $41 million BitShine crypto fraud: reports, 檢索日期：1月 2, 2026， <https://www.theblock.co/post/367919/taiwan-prosecutors-bitshine-crypto-fraud>
+44. 14 indicted in NT\$1.27 billion crypto-related fraud case - Focus Taiwan, 檢索日期：1月 2, 2026， <https://focustaiwan.tw/society/202508220022>
+45. Taiwan prosecutors charge 14 suspects in \$41 million BitShine crypto fraud: reports, 檢索日期：1月 2, 2026， <https://www.theblock.co/post/367919/taiwan-prosecutors-bitshine-crypto-fraud>
 46. The Decentralized Storage War: Filecoin vs. Arweave | CoinMarketCap, 檢索日期：1月 2, 2026， <https://coinmarketcap.com/academy/article/the-decentralized-storage-war-filecoin-vs-arweave>
 47. Comparing CDN Performance: Amazon CloudFront's Last Mile Testing Results - AWS, 檢索日期：1月 2, 2026， <https://media.amazonwebservices.com/FS_WP_AWS_CDN_CloudFront.pdf>
 48. AWS CloudFront vs Cloudflare: Which CDN Wins on Cost & Latency, 檢索日期：1月 2, 2026， <https://blog.blazingcdn.com/en-us/aws-cloudfront-vs-cloudflare-which-cdn-wins-on-cost-latency>

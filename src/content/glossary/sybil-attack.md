@@ -3,7 +3,7 @@ title: "Sybil Attack（女巫攻擊）"
 date: 2026-01-04
 description: "透過大量偽造身份來操縱系統的行為，去中心化網路的最大威脅。"
 author: wu-yan
-image: "../../assets/glossary/sybil-attack.jpg"
+image: "../../assets/glossary/sybil-attack.webp"
 imageAlt: "女巫攻擊示意圖"
 categories: ["S"]
 tags: ["技術原理", "安全", "進階"]

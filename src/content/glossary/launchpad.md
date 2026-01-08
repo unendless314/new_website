@@ -3,7 +3,7 @@ title: "Launchpad（代幣發射台）"
 date: 2026-01-04
 description: "孵化潛力項目的搖籃，讓投資者在早期階段參與代幣發售的平台。"
 author: wu-yan
-image: "../../assets/glossary/launchpad.jpeg"
+image: "../../assets/glossary/launchpad.webp"
 imageAlt: "Launchpad 火箭發射圖"
 categories: ["L"]
 tags: ["募資", "平台", "新手"]

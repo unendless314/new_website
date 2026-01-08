@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Cardano"]
 tags: ["Cardano", "ADA", "Staking", "Governance", "RealFi", "Investment", "Research"]
 complexity: 3
-image: "../../assets/projects/2026-cardano-investment-guide.png"
+image: "../../assets/projects/2026-cardano-investment-guide.webp"
 imageAlt: "範式轉移：卡爾達諾 (Cardano) 協議深度解析與投資戰略指南 封面"
 ---
 ## 執行摘要

@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Arbitrum"]
 tags: ["Arbitrum", "ARB", "Layer 2", "DeFi", "Rollup", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-arbitrum-investment-guide.png"
+image: "../../assets/projects/2026-arbitrum-investment-guide.webp"
 imageAlt: "Arbitrum (ARB) 深度投資研報：以太坊擴容霸主的技術護城河、經濟模型轉型與台灣市場指南 封面"
 ---
 ## 第一章：執行摘要 (Executive Summary)
@@ -91,7 +91,7 @@ Arbitrum 是一個產品矩陣，針對不同的市場需求進行了精細化�
 | **技術架構** | Optimistic Rollup | AnyTrust (DAC) | 基於 Nitro 的定製鏈 |
 | **數據可用性** | Ethereum L1 | DAC (Off-chain) | 可配置 |
 | **安全性** | 以太坊級別 | 依賴 DAC 信任假設 | 繼承自結算層 |
-| **Gas 成本** | 低 ($0.1-$0.5) | 極低 (<$0.01) | 可自定義 (甚至免費) |
+| **Gas 成本** | 低 (\$0.1-\$0.5) | 極低 (<\$0.01) | 可自定義 (甚至免費) |
 | **核心用例** | DeFi, 穩定幣 | 遊戲, 社交 | 專用應用鏈 |
 
 
@@ -186,11 +186,11 @@ Arbitrum 在 2025 年依然是 Layer 2 的領跑者。它擁有最強大的 DeFi
 14. Arbitrum One vs. Arbitrum Nova: Layer-2 Solutions Compared - BeInCrypto, 檢索日期：1月 2, 2026， <https://beincrypto.com/learn/arbitrum-one-vs-arbitrum-nova/>
 15. Arbitrum Ecosystem Revenue From Orbit Chains, 檢索日期：1月 2, 2026， <https://dune.com/lamprosdao/arbitrum-ecosystem-revenue-from-orbit-chains>
 16. TOKEN COMPARISON: OP vs ARB 1. OP Token | spot mini on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/26978578020066>
-17. Arbitrum to Unlock $2 Billion in ARB Tokens to Offchain Labs on Saturday, 檢索日期：1月 2, 2026， <https://unchainedcrypto.com/arbitrum-to-unlock-2-billion-in-arb-tokens-to-offchain-labs-on-saturday/>
+17. Arbitrum to Unlock \$2 Billion in ARB Tokens to Offchain Labs on Saturday, 檢索日期：1月 2, 2026， <https://unchainedcrypto.com/arbitrum-to-unlock-2-billion-in-arb-tokens-to-offchain-labs-on-saturday/>
 18. Arbitrum (ARB) - 92.65MM Token Unlock - 16 Aug 2025 — TradingView News, 檢索日期：1月 2, 2026， <https://www.tradingview.com/news/coinmarketcal:49efe7433094b:0-arbitrum-arb-92-65mm-token-unlock-16-aug-2025/>
 19. RISK WARNING: BIG UNLOCK OF ARB AND APT TOKENS IN JANUARY 2025 – INVESTORS SHOULD BE AWARE | Anh_ba_Cong on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/18620299637714>
 20. Arbitrum | ARB Staking: Unlock ARB Utility and Align Governance - Tally.xyz, 檢索日期：1月 2, 2026， <https://www.tally.xyz/gov/arbitrum/proposal/52793687237294107439411688810483120161857085958258363826553939061522164665920>
-21. Arbitrum DAO votes to launch staking as $50M ARB tokens flood the market - CryptoSlate, 檢索日期：1月 2, 2026， <https://cryptoslate.com/arbitrum-dao-votes-to-launch-staking-as-50m-arb-tokens-flood-the-market/>
+21. Arbitrum DAO votes to launch staking as \$50M ARB tokens flood the market - CryptoSlate, 檢索日期：1月 2, 2026， <https://cryptoslate.com/arbitrum-dao-votes-to-launch-staking-as-50m-arb-tokens-flood-the-market/>
 22. New ARB Staking Mechanism Will Reward Holders With 50% | TopCryptoNews on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/9911146678458>
 23. ARB Staking: Unlock ARB Utility and Align Governance - Finalized AIPs - Arbitrum, 檢索日期：1月 2, 2026， <https://forum.arbitrum.foundation/t/arb-staking-unlock-arb-utility-and-align-governance/25084>
 24. Proposal: Launch Native $ARB Staking at ≈ 8% APY - Arbitrum Governance Forum, 檢索日期：1月 2, 2026， <https://forum.arbitrum.foundation/t/proposal-launch-native-arb-staking-at-8-apy/29399>
@@ -203,8 +203,8 @@ Arbitrum 在 2025 年依然是 Layer 2 的領跑者。它擁有最強大的 DeFi
 31. Introducing Camelot: the ecosystem-centric Arbitrum DEX, 檢索日期：1月 2, 2026， <https://camelotdex.medium.com/camelot-dex-general-overview-af92f1e6f186>
 32. Analyzing STIP and LTIPP Incentive Programs at Arbitrum - StableLab, 檢索日期：1月 2, 2026， <https://stablelab.xyz/blog/analyzing-stip-and-ltipp-incentive-programs-at-arbitrum>
 33. Arbitrum Key Metrics Grow by 25%+ Following Incentive Program - Medium, 檢索日期：1月 2, 2026， <https://medium.com/sentora/arbitrum-key-metrics-grow-by-25-following-incentive-program-9aa0954bfeac>
-34. Myth or Fact: Arbitrum's Revenue YTD Exceeds $21M Dominated | KuCoin, 檢索日期：1月 2, 2026， <https://www.kucoin.com/news/insight/ETH/69479f65e090b600074eb0f0>
-35. Arbitrum's 2025 Inflows and Fundamentals May Signal ARB Price Rebound Near $0.19 | MEXC News, 檢索日期：1月 2, 2026， <https://www.mexc.com/en-NG/news/365211>
+34. Myth or Fact: Arbitrum's Revenue YTD Exceeds \$21M Dominated | KuCoin, 檢索日期：1月 2, 2026， <https://www.kucoin.com/news/insight/ETH/69479f65e090b600074eb0f0>
+35. Arbitrum's 2025 Inflows and Fundamentals May Signal ARB Price Rebound Near \$0.19 | MEXC News, 檢索日期：1月 2, 2026， <https://www.mexc.com/en-NG/news/365211>
 36. Arbitrum DAO: Financials, 檢索日期：1月 2, 2026， <https://dune.com/entropy_advisors/arbitrum-dao-financials>
 37. 2024/03/19 MAX 支援Arbitrum 鏈USDT 接收和發送, 檢索日期：1月 2, 2026， <https://support.maicoin.com/zh-TW/support/solutions/articles/32000034642-2024-03-19-max-%E6%94%AF%E6%8F%B4-arbitrum-%E9%8F%88-usdt-%E6%8E%A5%E6%94%B6%E5%92%8C%E7%99%BC%E9%80%81>
 38. 2025/02/10 MAX Arbitrum 主網相關幣種入金確認數調升公告, 檢索日期：1月 2, 2026， <https://support.maicoin.com/zh-TW/support/solutions/articles/32000035631-2025-02-10-max-arbitrum-%E4%B8%BB%E7%B6%B2%E7%9B%B8%E9%97%9C%E5%B9%A3%E7%A8%AE%E5%85%A5%E9%87%91%E7%A2%BA%E8%AA%8D%E6%95%B8%E8%AA%BF%E5%8D%87%E5%85%AC%E5%91%8A>

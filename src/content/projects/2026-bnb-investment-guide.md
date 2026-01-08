@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "BNB"]
 tags: ["BNB", "Binance", "BSC", "opBNB", "Launchpool", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-bnb-investment-guide.png"
+image: "../../assets/projects/2026-bnb-investment-guide.webp"
 imageAlt: "幣安幣 (BNB) 2026 戰略研究報告：從「金鏟子」效應到合規金融基礎設施的演進全景 封面"
 ---
 ## 執行摘要
@@ -104,7 +104,7 @@ opBNB 是基於 OP Stack 的 L2，區塊時間僅 0.75 秒，Gas 費低至 0.000
  | :
  |
 | **平均 TPS** | 15 - 30 | 2,000 - 4,000 | 50 - 100 | **4,000+** |
-| **平均 Gas 費用** | $1 - $50+ | < $0.001 | $0.05 - $0.20 | **< $0.001** |
+| **平均 Gas 費用** | \$1 - \$50+ | < \$0.001 | \$0.05 - \$0.20 | **< \$0.001** |
 | **架構** | 模組化 | 單體式 | 融合單體 | 模組化 L2 |
 
 ### **4.3 BNB Greenfield：AI 時代的數據基礎設施**
@@ -159,10 +159,10 @@ BNB 已演變為具備 **科技股高成長性**、**藍籌股分紅屬性** 與
 2. Introducing Omni Network (OMNI) on Binance Launchpool! Farm OMNI by Staking BNB and FDUSD, 檢索日期：1月 2, 2026， <https://www.binance.com/en/support/announcement/detail/3954d04933da443ab539ca38616013de>
 3. Introducing Pixels (PIXEL) on Binance Launchpool! Farm PIXEL by Staking BNB and FDUSD, 檢索日期：1月 2, 2026， <https://www.binance.com/en/support/announcement/detail/c055fa89dda84402b7b662f13b80fffe>
 4. 2024 Record Year for Binance Launchpool The numbers from, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/21846870021802>
-5. Largest Ethena airdrop recipient gets nearly $2M | What You | WEB3 UNFOLDED on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en-NG/square/post/6313335550017>
+5. Largest Ethena airdrop recipient gets nearly \$2M | What You | WEB3 UNFOLDED on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en-NG/square/post/6313335550017>
 6. What is Notcoin (NOT)? Instructions on How to Earn Notcoin Tokens | BHT_Alex on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/8932846760745>
 7. Introducing Notcoin (NOT) on Binance Launchpool! Farm NOT by Staking BNB and FDUSD, 檢索日期：1月 2, 2026， <https://www.binance.com/en/support/announcement/detail/b78921ecf7c94e50973850fc47f497b9>
-8. The price of Binance Launchpool's new project#PORTALis between $2.5 and $4, with a high probability of falling near $3. The APY participating in BNB is between 84% and 134%, and the APY participating in FDUSD is between 53% and 84%. | Psyduck-可达鸭 on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/4511348450201>
+8. The price of Binance Launchpool's new project#PORTALis between \$2.5 and \$4, with a high probability of falling near \$3. The APY participating in BNB is between 84% and 134%, and the APY participating in FDUSD is between 53% and 84%. | Psyduck-可达鸭 on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/4511348450201>
 9. Introducing Portal (PORTAL) on Binance Launchpool! Farm PORTAL by Staking BNB and FDUSD, 檢索日期：1月 2, 2026， <https://www.binance.com/en/support/announcement/detail/0620f90f55f2420b89158808380b6c9d>
 10. Meet Omni Network (OMNI) on Binance Launchpool! Do OMNI Farming by Staking BNB and FDUSD, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/6801415054858>
 11. How to calculate potential earnings on Binance Launchpool?, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/17534609189218>
@@ -173,7 +173,7 @@ BNB 已演變為具備 **科技股高成長性**、**藍籌股分紅屬性** 與
 16. BNB soars! Binance seeks to escape the oversight clause in the ..., 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/29780675138217>
 17. FinCEN Consent Order Number 2023-04, 檢索日期：1月 2, 2026， <https://www.fincen.gov/system/files/enforcement_action/2023-11-21/FinCEN_Consent_Order_2023-04_FINAL508.pdf>
 18. Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Binance Holdings, Ltd., 檢索日期：1月 2, 2026， <https://ofac.treasury.gov/recent-actions/20231121>
-19. Understanding the DOJ's Groundbreaking $4.3B Settlement with Foreign Cryptocurrency Exchange Binance.com | Consumer Financial Services Law Monitor, 檢索日期：1月 2, 2026， <https://www.consumerfinancialserviceslawmonitor.com/2023/11/understanding-the-dojs-groundbreaking-4-3b-settlement-with-foreign-cryptocurrency-exchange-binance-com/>
+19. Understanding the DOJ's Groundbreaking \$4.3B Settlement with Foreign Cryptocurrency Exchange Binance.com | Consumer Financial Services Law Monitor, 檢索日期：1月 2, 2026， <https://www.consumerfinancialserviceslawmonitor.com/2023/11/understanding-the-dojs-groundbreaking-4-3b-settlement-with-foreign-cryptocurrency-exchange-binance-com/>
 20. SEC Drops Binance Case, Closing One of Its Final Major Crypto Lawsuits - FinTech Weekly, 檢索日期：1月 2, 2026， <https://www.fintechweekly.com/magazine/articles/sec-dismisses-binance-lawsuit-changpeng-zhao>
 21. Binance Holdings Limited; BAM Trading Services Inc.; BAM Management US Holdings Inc.; Changpeng Zhao - SEC.gov, 檢索日期：1月 2, 2026， <https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26316>
 22. SEC v. Binance: Court Decides Majority of Claims Can Proceed but Expresses Skepticism on SEC's Application of US Securities Laws to Crypto | Practical Law, 檢索日期：1月 2, 2026， <https://uk.practicallaw.thomsonreuters.com/w-043-8295?transitionType=Default&contextData=(sc.Default)>
@@ -198,7 +198,7 @@ BNB 已演變為具備 **科技股高成長性**、**藍籌股分紅屬性** 與
 41. BNB 850 continues to increase positions by 10, visible value. | Little Lucky on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en-AE/square/post/33764872885930>
 42. BNBBurn - BNB Real-Time Burn and Auto-Burn Schedule, 檢索日期：1月 2, 2026， <https://www.bnbburn.info/>
 43. BNB Chain in 2025: Making Scale the Standard, 檢索日期：1月 2, 2026， <https://www.bnbchain.org/en/blog/bnb-chain-in-2025-making-scale-the-standard>
-44. BNB Burns 1.6M Tokens Worth Over $1 Billion in Latest Quarterly Event - CoinMarketCap, 檢索日期：1月 2, 2026， <https://coinmarketcap.com/academy/article/bnb-news-bnb-burns-16m-tokens-worth-over-dollar1-billion-in-latest-quarterly-event>
+44. BNB Burns 1.6M Tokens Worth Over \$1 Billion in Latest Quarterly Event - CoinMarketCap, 檢索日期：1月 2, 2026， <https://coinmarketcap.com/academy/article/bnb-news-bnb-burns-16m-tokens-worth-over-dollar1-billion-in-latest-quarterly-event>
 45. Delta-neutral LPing in Dynamic E-CLPs: Backtested Profitability of ETH/USDC - Medium, 檢索日期：1月 2, 2026， <https://medium.com/gyroscope-protocol/delta-neutral-lping-in-dynamic-e-clps-ae97e64d8b10>
 46. Talk about delta neutral hedging of spot + options and | 张无忌wepoets on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/6219833644953>
 47. How to earn steady profits through Delta neutral positions | MarsBit News on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/14341735951426>

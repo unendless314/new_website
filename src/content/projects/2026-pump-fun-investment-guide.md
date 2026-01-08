@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Solana 生態"]
 tags: ["Pump.fun", "PUMP", "Meme", "Solana", "Launchpad", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-pump-fun-investment-guide.png"
+image: "../../assets/projects/2026-pump-fun-investment-guide.webp"
 imageAlt: "2026 加密資產深度研究報告：Pump.fun ($PUMP) —— 迷因經濟的基礎設施與價值捕獲 封面"
 ---
 ## 執行摘要：迷因賽道的「納斯達克」
@@ -80,9 +80,9 @@ $PUMP 總供應量 1 兆枚，採取「高流通開局、團隊長鎖倉」設�
  | :
  | :
  |
-| **Pump.fun ($PUMP)** | **\~$104M** | 強力回購銷毀 | **高成長/高分紅** |
-| **Uniswap ($UNI)** | \~$9.7M | 治理為主 | 藍籌/基礎設施 |
-| **MakerDAO ($MKR)** | \~$40M (月) | 盈餘回購 | 銀行股 |
+| **Pump.fun ($PUMP)** | **\~\$104M** | 強力回購銷毀 | **高成長/高分紅** |
+| **Uniswap ($UNI)** | \~\$9.7M | 治理為主 | 藍籌/基礎設施 |
+| **MakerDAO ($MKR)** | \~\$40M (月) | 盈餘回購 | 銀行股 |
 
 
 
@@ -124,15 +124,15 @@ $PUMP 總供應量 1 兆枚，採取「高流通開局、團隊長鎖倉」設�
 
 #### **引用的著作**
 
-1. Pump.fun surpasses $800 million in lifetime revenue as Solana memecoin launchpad competition heats up | The Block, 檢索日期：1月 2, 2026， <https://www.theblock.co/post/367585/pump-fun-surpasses-800-million-in-lifetime-revenue-as-solana-memecoin-launchpad-competition-heats-up>
+1. Pump.fun surpasses \$800 million in lifetime revenue as Solana memecoin launchpad competition heats up | The Block, 檢索日期：1月 2, 2026， <https://www.theblock.co/post/367585/pump-fun-surpasses-800-million-in-lifetime-revenue-as-solana-memecoin-launchpad-competition-heats-up>
 2. Pump.fun bonding curve mechanism questions : r/solana - Reddit, 檢索日期：1月 2, 2026， <https://www.reddit.com/r/solana/comments/1ig4ib1/pumpfun_bonding_curve_mechanism_questions/>
-3. Pump.fun revenue nears $14M despite memecoin slowdown - Altcoin Buzz, 檢索日期：1月 2, 2026， <https://www.altcoinbuzz.io/bitcoin-and-crypto-guide/pump-fun-revenue-nears-14m-despite-memecoin-slowdown/>
+3. Pump.fun revenue nears \$14M despite memecoin slowdown - Altcoin Buzz, 檢索日期：1月 2, 2026， <https://www.altcoinbuzz.io/bitcoin-and-crypto-guide/pump-fun-revenue-nears-14m-despite-memecoin-slowdown/>
 4. How much does Raydium really depend on pump.fun? | PANews on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/20806136588585>
 5. Pump.fun Introduces PumpSwap, a New DEX for Graduated Token Listings - Blocmates, 檢索日期：1月 2, 2026， <https://www.blocmates.com/news-posts/pump-fun-introduces-pumpswap-a-new-dex-for-graduated-token-listings>
 6. Pump.fun's Livestreaming: A Web3 Experiment or a High-Stakes Scam? - Cwallet, 檢索日期：1月 2, 2026， <https://cwallet.com/blog/pump-funs-livestreaming-a-web3-experiment-or-a-high-stakes-scam/>
 7. Pump.fun reveals PUMP tokenomics as July 12 launch nears | Cryptopolitan on Binance Square, 檢索日期：1月 2, 2026， <https://www.binance.com/en/square/post/26750504035098>
 8. The Pump.Fun ICO - Nansen Research, 檢索日期：1月 2, 2026， <https://research.nansen.ai/articles/the-pump-fun-ico>
-9. Pump.fun spends over $62M on buybacks to boost PUMP price - TradingView, 檢索日期：1月 2, 2026， <https://www.tradingview.com/news/cointelegraph:e7771bbad094b:0-pump-fun-spends-over-62m-on-buybacks-to-boost-pump-price/>
+9. Pump.fun spends over \$62M on buybacks to boost PUMP price - TradingView, 檢索日期：1月 2, 2026， <https://www.tradingview.com/news/cointelegraph:e7771bbad094b:0-pump-fun-spends-over-62m-on-buybacks-to-boost-pump-price/>
 10. How to Earn 32% APR by Staking $PUMP — The Native Token of ..., 檢索日期：1月 2, 2026， <https://superearn.medium.com/how-to-earn-32-apr-by-staking-pump-the-native-token-of-pump-fun-61f30eccae52>
 11. pump.fun - DefiLlama, 檢索日期：1月 2, 2026， <https://defillama.com/protocol/pump.fun>
 12. Uniswap Labs - DefiLlama, 檢索日期：1月 2, 2026， <https://defillama.com/protocol/uniswap-labs>
@@ -148,5 +148,5 @@ $PUMP 總供應量 1 兆枚，採取「高流通開局、團隊長鎖倉」設�
 22. Uncertain Regulations, Definite Impacts - SEC.gov, 檢索日期：1月 2, 2026， <https://www.sec.gov/files/ctf-input-arte-2025-02-19.pdf>
 23. SEC drops investigation into Uniswap Labs, DeFi firm says - POLITICO Pro, 檢索日期：1月 2, 2026， <https://subscriber.politicopro.com/article/2025/02/sec-drops-investigation-into-decentralized-finance-firm-uniswap-labs-00206021>
 24. The SEC's New Cryptocurrency Task Force: A Step Toward Regulatory Clarity, 檢索日期：1月 2, 2026， <https://www.troutman.com/insights/the-secs-new-cryptocurrency-task-force-a-step-toward-regulatory-clarity/>
-25. Pump.fun's daily revenue drops to slightly above $1 million, is this the end of the memecoin era? | Bitget News, 檢索日期：1月 2, 2026， <https://www.bitget.com/news/detail/12560604607876>
+25. Pump.fun's daily revenue drops to slightly above \$1 million, is this the end of the memecoin era? | Bitget News, 檢索日期：1月 2, 2026， <https://www.bitget.com/news/detail/12560604607876>
 26. Pump's Stream-to-Earn Payday - Bankless, 檢索日期：1月 2, 2026， <https://www.bankless.com/pump-streaming-payday>

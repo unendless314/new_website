@@ -3,7 +3,7 @@ title: "Sequencer（排序器）"
 date: 2026-01-05
 description: "Layer 2 的交通指揮官，決定交易順序的關鍵角色，也是目前的中心化隱憂。"
 author: unendless314
-image: "../../assets/glossary/sequencer.jpeg"
+image: "../../assets/glossary/sequencer.webp"
 imageAlt: "指揮交通的警察"
 categories: ["S"]
 tags: ["Layer2", "Rollup", "基礎設施"]

@@ -3,7 +3,7 @@ title: "Slippage（滑點）"
 date: 2026-01-05
 description: "你以為你買在 100 塊，結果成交在 105 塊。流動性不足時的隱完成本。"
 author: unendless314
-image: "../../assets/glossary/slippage.jpg"
+image: "../../assets/glossary/slippage.webp"
 imageAlt: "滑落的硬幣"
 categories: ["S"]
 tags: ["交易", "DeFi", "AMM"]

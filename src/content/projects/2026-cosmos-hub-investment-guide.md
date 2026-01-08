@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Cosmos"]
 tags: ["ATOM", "Cosmos Hub", "ICS", "Interchain", "Airdrop", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-cosmos-hub-investment-guide.png"
+image: "../../assets/projects/2026-cosmos-hub-investment-guide.webp"
 imageAlt: "宇宙的中心還是邊緣？Cosmos Hub (ATOM) 深度投資價值研究報告 封面"
 ---
 ## 執行摘要 (Executive Summary)

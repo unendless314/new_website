@@ -3,7 +3,7 @@ title: "Whale（巨鯨）"
 date: 2025-12-31
 description: "指持有大量加密貨幣的大戶，其動向能左右市場波動。"
 author: wu-yan
-image: "../../assets/glossary/whale.jpeg"
+image: "../../assets/glossary/whale.webp"
 imageAlt: "巨鯨概念圖"
 categories: ["W"]
 tags: ["市場觀察", "投資", "新手"]

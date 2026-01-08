@@ -3,7 +3,7 @@ title: "TPS（每秒交易筆數）"
 date: 2026-01-04
 description: "區塊鏈的速度指標，衡量一條公鏈效能的關鍵數據。"
 author: wu-yan
-image: "../../assets/glossary/tps.jpg"
+image: "../../assets/glossary/tps.webp"
 imageAlt: "TPS 速度賽跑圖"
 categories: ["T"]
 tags: ["數據指標", "技術原理", "效能"]

@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "ICP"]
 tags: ["ICP", "Internet Computer", "DeAI", "Bitcoin L2", "Chain Fusion", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-internet-computer-investment-guide.png"
+image: "../../assets/projects/2026-internet-computer-investment-guide.webp"
 imageAlt: "2026 數位邊疆報告：Internet Computer (ICP) 的技術復興與價值重構 封面"
 ---
 ## 第一章：緒論：在泡沫與廢墟中尋找「世界電腦」的真相

@@ -3,7 +3,7 @@ title: "Vesting（代幣歸屬）"
 date: 2026-01-05
 description: "鎖住團隊與投資人的手銬，防止他們在開盤時就全部倒貨。"
 author: unendless314
-image: "../../assets/glossary/vesting.jpg"
+image: "../../assets/glossary/vesting.webp"
 imageAlt: "帶有時間鎖的箱子"
 categories: ["V"]
 tags: ["代幣經濟", "投資", "機制"]

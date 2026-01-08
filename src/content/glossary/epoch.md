@@ -3,7 +3,7 @@ title: "Epoch（紀元）"
 date: 2026-01-05
 description: "區塊鏈世界的時間單位，用於結算獎勵與更新驗證者名單的週期。"
 author: unendless314
-image: "../../assets/glossary/epoch.jpeg"
+image: "../../assets/glossary/epoch.webp"
 imageAlt: "時鐘與日曆"
 categories: ["E"]
 tags: ["時間", "機制", "Staking"]

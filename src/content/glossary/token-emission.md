@@ -3,7 +3,7 @@ title: "Token Emission（代幣排放）"
 date: 2026-01-05
 description: "代幣是以什麼速度被創造出來的？了解通膨率對幣價的影響。"
 author: unendless314
-image: "../../assets/glossary/token-emission.jpg"
+image: "../../assets/glossary/token-emission.webp"
 imageAlt: "水龍頭滴水"
 categories: ["T"]
 tags: ["代幣經濟", "通膨", "供應量"]

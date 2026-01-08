@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Chainlink"]
 tags: ["Chainlink", "LINK", "Oracle", "CCIP", "RWA", "Swift", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-chainlink-deep-research-report.png"
+image: "../../assets/projects/2026-chainlink-deep-research-report.webp"
 imageAlt: "Chainlink (LINK) 深度投資研究報告：Web3 基礎設施的脊椎與 RWA 的黃金橋樑 封面"
 ---
 ## 第一章：緒論：Web3 基礎設施的典範轉移
@@ -34,7 +34,7 @@ Chainlink 不僅僅是一個預言機項目；它已演變為一個通用的去�
 ### **2.2 預言機：連接兩個世界的橋樑**
 
 預言機（Oracle）是區塊鏈的中間件，負責將外部數據獲取、驗證並寫入區塊鏈，供智能合約使用。然而，這裡存在一個巨大的悖論：**如果區塊鏈是去中心化的，但輸入數據的預言機是中心化的，那麼整個系統依然是中心化的。**  
-如果一個 DeFi 協議鎖定了 10 億美元資產，但依賴單一的服務器來提供比特幣價格，那麼駭客只需攻擊這個服務器，輸入一個錯誤的價格（例如將比特幣價格改為 $0.01），就可以觸發合約的清算機制，瞬間捲走所有資金。這並非理論風險，而是加密貨幣歷史上反覆發生的慘痛教訓 4。
+如果一個 DeFi 協議鎖定了 10 億美元資產，但依賴單一的服務器來提供比特幣價格，那麼駭客只需攻擊這個服務器，輸入一個錯誤的價格（例如將比特幣價格改為 \$0.01），就可以觸發合約的清算機制，瞬間捲走所有資金。這並非理論風險，而是加密貨幣歷史上反覆發生的慘痛教訓 4。
 
 ### **2.3 Chainlink 的去中心化預言機網絡 (DON)**
 
@@ -99,7 +99,7 @@ Pyth Network 引入了「拉取」模型，主要針對 Solana 等高吞吐量�
  |
 | **核心架構** | 去中心化網絡 (DONs), 主推 Push | 第一方數據發布者, 主推 Pull |
 | **主要優勢** | **安全性與可靠性**：適合借貸與 RWA | **速度與頻率**：低延遲，適合衍生品 |
-| **TVS (2025)** | > $1,000 億 USD (主導地位) 3 | 增長迅速，但總量仍落後 |
+| **TVS (2025)** | > \$1,000 億 USD (主導地位) 3 | 增長迅速，但總量仍落後 |
 
 ### **4.4 Chainlink 的反擊：Data Streams**
 
@@ -211,7 +211,7 @@ Chainlink BUILD 讓新興項目以代幣份額交換 Chainlink 的技術支持�
 14. How Cross-Chain Bridges are Hacked? | by Officer's Notes | Coinmonks | Medium, 檢索日期：1月 2, 2026， <https://medium.com/coinmonks/how-cross-chain-bridges-are-hacked-d6ddb448401e>
 15. Cross-Chain Interoperability Protocol (CCIP) - Chainlink, 檢索日期：1月 2, 2026， <https://chain.link/cross-chain>
 16. Blockchain Interoperability Explained: Bridges, Cross-Chain Protocols, and CCIP, 檢索日期：1月 2, 2026， <https://www.taurushq.com/blog/blockchain-interoperability-explained-bridges-cross-chain-protocols-and-ccip/>
-17. Why $2.87 Billion in Bridge Hacks Are Preventable: A Look at Chainlink (LINK) Cross-Chain Security : r/ethtrader - Reddit, 檢索日期：1月 2, 2026， <https://www.reddit.com/r/ethtrader/comments/1ic2oc4/why_287_billion_in_bridge_hacks_are_preventable_a/>
+17. Why \$2.87 Billion in Bridge Hacks Are Preventable: A Look at Chainlink (LINK) Cross-Chain Security : r/ethtrader - Reddit, 檢索日期：1月 2, 2026， <https://www.reddit.com/r/ethtrader/comments/1ic2oc4/why_287_billion_in_bridge_hacks_are_preventable_a/>
 18. The Swift and Chainlink Partnership: Unlocking the Next Evolution of Global Finance, 檢索日期：1月 2, 2026， <https://blog.chain.link/the-swift-and-chainlink-partnership/>
 19. Swift explores blockchain interoperability to remove friction from tokenised asset settlement, 檢索日期：1月 2, 2026， <https://www.swift.com/news-events/news/swift-explores-blockchain-interoperability-remove-friction-tokenised-asset-settlement>
 20. Chainlink's Work With Swift, Euroclear, and Major Banking and Capital Markets Institutions, 檢索日期：1月 2, 2026， <https://blog.chain.link/chainlink-banking-capital-markets-announcements/>

@@ -3,7 +3,7 @@ title: "FOMO（錯失恐懼症）"
 date: 2025-12-31
 description: "韭菜的終極心魔，讓你買在最高點的心理陷阱。"
 author: wu-yan
-image: "../../assets/glossary/fomo.jpeg"
+image: "../../assets/glossary/fomo.webp"
 imageAlt: "FOMO 心理迷因圖"
 categories: ["F"]
 tags: ["交易心理", "新手", "風險管理"]

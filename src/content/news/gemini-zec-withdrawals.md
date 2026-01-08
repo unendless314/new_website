@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["市場動態", "隱私", "合規"]
 tags: ["Gemini", "Zcash", "Orchard Pool", "Shielded Transactions", "Compliance"]
 description: "隱私不再是禁忌。紐約合規交易所 Gemini 宣佈支援提現至 Zcash 最新的 Orchard 隱私池，證明了監管合規與金融隱私可以完美共存。"
-image: "@assets/news/gemini-zec-withdrawals.jpg"
+image: "@assets/news/gemini-zec-withdrawals.webp"
 imageAlt: "Gemini Shielded Transaction Interface"
 complexity: 2
 ---

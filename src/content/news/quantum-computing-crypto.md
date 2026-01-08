@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["深度研究", "安全", "基礎設施"]
 tags: ["Quantum Computing", "Security", "Chainalysis", "ECDSA", "PQC"]
 description: "Chainalysis 發布警告，儘管仍有 5-15 年的緩衝期，但量子運算對加密安全的威脅已迫在眉睫。本文深度解析其攻擊原理、風險資產與防禦路徑。"
-image: "@assets/news/quantum-computing-crypto.jpg"
+image: "@assets/news/quantum-computing-crypto.webp"
 imageAlt: "Quantum Computing Threat Diagram"
 complexity: 3
 ---

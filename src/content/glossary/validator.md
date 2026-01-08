@@ -3,7 +3,7 @@ title: "Validator（驗證者）"
 date: 2026-01-05
 description: "PoS 區塊鏈的守護者，質押代幣並負責打包區塊的礦工。"
 author: unendless314
-image: "../../assets/glossary/validator.jpg"
+image: "../../assets/glossary/validator.webp"
 imageAlt: "檢視文件的檢察官"
 categories: ["V"]
 tags: ["PoS", "節點", "挖礦"]

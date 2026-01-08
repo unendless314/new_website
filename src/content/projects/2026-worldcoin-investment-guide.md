@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "Worldcoin"]
 tags: ["Worldcoin", "WLD", "Proof of Personhood", "Orb", "AI", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-worldcoin-investment-guide.png"
+image: "../../assets/projects/2026-worldcoin-investment-guide.webp"
 imageAlt: "數位利維坦與人格證明：Worldcoin (WLD) 全球生態、技術架構與台灣投資環境之深度研究報告 封面"
 ---
 ## 執行摘要 (Executive Summary)
@@ -57,7 +57,7 @@ WLD 呈現出極其特殊的供應結構：
  |
 | **總供應量** | 100 億 WLD | 硬頂上限 |
 | **流通供應量** | 約 2.7 億 - 4 億 | 僅佔總量約 3%-4% |
-| **完全稀釋估值 (FDV)** | **\~$200 億 - $500 億** | 面臨極大的未來解鎖稀釋風險 |
+| **完全稀釋估值 (FDV)** | **\~\$200 億 - \$500 億** | 面臨極大的未來解鎖稀釋風險 |
 
 2025 年至 2026 年是 WLD 通膨最劇烈的時期，每天約有 300 萬至 500 萬枚 WLD 釋放到市場，對幣價造成持續壓力 11。
 
@@ -149,7 +149,7 @@ Worldcoin 是目前對抗 AI 身分危機最完整的解決方案，但面臨嚴
 10. Worldcoin price today, WLD to USD live price, marketcap and chart | CoinMarketCap, 檢索日期：1月 3, 2026， <https://coinmarketcap.com/currencies/worldcoin-org/>
 11. Top Token Unlocks in November 2025: HYPE, WLD, and Other Tokens to Watch - BingX, 檢索日期：1月 3, 2026， <https://bingx.com/en/learn/article/what-are-the-top-token-unlocks-in-november-2025>
 12. World WLD Token Unlocks, Vesting Schedule & Tokenomics | DropsTab, 檢索日期：1月 3, 2026， <https://dropstab.com/coins/worldcoin/vesting>
-13. $566M Supply Shock: Analyzing This Week's Massive Token Unlocks Could Trigger Market Volatility - MEXC Blog, 檢索日期：1月 3, 2026， <https://blog.mexc.com/news/566m-supply-shock-analyzing-this-weeks-massive-token-unlocks-could-trigger-market-volatility/>
+13. \$566M Supply Shock: Analyzing This Week's Massive Token Unlocks Could Trigger Market Volatility - MEXC Blog, 檢索日期：1月 3, 2026， <https://blog.mexc.com/news/566m-supply-shock-analyzing-this-weeks-massive-token-unlocks-could-trigger-market-volatility/>
 14. The Worldcoin Scam Just Got Way Worse - YouTube, 檢索日期：1月 3, 2026， <https://www.youtube.com/watch?v=lAaIRWjKAmw>
 15. Worldcoin Directed by HK Data Privacy Regulator to Cease Operations | BCLP - JDSupra, 檢索日期：1月 3, 2026， <https://www.jdsupra.com/legalnews/worldcoin-directed-by-hk-data-privacy-2747861/>
 16. Why Sam Altman's Worldcoin just got told to cease operations Hong Kong - DL News, 檢索日期：1月 3, 2026， <https://www.dlnews.com/articles/regulation/worldcoin-told-to-halt-in-hong-kong-over-privacy-concerns/>

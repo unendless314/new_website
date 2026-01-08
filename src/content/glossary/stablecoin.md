@@ -3,7 +3,7 @@ title: "Stablecoin（穩定幣）"
 date: 2025-12-31
 description: "掛鉤法幣價值、作為加密市場避風港與交易媒介的數位資產。"
 author: wu-yan
-image: "../../assets/glossary/stablecoin.jpeg"
+image: "../../assets/glossary/stablecoin.webp"
 imageAlt: "穩定幣概念圖"
 categories: ["S"]
 tags: ["金融", "穩定幣", "新手"]

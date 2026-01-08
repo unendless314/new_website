@@ -3,7 +3,7 @@ title: "Liquidity Pool（流動性池）"
 date: 2026-01-05
 description: "去中心化交易所的心臟，由用戶眾籌資金來支持交易運作。"
 author: unendless314
-image: "../../assets/glossary/liquidity-pool.jpeg"
+image: "../../assets/glossary/liquidity-pool.webp"
 imageAlt: "裝滿水的池塘"
 categories: ["L"]
 tags: ["DeFi", "AMM", "交易"]

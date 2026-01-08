@@ -3,7 +3,7 @@ title: "Seed Phrase（助記詞）"
 date: 2026-01-04
 description: "這 12 個英文單字就是你的所有資產，比私鑰更適合人類記憶的備份機制。"
 author: wu-yan
-image: "../../assets/glossary/seed-phrase.jpeg"
+image: "../../assets/glossary/seed-phrase.webp"
 imageAlt: "助記詞備份示意圖"
 categories: ["S"]
 tags: ["安全", "錢包", "新手"]

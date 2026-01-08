@@ -3,7 +3,7 @@ title: "Custody（託管）"
 date: 2026-01-05
 description: "誰真正持有你的私鑰？幣圈生存法則第一條：Not your keys, not your coins."
 author: unendless314
-image: "../../assets/glossary/custody.png"
+image: "../../assets/glossary/custody.webp"
 imageAlt: "保險箱與鑰匙"
 categories: ["C"]
 tags: ["安全", "錢包", "基礎知識"]

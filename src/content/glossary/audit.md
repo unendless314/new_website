@@ -3,7 +3,7 @@ title: "Audit（代碼審計）"
 date: 2026-01-05
 description: "智能合約的健康檢查，由專業資安公司尋找代碼漏洞的過程。"
 author: unendless314
-image: "../../assets/glossary/audit.png"
+image: "../../assets/glossary/audit.webp"
 imageAlt: "程式碼掃描檢查"
 categories: ["A"]
 tags: ["安全", "開發", "風險管理"]

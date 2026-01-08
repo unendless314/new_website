@@ -3,7 +3,7 @@ title: "Leverage & Liquidation（槓桿與爆倉）"
 date: 2026-01-04
 description: "放大收益的神器，也是讓你一夜歸零的死神。"
 author: wu-yan
-image: "../../assets/glossary/leverage-liquidation.jpeg"
+image: "../../assets/glossary/leverage-liquidation.webp"
 imageAlt: "槓桿爆倉示意圖"
 categories: ["L"]
 tags: ["交易", "風險管理", "合約"]

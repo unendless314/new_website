@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "波場"]
 tags: ["Tron", "TRX", "USDT", "Payment", "Justin Sun", "Investment", "Research", "DeFi"]
 complexity: 3
-image: "../../assets/projects/2026-tron-investment-guide.png"
+image: "../../assets/projects/2026-tron-investment-guide.webp"
 imageAlt: "波場 (TRON) 生態全景深度研究報告：從支付鐵路到金融公鏈的演進與挑戰 封面"
 ---
 ## 執行摘要
@@ -176,11 +176,11 @@ Solana 憑藉其超高的吞吐量（65,000 TPS）和極低的延遲，正在支
  | :
  |
 | **核心優勢** | 龐大的 USDT 流動性、交易所支援度最高 | 極致速度、DeFi 生態豐富 | 零手續費 USDT 轉帳、專注支付 | 以太坊安全性繼承、合規性高 |
-| **USDT 轉帳成本** | 高 (若無能量, ~$2-4)；低 (若租賃能量, ~$0.3) | 極低 (<$0.001) | **零 (Zero Fee)** | 低 (~$0.01 - $0.1) |
+| **USDT 轉帳成本** | 高 (若無能量, ~\$2-4)；低 (若租賃能量, ~\$0.3) | 極低 (<\$0.001) | **零 (Zero Fee)** | 低 (~\$0.01 - \$0.1) |
 | **主要用途** | 跨交易所轉帳、灰產支付、新興市場匯款 | DeFi 交易、NFT、Web3 支付 | 穩定幣結算、支付鐵路 | 應用交互、合規支付 |
 | **去中心化程度** | 低 (DPoS 27 超級代表) | 中 (高硬體門檻) | 待驗證 (PoS + 比特幣錨定) | 高 (繼承 L1 安全性) |
 | **合規風險** | **高** (Justin Sun 因素, Circle 撤離) | 中 | 中 | 低 |
-| **TVL (總鎖倉)** | ~$80-90億 (高度集中於 Lending) | ~$50-100億 (生態多樣) | 快速增長中 | 數十億美元 |
+| **TVL (總鎖倉)** | ~\$80-90億 (高度集中於 Lending) | ~\$50-100億 (生態多樣) | 快速增長中 | 數十億美元 |
 
 ### **4.2 波場通縮數據分析**
 
@@ -285,7 +285,7 @@ Solana 憑藉其超高的吞吐量（65,000 TPS）和極低的延遲，正在支
 7. Tron achieved deflationary status: what does it mean for investors \- Beinsure, 檢索日期：1月 3, 2026， [https://beinsure.com/news/tron-achieved-deflationary-status/](https://beinsure.com/news/tron-achieved-deflationary-status/)  
 8. What is TRON Stake 2.0? \- B2BinPay, 檢索日期：1月 3, 2026， [https://b2binpay.com/en/news/what-is-tron-stake-2-0](https://b2binpay.com/en/news/what-is-tron-stake-2-0)  
 9. Tron Stake 2.0 for dummies : r/Tronix \- Reddit, 檢索日期：1月 3, 2026， [https://www.reddit.com/r/Tronix/comments/13bm9wl/tron\_stake\_20\_for\_dummies/](https://www.reddit.com/r/Tronix/comments/13bm9wl/tron_stake_20_for_dummies/)  
-10. JustLend DAO TVL Surpasses $6.47 Billion \- KuCoin, 檢索日期：1月 3, 2026， [https://www.kucoin.com/news/flash/justlend-dao-tvl-surpasses-6-47-billion](https://www.kucoin.com/news/flash/justlend-dao-tvl-surpasses-6-47-billion)  
+10. JustLend DAO TVL Surpasses \$6.47 Billion \- KuCoin, 檢索日期：1月 3, 2026， [https://www.kucoin.com/news/flash/justlend-dao-tvl-surpasses-6-47-billion](https://www.kucoin.com/news/flash/justlend-dao-tvl-surpasses-6-47-billion)  
 11. JustLend DAO TVL breaks through the 6.64 billion USD mark \- RootData, 檢索日期：1月 3, 2026， [https://www.rootdata.com/news/477770](https://www.rootdata.com/news/477770)  
 12. What Is JustLend? Guide to TRON's Leading DeFi Lending DAO \- Nansen, 檢索日期：1月 3, 2026， [https://www.nansen.ai/post/what-is-justlend](https://www.nansen.ai/post/what-is-justlend)  
 13. How to add 4% to your recursive lending returns on Compound, 檢索日期：1月 3, 2026， [https://medium.com/@DeFiScientist/how-to-add-4-to-your-recursive-lending-returns-on-compound-3c576dfdd99d](https://medium.com/@DeFiScientist/how-to-add-4-to-your-recursive-lending-returns-on-compound-3c576dfdd99d)  
@@ -295,7 +295,7 @@ Solana 憑藉其超高的吞吐量（65,000 TPS）和極低的延遲，正在支
 17. HTX 2025 Proof of Reserves Annual Report: 100% Asset Backing Maintained as USDT Deposits Surge Over 150% | The Block, 檢索日期：1月 3, 2026， [https://www.theblock.co/post/383707/htx-2025-proof-of-reserves-annual-report-100-asset-backing-maintained-as-usdt-deposits-surge-over-150](https://www.theblock.co/post/383707/htx-2025-proof-of-reserves-annual-report-100-asset-backing-maintained-as-usdt-deposits-surge-over-150)  
 18. stUSDT \- Bridging Real-World Assets With Stablecoins | CoinMarketCap, 檢索日期：1月 3, 2026， [https://coinmarketcap.com/academy/article/stusdt-bridging-real-world-assets-with-stablecoin](https://coinmarketcap.com/academy/article/stusdt-bridging-real-world-assets-with-stablecoin)  
 19. Is stUSDT A Good RWA Investment? \- Cryptohopper, 檢索日期：1月 3, 2026， [https://www.cryptohopper.com/news/is-stusdt-a-good-rwa-investment-9614](https://www.cryptohopper.com/news/is-stusdt-a-good-rwa-investment-9614)  
-20. Crypto exchange HTX hit by $346 million outflow in wake of hack \- The Straits Times, 檢索日期：1月 3, 2026， [https://www.straitstimes.com/business/crypto-exchange-htx-hit-by-346-million-outflow-in-wake-of-hack](https://www.straitstimes.com/business/crypto-exchange-htx-hit-by-346-million-outflow-in-wake-of-hack)  
+20. Crypto exchange HTX hit by \$346 million outflow in wake of hack \- The Straits Times, 檢索日期：1月 3, 2026， [https://www.straitstimes.com/business/crypto-exchange-htx-hit-by-346-million-outflow-in-wake-of-hack](https://www.straitstimes.com/business/crypto-exchange-htx-hit-by-346-million-outflow-in-wake-of-hack)  
 21. Justin Sun-linked stUSDT fuels RWA growth despite transparency concerns \- Reddit, 檢索日期：1月 3, 2026， [https://www.reddit.com/r/CryptoCurrency/comments/16ig9rq/justin\_sunlinked\_stusdt\_fuels\_rwa\_growth\_despite/](https://www.reddit.com/r/CryptoCurrency/comments/16ig9rq/justin_sunlinked_stusdt_fuels_rwa_growth_despite/)  
 22. Circle Withdraws Support for TRON \- Coinspaid Media, 檢索日期：1月 3, 2026， [https://coinspaidmedia.com/news/circle-withdraws-support-tron/](https://coinspaidmedia.com/news/circle-withdraws-support-tron/)  
 23. Circle is Discontinuing Support for USDC on the TRON Blockchain, 檢索日期：1月 3, 2026， [https://www.circle.com/blog/circle-is-discontinuing-support-for-usdc-on-the-tron-blockchain](https://www.circle.com/blog/circle-is-discontinuing-support-for-usdc-on-the-tron-blockchain)  
@@ -305,7 +305,7 @@ Solana 憑藉其超高的吞吐量（65,000 TPS）和極低的延遲，正在支
 27. What is Plasma XPL crypto? | Stablecoin Rail or Pumped Token? | COINCHECK \- YouTube, 檢索日期：1月 3, 2026， [https://www.youtube.com/watch?v=6K\_ds694fc0](https://www.youtube.com/watch?v=6K_ds694fc0)  
 28. Plasma (XPL): The Stablecoin-First Blockchain Taking Aim at TRON's Throne \- LBank, 檢索日期：1月 3, 2026， [https://www.lbank.com/explore/plasma-xpl-stablecoin-first-blockchain-taking-aim-at-tron-throne](https://www.lbank.com/explore/plasma-xpl-stablecoin-first-blockchain-taking-aim-at-tron-throne)  
 29. Plasma Challenges TRON: A New Stablecoin Giant Breaks Records | Moon5labs on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/30337264679306](https://www.binance.com/en/square/post/30337264679306)  
-30. Plasma takes on TRON as liquidity surges past $5.6B | Cryptopolitan on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/30336725644345](https://www.binance.com/en/square/post/30336725644345)  
+30. Plasma takes on TRON as liquidity surges past \$5.6B | Cryptopolitan on Binance Square, 檢索日期：1月 3, 2026， [https://www.binance.com/en/square/post/30336725644345](https://www.binance.com/en/square/post/30336725644345)  
 31. Tron vs Solana 2025: Choose Low Fees or Fast TPS? \- INDODAX, 檢索日期：1月 3, 2026， [https://indodax.com/academy/en/tron-vs-solana-comparison/](https://indodax.com/academy/en/tron-vs-solana-comparison/)  
 32. Comparative Analysis of Stablecoin Issuance Across Ethereum-Compatible, Solana, and Cosmos Chains \- Medium, 檢索日期：1月 3, 2026， [https://medium.com/@gwrx2005/comparative-analysis-of-stablecoin-issuance-across-ethereum-compatible-solana-and-cosmos-chains-bf5f5f13a2d9](https://medium.com/@gwrx2005/comparative-analysis-of-stablecoin-issuance-across-ethereum-compatible-solana-and-cosmos-chains-bf5f5f13a2d9)  
 33. Justin Sun, Tron Foundation Limited, BitTorrent Foundation Ltd., Rainberry, Inc., Austin Mahone, and Deandre Cortez Way \- SEC.gov, 檢索日期：1月 3, 2026， [https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25803](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25803)  

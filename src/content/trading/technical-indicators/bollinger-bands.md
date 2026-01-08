@@ -2,7 +2,7 @@
 title: 布林通道 (Bollinger Bands)
 description: 波動率的可視化工具。學會利用通道的「擠壓」預測大行情爆發，並掌握在震盪行情中低買高賣的秘訣。
 pubDate: 2026-01-05
-image: "@assets/trading/bollinger-bands.png"
+image: "@assets/trading/bollinger-bands.webp"
 ---
 
 ## 1. 什麼是布林通道？ (Introduction)

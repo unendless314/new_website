@@ -3,7 +3,7 @@ title: "Arbitrage（套利）"
 date: 2026-01-05
 description: "低買高賣的極致藝術，利用不同市場間的價差無風險獲利。"
 author: unendless314
-image: "../../assets/glossary/arbitrage.png"
+image: "../../assets/glossary/arbitrage.webp"
 imageAlt: "天平兩端的金幣"
 categories: ["A"]
 tags: ["交易", "策略", "DeFi"]

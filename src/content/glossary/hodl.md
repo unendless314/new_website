@@ -3,7 +3,7 @@ title: "HODL（長期持有）"
 date: 2025-12-31
 description: "不論牛熊，堅定持有資產的投資哲學與網路迷因。"
 author: wu-yan
-image: "../../assets/glossary/hodl.jpeg"
+image: "../../assets/glossary/hodl.webp"
 imageAlt: "HODL 迷因圖"
 categories: ["H"]
 tags: ["交易心理", "新手", "文化"]

@@ -3,7 +3,7 @@ title: "YOLO（梭哈 / 賭一把）"
 date: 2026-01-04
 description: "You Only Live Once，將高風險投資視為翻轉人生唯一機會的極端心態。"
 author: wu-yan
-image: "../../assets/glossary/yolo.jpg"
+image: "../../assets/glossary/yolo.webp"
 imageAlt: "YOLO 梭哈示意圖"
 categories: ["Y"]
 tags: ["文化", "交易心理", "高風險"]

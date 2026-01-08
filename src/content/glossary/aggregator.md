@@ -3,7 +3,7 @@ title: "Aggregator（聚合器）"
 date: 2026-01-05
 description: "幣圈的 Skyscanner，幫你在幾十個市場中找到最划算的價格。"
 author: unendless314
-image: "../../assets/glossary/aggregator.png"
+image: "../../assets/glossary/aggregator.webp"
 imageAlt: "多條路徑匯聚一點"
 categories: ["A"]
 tags: ["DeFi", "工具", "交易"]

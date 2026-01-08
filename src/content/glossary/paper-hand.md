@@ -3,7 +3,7 @@ title: "Paper Hand（紙手）"
 date: 2026-01-04
 description: "稍微有點風吹草動就拿不住幣，容易驚慌拋售的投資者。"
 author: wu-yan
-image: "../../assets/glossary/paper-hand.jpeg"
+image: "../../assets/glossary/paper-hand.webp"
 imageAlt: "紙手與鑽石手對比圖"
 categories: ["P"]
 tags: ["交易心理", "迷因", "新手"]

@@ -2,7 +2,7 @@
 title: 雙重頂與雙重底 (M頭與W底)
 description: 市場對支撐與壓力的二次測試。學會區分真正的反轉與暫時的盤整，並利用頸線突破抓取穩定收益。
 pubDate: 2026-01-05
-image: "@assets/trading/double-top-bottom.png"
+image: "@assets/trading/double-top-bottom.webp"
 ---
 
 ## 1. 什麼是雙重型態？ (Introduction)

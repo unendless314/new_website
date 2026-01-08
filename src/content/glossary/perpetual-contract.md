@@ -3,7 +3,7 @@ title: "Perpetual Futures（永續合約）"
 date: 2026-01-04
 description: "幣圈最受歡迎的衍生品，沒有到期日、可開高槓桿的期貨合約。"
 author: wu-yan
-image: "../../assets/glossary/perpetual-contract.jpeg"
+image: "../../assets/glossary/perpetual-contract.webp"
 imageAlt: "永續合約示意圖"
 categories: ["P"]
 tags: ["衍生品", "交易", "進階"]

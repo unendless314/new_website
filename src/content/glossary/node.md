@@ -3,7 +3,7 @@ title: "Node（節點）"
 date: 2026-01-04
 description: "支撐區塊鏈運作的基石，每一台運行著區塊鏈軟體的電腦。"
 author: wu-yan
-image: "../../assets/glossary/node.jpg"
+image: "../../assets/glossary/node.webp"
 imageAlt: "區塊鏈節點網路圖"
 categories: ["N"]
 tags: ["基礎設施", "技術原理", "新手"]

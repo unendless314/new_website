@@ -3,7 +3,7 @@ title: "DAO（去中心化自治組織）"
 date: 2025-12-31
 description: "沒有老闆、由程式碼與社群共同治理的組織新形態。"
 author: wu-yan
-image: "../../assets/glossary/dao.jpeg"
+image: "../../assets/glossary/dao.webp"
 imageAlt: "DAO 概念圖"
 categories: ["D"]
 tags: ["治理", "社群", "新手"]

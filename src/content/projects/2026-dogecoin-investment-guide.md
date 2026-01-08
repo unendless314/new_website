@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "狗狗幣"]
 tags: ["Dogecoin", "DOGE", "Meme", "Elon Musk", "D.O.G.E", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-dogecoin-investment-guide.png"
+image: "../../assets/projects/2026-dogecoin-investment-guide.webp"
 imageAlt: "網際網路原生貨幣：狗狗幣 (Dogecoin) 深度結構與投資價值全解報告 封面"
 ---
 ## 第一章：執行摘要：解構「迷因」背後的貨幣哲學
@@ -153,7 +153,7 @@ imageAlt: "網際網路原生貨幣：狗狗幣 (Dogecoin) 深度結構與投資
 - | :
 - |
 | **交易確認時間** | 10-60 分鐘 | 1-5 分鐘 | 即時 (但在商家端結算需數日) |
-| **平均手續費** | 波動大 ($1 \- $50+) | 低廉 ($0.01 \- $0.5) | 1.5% \- 3% (商家負擔) |
+| **平均手續費** | 波動大 (\$1 \- \$50+) | 低廉 (\$0.01 \- \$0.5) | 1.5% \- 3% (商家負擔) |
 | **跨境支付能力** | 高 | 高 | 受限 |
 
 對於微額支付（如購買一杯咖啡或數位訂閱），比特幣的高手續費使其不切實際，而狗狗幣低廉且快速的特性使其成為更優的選擇。這種「好用」的特性是狗狗幣作為貨幣屬性的最強支撐。
@@ -221,10 +221,10 @@ imageAlt: "網際網路原生貨幣：狗狗幣 (Dogecoin) 深度結構與投資
 #### **引用的著作**
 
 1. Dogecoin - Wikipedia, 檢索日期：1月 2, 2026， https://en.wikipedia.org/wiki/Dogecoin
-2. The Dogecoin Community Raised $30,000 for the Jamaican Bobsled Team - VICE, 檢索日期：1月 2, 2026， https://www.vice.com/en/article/the-dogecoin-community-raised-30000-for-the-jamaican-bobsled-team/
-3. $30,000 Dogecoins Raised to get Jamaican Bobsleigh Duo to the Olympics - TNW, 檢索日期：1月 2, 2026， https://thenextweb.com/news/30000-dogecoin-raised-help-jamaican-bobsleigh-team-get-winter-olympics
-4. Dogecoin raises $30,000 for Jamaican bobsleigh team - CNET, 檢索日期：1月 2, 2026， https://www.cnet.com/tech/services-and-software/dogecoin-raises-30000-for-jamaican-bobsleigh-team/
-5. $10000 Dogecoin tweet builds water well in Kenya - IT News Africa, 檢索日期：1月 2, 2026， https://www.itnewsafrica.com/2014/03/10000-dogecoin-tweet-builds-water-well-in-kenya/
+2. The Dogecoin Community Raised \$30,000 for the Jamaican Bobsled Team - VICE, 檢索日期：1月 2, 2026， https://www.vice.com/en/article/the-dogecoin-community-raised-30000-for-the-jamaican-bobsled-team/
+3. \$30,000 Dogecoins Raised to get Jamaican Bobsleigh Duo to the Olympics - TNW, 檢索日期：1月 2, 2026， https://thenextweb.com/news/30000-dogecoin-raised-help-jamaican-bobsleigh-team-get-winter-olympics
+4. Dogecoin raises \$30,000 for Jamaican bobsleigh team - CNET, 檢索日期：1月 2, 2026， https://www.cnet.com/tech/services-and-software/dogecoin-raises-30000-for-jamaican-bobsleigh-team/
+5. \$10000 Dogecoin tweet builds water well in Kenya - IT News Africa, 檢索日期：1月 2, 2026， https://www.itnewsafrica.com/2014/03/10000-dogecoin-tweet-builds-water-well-in-kenya/
 6. Josh Wise - Wikipedia, 檢索日期：1月 2, 2026， https://en.wikipedia.org/wiki/Josh_Wise
 7. Dogecoin and NASCAR: The cryptocurrency that funds a racing team - Bit2Me News, 檢索日期：1月 2, 2026， https://news.bit2me.com/en/Dogecoin-and-Nascar%3A-the-cryptocurrency-funds-a-racing-team
 8. Community Impact on a Cryptocurrency: Twitter Comparison Example Between Dogecoin and Litecoin - Frontiers, 檢索日期：1月 2, 2026， https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2022.829865/full

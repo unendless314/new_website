@@ -3,7 +3,7 @@ title: "On-chain Data（鏈上數據）"
 date: 2025-12-31
 description: "區塊鏈上的公開帳本，任何人都可以查詢的真實交易紀錄。"
 author: wu-yan
-image: "../../assets/glossary/on-chain-data.jpg"
+image: "../../assets/glossary/on-chain-data.webp"
 imageAlt: "數據分析示意圖"
 categories: ["O"]
 tags: ["數據指標", "進階", "工具"]

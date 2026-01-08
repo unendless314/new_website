@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "TON"]
 tags: ["Toncoin", "TON", "Telegram", "Mini Apps", "GameFi", "Investment", "Research"]
 complexity: 2
-image: "../../assets/projects/2026-toncoin-investment-guide.png"
+image: "../../assets/projects/2026-toncoin-investment-guide.webp"
 imageAlt: "Toncoin (TON) 深度研究報告：從社交巨頭到 Web3 超級應用生態的演進、技術挑戰與台灣投資指南 封面"
 ---
 ## 執行摘要：社交資本的鏈上轉化與 Web3 的大規模採用實驗
@@ -106,8 +106,8 @@ TON 的技術架構是其能夠支撐億級用戶的理論基礎，但同時也�
 TON 被設計為一個「區塊鏈的區塊鏈」（Blockchain of Blockchains）。其架構包含：
 
 1. **主鏈（Masterchain）**：負責維護網路配置、驗證者集合和工作鏈的最新區塊哈希。
-2. **工作鏈（Workchains）**：實際處理交易的鏈，理論上可達 $2^{32}$ 條。
-3. **分片鏈（Shardchains）**：每個工作鏈可進一步動態分割為 $2^{60}$ 個分片。
+2. **工作鏈（Workchains）**：實際處理交易的鏈，理論上可達 \$2^{32}$ 條。
+3. **分片鏈（Shardchains）**：每個工作鏈可進一步動態分割為 \$2^{60}$ 個分片。
 
 **動態分片機制**是 TON 的核心創新。當某個分片的交易負載過高時，它會自動分裂成兩個子分片；當負載降低時，子分片會自動合併。這種彈性伸縮能力使得 TON 理論上可以處理百萬級的 TPS（每秒交易數），而無需像以太坊那樣依賴 Layer 2 解決方案來擴容 18。
 
@@ -284,7 +284,7 @@ Toncoin 無疑是當前區塊鏈世界中最接近「Web3 大規模應用」願�
 5. TON: Pantera's Largest Investment Ever | Interview With Cosmo Jiang - YouTube, 檢索日期：1月 3, 2026， <https://www.youtube.com/watch?v=Rxvi4dx-Jto>
 6. Pantera Capital Goes Big: TONs of Investment for Telegram's Open Network - Binance, 檢索日期：1月 3, 2026， <https://www.binance.com/en/square/post/7916639747426>
 7. What Does TON's On-Chain Data Reveal About Its Ecosystem Growth in 2025?, 檢索日期：1月 3, 2026， <https://www.gate.com/crypto-wiki/article/what-does-ton-s-on-chain-data-reveal-about-its-ecosystem-growth-in-2025>
-8. There is more USDT in circulation than ever as Tether supply crosses $150 billion mark, 檢索日期：1月 3, 2026， <https://www.theblock.co/post/354012/there-is-more-usdt-in-circulation-than-ever-as-tether-supply-crosses-150-billion-mark>
+8. There is more USDT in circulation than ever as Tether supply crosses \$150 billion mark, 檢索日期：1月 3, 2026， <https://www.theblock.co/post/354012/there-is-more-usdt-in-circulation-than-ever-as-tether-supply-crosses-150-billion-mark>
 9. USDT on TON - Wallet EN, 檢索日期：1月 3, 2026， <https://help.wallet.tg/article/246-usdt-on-ton>
 10. TON Network Faces Increased Load Due to Hamster Kombat Airdrop - ForkLog, 檢索日期：1月 3, 2026， <https://forklog.com/en/ton-network-faces-increased-load-due-to-hamster-kombat-airdrop/>
 11. Top 7 Telegram Tap-to-Earn Crypto Games to Know in 2025 | Learn - KuCoin, 檢索日期：1月 3, 2026， <https://www.kucoin.com/fil-au/learn/crypto/top-telegram-tap-to-earn-crypto-games>

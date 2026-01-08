@@ -3,7 +3,7 @@ title: "Bridge / Cross-chain（跨鏈橋）"
 date: 2025-12-31
 description: "連接不同區塊鏈孤島的數位橋樑。"
 author: wu-yan
-image: "../../assets/glossary/bridge-cross-chain.png"
+image: "../../assets/glossary/bridge-cross-chain.webp"
 imageAlt: "跨鏈橋概念圖"
 categories: ["B"]
 tags: ["基礎設施", "跨鏈", "新手"]

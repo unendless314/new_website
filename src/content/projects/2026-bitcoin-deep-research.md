@@ -6,7 +6,7 @@ author: wu-yan
 categories: ["深度研究", "比特幣"]
 tags: ["Bitcoin", "Investment", "Research", "2026 Outlook", "Taiwan Regulation"]
 complexity: 3
-image: "../../assets/projects/2026-bitcoin-deep-research.png"
+image: "../../assets/projects/2026-bitcoin-deep-research.webp"
 imageAlt: "數位資產的新紀元：2026 比特幣深度投資戰略與技術白皮書 封面"
 ---
 ## **執行摘要：貨幣歷史的轉折點**
@@ -276,9 +276,9 @@ imageAlt: "數位資產的新紀元：2026 比特幣深度投資戰略與技術�
 - | :
 - | :
 - |
-| **市場規模** | 比特幣總市值 | \~$1.76 兆美元 | 追趕黃金 ($30T) |
-| **機構採用** | 美國現貨 ETF 規模 | \> $1,130 億美元 | 2025/12 數據 |
-| **企業儲備** | 微策略持倉 | 672,497 BTC | 成本均價 $74,997 |
+| **市場規模** | 比特幣總市值 | \~\$1.76 兆美元 | 追趕黃金 (\$30T) |
+| **機構採用** | 美國現貨 ETF 規模 | \> \$1,130 億美元 | 2025/12 數據 |
+| **企業儲備** | 微策略持倉 | 672,497 BTC | 成本均價 \$74,997 |
 | **網路效能** | 閃電網路容量 | \> 5,600 BTC | 支付效能創新高 |
 | **台灣法規** | 海外所得免稅額 | NT$ 750 萬元 | 2025 新制 |
 | **台灣資安** | VASP 冷錢包要求 | 70% \- 80% | 依資安認證分級 |
@@ -288,7 +288,7 @@ imageAlt: "數位資產的新紀元：2026 比特幣深度投資戰略與技術�
 #### **引用的著作**
 
 1. As of May 2025, El Salvador has accumulated more than 6,000 | Forum Crypto Indonesia on Binance Square, https://www.binance.com/en/square/post/24038113897809
-2. El Salvador's bitcoin stash sees $357 million in unrealized profit as BTC tests all-time high, https://www.theblock.co/post/354743/el-salvadors-bitcoin-stash-sees-357-million-profit
+2. El Salvador's bitcoin stash sees \$357 million in unrealized profit as BTC tests all-time high, https://www.theblock.co/post/354743/el-salvadors-bitcoin-stash-sees-357-million-profit
 3. Bitcoin Price Performance Since Halving Chart - Newhedge, https://newhedge.io/bitcoin/price-performance-since-halving
 4. Bitcoin Halving Dates: Investor's Guide 2025 - CoinLedger, https://coinledger.io/learn/bitcoin-halving-dates
 5. Bitcoin's Market Cycle & Crypto Cycles Chart | Key Insights & Trends - Caleb & Brown, https://calebandbrown.com/blog/bitcoins-market-cycle/
@@ -310,6 +310,6 @@ imageAlt: "數位資產的新紀元：2026 比特幣深度投資戰略與技術�
 21. Taiwan’s crypto sector forms association to formulate self-supervisory rules, https://www.theblock.co/post/299863/taiwans-crypto-sector-forms-association-to-formulate-self-supervisory-rules
 22. Taxation of Virtual Assets in Taiwan, https://lhu.law/insights/taxation-of-virtual-assets-in-taiwan
 23. Taiwan: Income tax on crypto income of individuals, https://taxsummaries.pwc.com/taiwan/individual/income-determination
-24. Cross-Chain Bridge Hack on Flow Network Leads to $3.9M Loss in Digital Assets, https://hackernoon.com/cross-chain-bridge-hack-on-flow-network-leads-to-$3.9m-loss-in-digital-assets
+24. Cross-Chain Bridge Hack on Flow Network Leads to \$3.9M Loss in Digital Assets, https://hackernoon.com/cross-chain-bridge-hack-on-flow-network-leads-to-\$3.9m-loss-in-digital-assets
 25. Deepfake Scams in Crypto: How AI Is Reshaping Fraud in 2025, https://www.coindesk.com/policy/2025/01/01/deepfake-scams-in-crypto-how-ai-is-reshaping-fraud-in-2025/
 26. Quantum Computing vs. Bitcoin: How Real is the Threat in 2025?, https://cointelegraph.com/news/quantum-computing-vs-bitcoin-how-real-is-the-threat-in-2025

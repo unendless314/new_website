@@ -3,7 +3,7 @@ title: "Layer 1 & Layer 2（第一層與第二層）"
 date: 2025-12-31
 description: "區塊鏈的擴容解決方案，主網與高速擴展層的協作。"
 author: wu-yan
-image: "../../assets/glossary/layer-1-layer-2.jpeg"
+image: "../../assets/glossary/layer-1-layer-2.webp"
 imageAlt: "Layer 1 & 2 結構圖"
 categories: ["L"]
 tags: ["技術基礎", "擴容", "新手"]

@@ -3,7 +3,7 @@ title: "Delegate（委託）"
 date: 2026-01-05
 description: "小蝦米也能參與治理，將你的投票權或質押權交給專業人士。"
 author: unendless314
-image: "../../assets/glossary/delegate.jpeg"
+image: "../../assets/glossary/delegate.webp"
 imageAlt: "選票箱"
 categories: ["D"]
 tags: ["治理", "DAO", "Staking"]

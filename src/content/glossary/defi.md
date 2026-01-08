@@ -3,7 +3,7 @@ title: "DeFi（去中心化金融）"
 date: 2025-12-31
 description: "打破傳統金融圍牆，由程式碼運行的全球金融體系。"
 author: wu-yan
-image: "../../assets/glossary/defi.jpeg"
+image: "../../assets/glossary/defi.webp"
 imageAlt: "DeFi 概念圖"
 categories: ["D"]
 tags: ["新手", "金融", "核心概念"]

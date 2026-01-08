@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["深度研究", "穩定幣", "DeFi"]
 tags: ["Ethena", "USDe", "Multicoin", "Stablecoin", "Basis Trade", "Real Yield"]
 description: "Multicoin Capital 發布重磅報告，解析 Ethena 如何透過「Delta 中性」策略重構穩定幣市場，並探討 USDe 挑戰 USDT/USDC 霸權的底氣與風險。"
-image: "@assets/news/ethena-synthetic-dollars.jpg"
+image: "@assets/news/ethena-synthetic-dollars.webp"
 imageAlt: "Ethena Synthetic Dollar Analysis"
 complexity: 3
 ---
@@ -19,7 +19,7 @@ complexity: 3
 
 長期以來，穩定幣市場被兩大陣營割據：
 1.  **法幣託管型 (USDT, USDC)**：資本效率高 (1:1)，但存在中心化審查與銀行託管風險。
-2.  **超額抵押型 (DAI)**：去中心化，但資本效率極低（需抵押 >$1 的資產），無法大規模擴張。
+2.  **超額抵押型 (DAI)**：去中心化，但資本效率極低（需抵押 >\$1 的資產），無法大規模擴張。
 
 Multicoin Capital 認為，**Ethena (USDe)** 代表了第三種演進路徑：**合成美元 (Synthetic Dollar)**。它不依賴傳統銀行體系，卻能保持 1:1 的資本效率，這是一場關於「貨幣發行權」的技術革命。
 

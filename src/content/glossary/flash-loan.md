@@ -3,7 +3,7 @@ title: "Flash Loan（閃電貸）"
 date: 2025-12-31
 description: "無須抵押、但必須在同一個區塊內完成還款的終極借貸工具。"
 author: wu-yan
-image: "../../assets/glossary/flash-loan.jpeg"
+image: "../../assets/glossary/flash-loan.webp"
 imageAlt: "閃電貸示意圖"
 categories: ["F"]
 tags: ["DeFi", "技術原理", "進階"]

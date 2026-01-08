@@ -3,7 +3,7 @@ title: "Hashrate（算力）"
 date: 2026-01-05
 description: "比特幣網路的護城河，衡量全網計算能力的指標。"
 author: unendless314
-image: "../../assets/glossary/hashrate.jpeg"
+image: "../../assets/glossary/hashrate.webp"
 imageAlt: "運轉中的晶片"
 categories: ["H"]
 tags: ["PoW", "挖礦", "安全性"]
