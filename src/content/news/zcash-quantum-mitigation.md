@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["技術研究", "安全", "隱私"]
 tags: ["Zcash", "Quantum Computing", "Privacy", "Security", "Project Tachyon"]
 description: "面對量子霸權，隱私幣如何自保？Bitfinex 專欄深度解析 Zcash 的三大防禦塔：Project Tachyon、量子可恢復性與 PQC zk-SNARKs。"
-image: "@assets/blog/emmy-noether.jpg"
+image: "@assets/news/zcash-quantum-mitigation.jpg"
 imageAlt: "Zcash Quantum Shield"
 complexity: 3
 ---

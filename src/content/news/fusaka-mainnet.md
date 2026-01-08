@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["深度研究", "以太坊", "基礎設施"]
 tags: ["Ethereum", "Fusaka", "PeerDAS", "EIP-7594", "BPO", "Layer2"]
 description: "Fusaka 升級不僅是例行維護，更是 PeerDAS 技術的首次主網實戰。本文深入拆解升級細節、關鍵 EIP 與其對 L2 經濟模型的深遠影響。"
-image: "@assets/blog/emmy-noether.jpg"
+image: "@assets/news/fusaka-mainnet.jpg"
 imageAlt: "Ethereum Fusaka Upgrade Technical Diagram"
 complexity: 3
 ---

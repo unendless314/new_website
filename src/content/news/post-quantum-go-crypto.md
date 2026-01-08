@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["技術開發", "安全", "密碼學"]
 tags: ["Go", "Cryptography", "Post-Quantum", "Side-channel", "ML-DSA"]
 description: "安全公司 Trail of Bits 揭秘其後量子加密庫的開發細節，深入探討如何透過「無分支編程」與「Barrett Reduction」防禦側信道攻擊。"
-image: "@assets/blog/emmy-noether.jpg"
+image: "@assets/news/post-quantum-go-crypto.jpg"
 imageAlt: "Side Channel Defense"
 complexity: 4
 ---

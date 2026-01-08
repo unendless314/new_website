@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["深度研究", "穩定幣", "DeFi"]
 tags: ["Ethena", "USDe", "Multicoin", "Stablecoin", "Basis Trade", "Real Yield"]
 description: "Multicoin Capital 發布重磅報告，解析 Ethena 如何透過「Delta 中性」策略重構穩定幣市場，並探討 USDe 挑戰 USDT/USDC 霸權的底氣與風險。"
-image: "@assets/blog/emmy-noether.jpg"
+image: "@assets/news/ethena-synthetic-dollars.jpg"
 imageAlt: "Ethena Synthetic Dollar Analysis"
 complexity: 3
 ---

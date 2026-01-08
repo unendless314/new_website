@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["技術前瞻", "AI", "Web3"]
 tags: ["AI Agent", "ERC-8004", "x402", "Autonomous Economy", "M2M"]
 description: "當 AI 開始為自己工作。深入解析支撐未來「機器對機器 (M2M)」經濟的兩大基石：負責身份驗證的 ERC-8004 與負責流支付的 x402 協議。"
-image: "@assets/blog/emmy-noether.jpg"
+image: "@assets/news/ai-agent-economy-standards.jpg"
 imageAlt: "AI Agent Economy Structure"
 complexity: 4
 ---

@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["政策監管", "市場分析"]
 tags: ["Regulation", "AML", "MiCA", "GENIUS Act", "Elliptic"]
 description: "告別「以執法代監管」的混亂時代。Elliptic 年度報告指出，隨著 MiCA 全面落地與美國 GENIUS 法案通過，2025 年標誌著全球合規框架的正式確立。"
-image: "@assets/blog/emmy-noether.jpg"
+image: "@assets/news/crypto-regulation-2025.jpg"
 imageAlt: "Global Regulation Map"
 complexity: 2
 ---

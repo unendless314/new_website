@@ -5,7 +5,7 @@ author: wu-yan
 categories: ["技術創新", "Layer2", "UX"]
 tags: ["Status", "Layer2", "Gasless", "Account Abstraction", "ERC-4337"]
 description: "Status Network 啟動，承諾帶來完全「無 Gas 費」的使用者體驗。本文深入解析其背後的帳戶抽象 (ERC-4337) 與 Paymaster 技術原理。"
-image: "@assets/blog/emmy-noether.jpg"
+image: "@assets/news/gasless-l2-status.jpg"
 imageAlt: "Gasless Transaction Flow"
 complexity: 2
 ---
