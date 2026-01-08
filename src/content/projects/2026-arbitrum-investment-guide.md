@@ -6,8 +6,9 @@ author: wu-yan
 categories: ["深度研究", "Arbitrum"]
 tags: ["Arbitrum", "ARB", "Layer 2", "DeFi", "Rollup", "Investment", "Research"]
 complexity: 2
+image: "../../assets/projects/2026-arbitrum-investment-guide.png"
+imageAlt: "Arbitrum (ARB) 深度投資研報：以太坊擴容霸主的技術護城河、經濟模型轉型與台灣市場指南 封面"
 ---
-
 ## 第一章：執行摘要 (Executive Summary)
 
 在區塊鏈技術邁向大規模採用的關鍵十年中，以太坊（Ethereum）作為智能合約的結算層，其擴容問題一直是行業的核心矛盾。Arbitrum，作為由 Offchain Labs 開發的 Optimistic Rollup 擴容方案，在 2023 年至 2025 年間成功確立了其在 Layer 2 (L2) 賽道中的統治地位。截至 2025 年末，Arbitrum 不僅在總鎖倉價值（TVL）上持續領先，更在實際協議收入、活躍用戶數以及原生 DeFi 生態的繁榮度上展現出顯著的「護城河」效應。
@@ -16,7 +17,8 @@ complexity: 2
 
 研究表明，儘管面臨 Optimism 超級鏈（Superchain）與 ZK-Rollups 的激烈競爭，Arbitrum 憑藉其在金融基礎設施上的先發優勢、技術上的 EVM+ 創新（Stylus）以及代幣經濟模型的優化，仍是目前最具基本面支撐的 L2 標的之一。
 
----
+
+
 
 ## 第二章：宏觀背景：以太坊擴容戰局與 Layer 2 的必然性
 
@@ -34,7 +36,8 @@ Rollup 的核心哲學是「鏈下執行，鏈上結算」。它將數千筆交�
 1. **成本驟降**：Arbitrum 提交數據到 L1 的成本降低了 90% 以上，直接大幅提升了排序器（Sequencer）的利潤率 2。
 2. **競爭加劇**：成本的降低使得 L2 之間的費率差異縮小，競爭焦點從「誰更便宜」轉向了「誰的生態更豐富」和「誰的代幣更有價值」。
 
----
+
+
 
 ## 第三章：技術護城河：從 Nitro 到 Stylus 的全棧解析
 
@@ -58,7 +61,8 @@ Arbitrum Nitro 是當前網絡運行的核心引擎。Nitro 直接編譯了 Geth
 
 **Stylus** 是 Arbitrum 最具野心的技術升級，被稱為「EVM+」。它引入了與 EVM 並行的 WASM 虛擬機，允許開發者使用 **Rust、C++** 等高性能語言編寫智能合約，並將內存使用成本降低 100-500 倍 10。這對於需要大量計算的應用（如高頻交易、複雜遊戲）是革命性的突破。
 
----
+
+
 
 ## 第四章：產品矩陣：One, Nova 與 Orbit 的三駕馬車
 
@@ -79,14 +83,19 @@ Arbitrum 是一個產品矩陣，針對不同的市場需求進行了精細化�
 **表 1：Arbitrum 產品矩陣對比**
 
 | 特性 | Arbitrum One | Arbitrum Nova | Arbitrum Orbit (L3) |
-| :--- | :--- | :--- | :--- |
+| :
+ | :
+ | :
+ | :
+ |
 | **技術架構** | Optimistic Rollup | AnyTrust (DAC) | 基於 Nitro 的定製鏈 |
 | **數據可用性** | Ethereum L1 | DAC (Off-chain) | 可配置 |
 | **安全性** | 以太坊級別 | 依賴 DAC 信任假設 | 繼承自結算層 |
 | **Gas 成本** | 低 ($0.1-$0.5) | 極低 (<$0.01) | 可自定義 (甚至免費) |
 | **核心用例** | DeFi, 穩定幣 | 遊戲, 社交 | 專用應用鏈 |
 
----
+
+
 
 ## 第五章：ARB 代幣經濟學：從治理向收益的關鍵轉折
 
@@ -100,7 +109,8 @@ Arbitrum 是一個產品矩陣，針對不同的市場需求進行了精細化�
 - **Tally 提案**：2024 年下半年，DAO 通過了開啟 ARB 質押並分配排序器收入的提案 20。
 - **機制**：將未來排序器產生的剩餘費用（Sequencer Surplus Fees）的 **50%** 分配給質押者。這標誌著 ARB 從「純治理代幣」轉型為「收益型資產」，提供了基於現金流的估值底部。
 
----
+
+
 
 ## 第六章：生態系統：原生 DeFi 與真實收益 (Real Yield)
 
@@ -115,7 +125,8 @@ Pendle 允許用戶將生息資產拆分為本金代幣 (PT) 和收益代幣 (YT
 ### **6.3 Camelot (GRAIL)：生態流動性發動機**
 Camelot 是原生的 DEX 和 Launchpad，通過 xGRAIL 插件系統與生態項目深度綁定 30。
 
----
+
+
 
 ## 第七章：台灣投資者實戰指南 (Taiwan Investor Guide)
 
@@ -142,7 +153,8 @@ Camelot 是原生的 DEX 和 Launchpad，通過 xGRAIL 插件系統與生態項�
 - **Native USDC (USDC)**：Circle 官方發行，合約 0xaf88 開頭。支持 CCTP，可與其他鏈無滑點互換。
 - **警示**：交易所充提主要支持 Native USDC。**誤充 USDC.e 可能導致資產丟失** 47。
 
----
+
+
 
 ## 第八章：風險評估與投資總結
 

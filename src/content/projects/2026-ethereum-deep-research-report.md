@@ -6,6 +6,8 @@ author: wu-yan
 categories: ["深度研究", "以太坊"]
 tags: ["Ethereum", "DeFi", "L2", "RWA", "Investment", "Research"]
 complexity: 3
+image: "../../assets/projects/2026-ethereum-deep-research-report.png"
+imageAlt: "Ethereum 深度研究封面"
 ---
 
 ## 第一章：前言——從可程式化貨幣到全球結算層

@@ -6,6 +6,8 @@ author: wu-yan
 categories: ["深度研究", "Solana"]
 tags: ["Solana", "SOL", "DeFi", "DePIN", "Investment", "Research"]
 complexity: 3
+image: "../../assets/projects/2026-solana-investment-guide.png"
+imageAlt: "Solana 投資指南封面"
 ---
 
 ## 執行摘要：在模組化世界中重塑單體鏈的榮光

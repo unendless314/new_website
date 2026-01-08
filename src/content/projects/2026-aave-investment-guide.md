@@ -1,4 +1,4 @@
---- 
+---
 title: "Aave (AAVE)：DeFi 世界的去中心化銀行與投資指南"
 description: "深度剖析 Aave 的資金池借貸模型、閃電貸機制與 Umbrella 風險管理升級，並提供台灣投資者參與 DeFi 的合規路徑。"
 date: 2026-01-04
@@ -6,6 +6,8 @@ author: wu-yan
 categories: ["深度研究", "Aave"]
 tags: ["Aave", "AAVE", "DeFi", "Lending", "Flash Loans", "GHO", "Investment", "Research"]
 complexity: 2
+image: "../../assets/projects/2026-aave-investment-guide.png"
+imageAlt: "Aave 協議研究報告封面"
 ---
 
 ## 執行摘要 (Executive Summary)

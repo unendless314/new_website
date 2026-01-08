@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import readingTime from "@lib/readingTime";
 import { formatDate } from "@lib/formatDate";
-import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
 
 interface Props {
   entry: GenericEntry;
@@ -25,11 +25,11 @@ const {
   categories,
   tags,
   complexity,
+  image,
+  imageAlt,
 } = entry.data;
 
-const cover = entry.data.image as string | ImageMetadata | undefined;
-const coverSrc = cover && typeof cover === "string" ? cover : cover?.src;
-const coverAlt = entry.data.imageAlt || `${title} cover`;
+const coverAlt = imageAlt || `${title} cover`;
 
 const descriptionLength = 200;
 
@@ -42,12 +42,14 @@ const entryDescription =
 
 <article class="group h-full overflow-hidden rounded-xl border border-slate-200/40 bg-white/70 shadow-sm backdrop-blur-sm dark:border-slate-700/60 dark:bg-slate-800/70">
   {
-    coverSrc && (
+    image && (
       <a href={`/${folder}/${entry.id}`} class="block overflow-hidden">
-        <img
-          src={coverSrc}
+        <Image
+          src={image}
           alt={coverAlt}
           class="h-44 w-full object-cover transition duration-500 group-hover:scale-[1.02]"
+          width={600}
+          height={338}
           loading="lazy"
         />
       </a>
