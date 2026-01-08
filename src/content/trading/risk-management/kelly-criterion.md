@@ -2,7 +2,7 @@
 title: 凱利公式與勝率盈虧比
 description: 交易的數學聖杯。理解勝率與盈虧比的關係，利用凱利公式計算最佳下注比例，確保你在長期交易中立於不敗之地。
 pubDate: 2026-01-05
-image: ""
+image: "@assets/trading/kelly-criterion.png"
 ---
 
 ## 1. 為什麼你需要數學？ (Introduction)

@@ -2,7 +2,7 @@
 title: 頭肩頂與頭肩底
 description: 趨勢反轉的終極訊號。學會辨識牛市終結與熊市見底的關鍵結構，並掌握「等距測量」的目標價位預測。
 pubDate: 2026-01-05
-image: ""
+image: "@assets/trading/head-and-shoulders.png"
 ---
 
 ## 1. 什麼是頭肩型態？ (Introduction)

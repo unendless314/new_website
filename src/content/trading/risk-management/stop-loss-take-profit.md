@@ -2,7 +2,7 @@
 title: 如何設置止損與止盈
 description: 止損是保命符，止盈是提款機。學會技術止損、波動率止損與移動止盈，告別「賣飛」與「深套」。
 pubDate: 2026-01-05
-image: ""
+image: "@assets/trading/stop-loss-take-profit.png"
 ---
 
 ## 1. 為什麼要設置止損止盈？ (Introduction)

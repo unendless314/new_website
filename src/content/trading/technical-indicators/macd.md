@@ -2,7 +2,7 @@
 title: MACD 指標
 description: 指標之王。結合趨勢與動能，透過快慢線與柱狀圖的變化，精準判斷市場轉向與力道強弱。
 pubDate: 2026-01-05
-image: ""
+image: "@assets/trading/macd.png"
 ---
 
 ## 1. 什麼是 MACD？ (Introduction)

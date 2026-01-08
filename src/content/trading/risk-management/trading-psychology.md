@@ -2,7 +2,7 @@
 title: 交易心理學
 description: 技術決定下限，心態決定上限。剖析 FOMO、報復性交易與處置效應，並提供實用的心理建設技巧。
 pubDate: 2026-01-05
-image: ""
+image: "@assets/trading/trading-psychology.png"
 ---
 
 ## 1. 最大的敵人是你自己 (Introduction)

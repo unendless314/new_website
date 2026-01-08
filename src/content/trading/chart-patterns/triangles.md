@@ -2,7 +2,7 @@
 title: 三角收斂 (Triangle Patterns)
 description: 能量積蓄的終極型態。學會辨識對稱、上升與下降三角形，在波動率降至冰點時，捕捉隨之而來的劇烈突破。
 pubDate: 2026-01-05
-image: ""
+image: "@assets/trading/triangles.png"
 ---
 
 ## 1. 什麼是三角收斂？ (Introduction)

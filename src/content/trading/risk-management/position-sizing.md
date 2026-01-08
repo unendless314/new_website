@@ -2,7 +2,7 @@
 title: 資金管理與槓桿
 description: 告別梭哈，拒絕爆倉。學會倒推法計算倉位大小，並正確理解槓桿的雙面刃特性。
 pubDate: 2026-01-05
-image: ""
+image: "@assets/trading/position-sizing.png"
 ---
 
 ## 1. 為什麼你會爆倉？ (Introduction)

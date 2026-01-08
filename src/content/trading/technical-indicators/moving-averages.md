@@ -2,7 +2,7 @@
 title: 移動平均線 (MA/EMA)
 description: 趨勢交易的基石。學會分辨 SMA 與 EMA，利用黃金交叉與死亡交叉捕捉大行情，並掌握幣圈最關鍵的「牛熊分界線」。
 pubDate: 2026-01-05
-image: ""
+image: "@assets/trading/moving-averages.png"
 ---
 
 ## 1. 什麼是移動平均線？ (Introduction)

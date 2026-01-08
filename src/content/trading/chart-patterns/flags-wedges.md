@@ -2,7 +2,7 @@
 title: 旗型與楔形 (Flags & Wedges)
 description: 順勢交易者的最愛。掌握趨勢中的短暫回調與整理結構，精準捕捉趨勢延續後的第二波利潤。
 pubDate: 2026-01-05
-image: ""
+image: "@assets/trading/flags-wedges.png"
 ---
 
 ## 1. 什麼是旗型與楔形？ (Introduction)
